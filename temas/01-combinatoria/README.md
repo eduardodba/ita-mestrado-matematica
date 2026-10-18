@@ -38,6 +38,10 @@ onde `|G|` = número de rotações do grupo de simetria.
 **Atalho prático para o cubo (pintar 6 faces com 6 cores distintas):**
 `6! / 24 = 30` esquemas (foi essencialmente a questão 12 de 2025).
 
+> 📘 **Burnside é o padrão que mais se repete neste tema.** Há um guia completo, passo a passo,
+> com a tabela das 24 rotações do cubo e TODAS as questões reais (2021, 2024, 2025, 2026) resolvidas
+> em detalhe, em **[BURNSIDE-EXPLICADO.md](BURNSIDE-EXPLICADO.md)**.
+
 ### 1.6 Interseções de diagonais / regiões
 - Pontos de interseção das diagonais de um polígono convexo de n lados (posição genérica): `C(n,4)`
   (cada 4 vértices definem exatamente 1 cruzamento interno).
