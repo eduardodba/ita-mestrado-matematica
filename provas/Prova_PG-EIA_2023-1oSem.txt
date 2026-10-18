@@ -1,0 +1,313 @@
+Instituto Tecnol´ogico de Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia de Infraestrutura Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia Aeron´autica e Mecˆanica
+Prova de Sele¸c˜ao – 1o semestre de 2023 – Quest˜oes de Matem´atica
+21 de novembro de 2022
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras nem softwares nem sites de c´alculo num´erico e/ou
+simb´olico
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. Figure 1 shows a Penrose tiling, which is a covering of the plane with non-overlapping
+ﬁgures, composing a non-periodic pattern. In this ﬁgure, the Penrose tiling is composed
+of two diﬀerent kinds of rhombi, one painted in gray and the other painted in white.
+About the geometry of this tiling, mark the wrong statement:
+(a) For the gray rhombi, the ratio of the smaller diagonal length to the side length is
+the golden ratio
+(b) All the internal angles of the two kinds of rhombi are in arithmetic progression
+(c) The ratio of the area of the gray rhombus to the area of the white rhombus is the
+golden ratio
+(d) For the gray rhombi, the smaller internal angle is equal to the internal angle of a
+stellated regular pentagon
+(e) For the gray rhombi, the larger internal angle is equal to the internal angle of a
+non-stellated regular pentagon
+1
+Figure 1: Penrose tiling
+Hint: sin( π
+10) =
+√
+5 −1
+4
+2. In how many ways can four men and four women sit around a circular table if no man
+can sit beside another one?
+(a) 36
+(b) 54
+(c) 72
+(d) 108
+(e) 144
+3. About the equation
+√
+3x2 +
+√
+3
+√
+2 + 1
+x −
+√
+6 = 0,
+one cannot say that
+(a) It has one integer solution
+(b) It has one negative solution
+(c) It has one positive solution
+(d) It has one irrational solution
+(e) It has no real solutions
+4. In order for the equation
+{ x
+y
+z
+1 }
+⎡⎢⎢⎢⎢⎢⎢⎢⎣
+a
+e
+f
+g
+e
+b
+h
+i
+f
+h
+c
+j
+g
+i
+j
+d
+⎤⎥⎥⎥⎥⎥⎥⎥⎦
+⎧⎪⎪⎪⎪⎪⎨⎪⎪⎪⎪⎪⎩
+x
+y
+z
+1
+⎫⎪⎪⎪⎪⎪⎬⎪⎪⎪⎪⎪⎭
+=
+0
+to describe a non-degenerated sphere in R3, mark the wrong constraint for the matrix
+coeﬃcients:
+(a) e = 0
+(b) f = 0
+(c) h = 0
+(d) a = b = c
+(e) a ⋅d > 0
+2
+5. The coeﬃcient of x17 in the development of (1 + x5 + x7)20 is
+(a) 0
+(b) 1210
+(c) 1710
+(d) 3420
+(e) 4000
+6. When Andy and Robert worked together, they swept a 280 m2 ﬂoor in four hours. In
+another day, Robert worked alone and took seven hours to do the same task. If Andy
+will sweep alone an area of 240 m2, what is the expected time for him to do it?
+(a) 6 hours
+(b) 6.5 hours
+(c) 7 hours
+(d) 7.5 hours
+(e) 8 hours
+7. About the function
+f(x) = cosh(x)cos(x),
+mark the wrong statement (otherwise, mark the last option)
+(a)
+d
+dxf(x) = sinh(x)cos(x) −cosh(x)sin(x)
+(b)
+d2
+dx2 [f ( x
+√
+2
+)] = −sinh( x
+√
+2
+)sin( x
+√
+2
+)
+(c)
+d3
+dx3f (x) = −2[cosh(x)sin(x) + sinh(x)cos(x)]
+(d)
+d4
+dx4 [f ( x
+√
+2
+)] = −f ( x
+√
+2
+)
+(e) All statements are true
+8. The solution of the system of equations
+⎧⎪⎪⎪⎪⎪⎪⎪⎨⎪⎪⎪⎪⎪⎪⎪⎩
+x + 3y + 3z + t
+=
+1
+x −3y + 3z −t
+=
+27
+x + 2y
+=
+0
+t
+y
+=
+1
+4
+is
+(a) x = 4, y = 3, z = 2 and t = 1
+(b) x = 8, y = 4, z = 2 and t = 1
+(c) x = 8, y = −4, z = 2 and t = −1
+(d) x = 3, y = 3, z = 3 and t = 3
+(e) This system admits more than one solution
+3
+9. Which choice is equal to loga
+⎛
+⎝
+√
+a3
+b
+⎞
+⎠for all a,b > 0?
+(a) 1
+2 [ln(3) −loga(b)]
+(b)
+√
+ln(3) −loga(b)
+(c) 1
+2 [3 −
+1
+logb(a)]
+(d)
+√
+3 + logb(a)
+(e) None of the above is valid for all a,b > 0
+10. About the equation
+x4 + 10x3 + 25x2 + y2 −10y + 25 = 0,
+one can say that
+(a) this equation has no complex solution
+(b) this equation has two distinct real solutions
+(c) this equation has one real solution with an irrational value of x or y
+(d) this equation has only one solution with integer values for x and y
+(e) this equation has no real solution (x,y) with x < y
+11. The curve y = arccos(x) deﬁnes a function in the region (x,y) ∈[−1,1] × [0,π]. Mark the
+option that deﬁnes the line that is tangent to this function in y = π
+3 :
+(a) y = 3 +
+√
+3π
+6
+−
+√
+3
+2 x
+(b) y = 2π
+3 −2
+√
+3
+3 x
+(c) y = π +
+√
+3
+3
+−2
+√
+3
+3 x
+(d) 3
+2 −π
+3 x
+(e) There are several solutions for this problem
+12. Figure 2 depicts circle c1, which remains ﬁxed while circle c2 moves, rolling over c1 without
+slipping. Circle c2 starts at the top of c1 and ends its movement by the right side of c1, so
+that its center describes a quarter turn in relation to the center of c1. Mark the correct
+value of the angle of rotation of c2 over its own center, given that c1 radius is three times
+the radius of c2:
+(a) π/2
+(b) π
+(c) 3π/2
+(d) 4π/3
+(e) 2π
+4
+c1
+c2
+Figure 2: Circle
+Figure 3: Regular nonagon with diagonals
+13. Four points in space are given, not all in the same plane. How many planes can be drawn
+which are equidistant from these points?
+(a) 6 planes
+(b) 7 planes
+(c) 8 planes
+(d) 10 planes
+(e) 12 planes
+14. Figure 3 shows a regular nonagon or enneagon, with its internal diagonals depicted as
+dashed lines. The number of points of intersection between these internal diagonals is
+(a) 90
+(b) 108
+(c) 126
+(d) 144
+(e) 162
+5
+15. About the sum
+S = 1 −1 + i
+2
++ (1 + i
+2 )
+2
+−(1 + i
+2 )
+3
++ ⋅⋅⋅=
+∞
+∑
+k=0
+(−1)k (1 + i
+2 )
+k
+,
+in which i is the imaginary unit, one can say that
+(a) S = 3
+4 −1
+4i
+(b) S = 0.6 −0.2i
+(c) S = ∞, i.e., the sum diverges
+(d) The sum oscillates indeﬁnitely; hence, it does not have a limit
+(e) This sum cannot be determined, as the formula for an inﬁnite geometric progression
+is not deﬁned for complex numbers
+16. If 1
+x = 22
+5 then (
+1
+x + 1)
+2
+=
+(a) 25
+64
+(b) 5
+8
+(c) 144
+289
+(d) 289
+144
+(e) 64
+25
+6
+Gabarito Matemática: 
+ 
+1            e (anulada por múltiplas respostas) 
+2            e 
+3            e 
+4            e 
+5            d 
+6            e 
+7            e 
+8            c 
+9            e 
+10          b 
+11          c 
+12          e 
+13          b 
+14          c 
+15          b 
+16          c 
+ 

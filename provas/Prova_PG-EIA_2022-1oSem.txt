@@ -1,0 +1,223 @@
+Instituto Tecnol´ogico de Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia de Infraestrutura Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia Aeron´autica e Mecˆanica
+Prova de Sele¸c˜ao – 1o semestre de 2022 – Quest˜oes de Matem´atica
+8 de novembro de 2021
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras ou outros dispositivos eletrˆonicos
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. Two sequences of numbers ai and bi are deﬁned by the recurrence relation
+ai+1
+=
+4
+5ai −3
+5bi
+(1)
+bi+1
+=
+3
+5ai + 4
+5bi
+(2)
+and by the initial values a0 = 1 and b0 = 0. Mark the wrong option:
+(a) ai and bi are bounded for any i ∈N
+(b) bi is negative for some values of i ∈N
+(c) ai = 1 and bi = 0 for some i > 0 ∈N
+(d) ai+2 = 7
+25ai −24
+25bi for any i ∈N
+(e) ai = 4
+5ai+1 + 3
+5bi+1 for any i ∈N
+1
+Figure 1: Half of a circular cylinder cut by a plane (not in scale)
+A
+60
+. . .
+B
+. . .
+50%
+C
+45
+. . .
+D
+. . .
+15%
+Σ
+. . .
+100%
+Table 1: Porcentages and absolute quantities
+2. Figure 1 shows a half right circular cylinder of radius r, which is cut by a plane tilted by
+45○in relation to the cylinder basis. A plane perpendicular to the cylinder basis is drawn
+and its intersection to cylinder basis is paralel to the intersecion of this basis and the
+tilted plane. The intersection of this plane and the cut cylinder is the rectangle shown
+in the cited Figure coloured in gray. If the rectangle has the maximal area A in these
+conditions, one could say that
+(a) A = r2
+2
+(b) A = r2
+(c) A = r2 cos(1)sen(1), with trigonometric functions arguments expressed in radians
+(d) A = 2r2
+(e) None of the above
+3. In order to complete Table 1 of four numbers A, B, C and D in relation to their sum,
+mark the wrong statement:
+(a) Their sum is 300
+(b) A corresponds to 20% of the sum
+(c) B = 150
+(d) C corresponds to 25% of the sum
+(e) B and D sum up 195
+2
+4. Two statements are given about three numbers x, y and z:
+I. x + 1
+y = 3
+II.
+y
+xy + 1 + 1
+z = 5
+If it is asked to determine the value of z, one can say that
+(a) statement I alone is suﬃcient, but statement II alone is not suﬃcient to answer the
+question asked;
+(b) statement II alone is suﬃcient, but statement I alone is not suﬃcient to answer the
+question asked;
+(c) both statements I and II together are suﬃcient to answer the question asked, but
+neither statement alone is suﬃcient;
+(d) each statement alone is suﬃcient to answer the question asked;
+(e) statements I and II together are not suﬃcient to answer the question asked, and
+additional data speciﬁc to the problem are needed.
+5. What is the correct formula to calculate sec(a + b)?
+(a)
+1
+tan(a) + tan(b)
+(b) sec(a) + sec(b)
+(c)
+sec(a) + sec(b)
+1 −sec(b) + sec(a)
+(d)
+sec(a)sec(b)
+1 −tan(a)tan(b)
+(e) sec(a)csc(b) + sec(b)csc(a)
+6. About the roots of the polynomial equation x6 −64 = 0, one can say that
+(a) it has 6 non rational roots
+(b) it has 4 non integer roots
+(c) it has 2 integer roots
+(d) it has 6 natural roots
+(e) it is not possible to discuss the roots of this polynomial
+7. Among the options below, which one produces a rational number when divided by
+ln(x + 1) for all x > 1?
+(a) ln(x4 −4x3 + 6x2 −4x + 1)
+(b) ln(x2 −1)
+(c) ln(x2 −2x + 1)
+(d) ln(
+√
+x −1)
+(e) ln(x3 −1) −ln(x2 −x + 1)
+3
+8. If 0 ≤x < y ≤9, how many diﬀerent integer values the ordered pair (x,y) can assume?
+(a) 100
+(b) 72
+(c) 66
+(d) 55
+(e) 45
+9. If a,b ∈[0, π
+2 ), in order to the following equation be true,
+tan(a + b)
+=
+[tan(a) + tan(b)]{1 + tan(a)tan(b) + [tan(a)tan(b)]2 + ⋯}
+what statement describe the correct additional restrictions for a and b?
+(a) a −b < π
+2
+(b) a + b < π
+2
+(c) a = b
+(d) a ≥b
+(e) This equation is analytic and is valid within the intervals speciﬁed without additional
+restrictions
+10. The number of real solutions of the equation cos(2θ) + 3sen(θ) −2 = 0 in the interval
+[0,π] is
+(a) 0
+(b) 1
+(c) 2
+(d) 3
+(e) 4
+11. Let x = a and y = b be the real solutions for the following system of equations:
+{ log(x) −log(y)
+=
+1
+x2 −198y
+=
+4.
+So, the value of a
+5 + b is
+(a) 3 or −3
+(b) 6
+(c) 6 or −0.06
+(d) 9
+(e) 9 ou −9
+4
+C
+B
+A
+75○
+75○
+P
+Figure 2: Isosceles triangle (drawing not in scale)
+R
+2L
+Figure 3: Cylinder and a plane tangent to two spheres
+12. Let ABC be an isosceles triangle which has BC as its base and the sides AB and AC are
+opposite to 75○angles, as shown in Figure 2. Let P be a point inside the triangle such
+that the sum of the distances PA + PB + PC has minimum value. One can say that
+(a) P is the circumcenter of ABC
+(b) P is the incenter of ABC
+(c) P is in the midpoint of BC
+(d) P is over the line segment between the incenter and the orthocenter of ABC
+(e) P is over the line segment between the barycenter and the incenter of ABC
+13. Figure 3 shows a cylinder with height 2L and radius R, such that L > 2R, and there
+are two spheres with radius R inside the cylinder, tangent to the top and the bottom of
+the cylinder. A plane which intersect the cylinder and is tangent to the two spheres will
+deﬁne a conic section with area
+(a) πR (L −R)
+(b) πR (L + R)
+(c) πRL + R
+2
+(d) πR L
+(e) πRL −R
+2
+5
+A
+B
+C
+H
+I
+J
+K
+Figure 4: Triangle with orthocenter and altitude feets
+14. Ten coins are stacked, some with heads up, other with tails up.
+How many ways of
+stacking these coins are there, in order to exactly six coins be with heads up?
+(a) 176
+(b) 210
+(c) 386
+(d) 596
+(e) 638
+15. Figure 4 shows a triangle ABC, where H is its orthocenter and I, J and K are the feet
+of the three altitudes from A, B and C, respectively. Mark the wrong statement about
+this ﬁgure:
+(a) Quadrilaterals AJHK, BKHI and CIHJ can be inscribed in circles
+(b) AI, BJ and CK are bissectors of the angleŝ JIK,̂ KJI and̂ IKJ, respectively
+(c)̂ KAH =̂ KJH
+(d) H is the circumcenter of triangle IJK
+(e) Among all the triangles with vertices over the sides of triangle ABC, IJK is the
+triangle of smallest perimeter
+16. I have three times the age you had by the time I had the double of the age that you have
+now. When you reach the age I have now, our ages will sum 69 years. Hence, I am
+(a) 24 years old
+(b) 27 years old
+(c) 32 years old
+(d) 35 years old
+(e) 42 years old
+6

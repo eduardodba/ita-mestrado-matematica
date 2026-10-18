@@ -1,0 +1,267 @@
+Instituto Tecnol´ogico de Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia de Infraestrutura Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia Aeron´autica e Mecˆanica
+Prova de Sele¸c˜ao – 1o semestre de 2024 – Quest˜oes de Matem´atica
+13 de novembro de 2023
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras nem softwares nem sites de c´alculo num´erico e/ou
+simb´olico
+3. Cada quest˜ao admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. Figure 1 shows a polyhedron composed of 6 equal isosceles trapezoids and 2 equal equi-
+lateral triangles.
+One says that two coloring schemes of a polyhedron are equal if a
+composition of any number of three-dimensional rotations (upside-down, left-right, etc.,
+excluded any reflection) can make all sides with equal colors coincide. Suppose that three
+out of the six isosceles trapezoids should be painted in black. How many different coloring
+schemes can be performed in this condition?
+(a) 3 schemes.
+(b) 4 schemes.
+(c) 5 schemes.
+(d) 6 schemes.
+(e) 9 schemes.
+1
+Figure 1: Polyhedron composed of isosceles trapezoids and equilateral triangles.
+4 m
+4 m
+2 m
+Figure 2: Light beam reflecting off mirror walls.
+2. Figure 2 shows a square room with mirror walls 4 meters long. A beam of light enters
+from a corner, reflects off two walls and achieves the middle of a third wall.
+In the
+reflection, the angle of the incident light beam with respect to a wall is equal to the angle
+of the reflected light beam with respect to the same wall. The beam trajectory, which is
+depicted in the figure, has a total length of
+(a)
+√
+2 +
+√
+5 meters.
+(b) 10 meters.
+(c) 5 +
+√
+5 + 2
+√
+2 meters.
+(d)
+√
+98 meters.
+(e) a value which is different from all previous options.
+3. Let
+A = {1,2,4,8,16,32}
+be a set of natural numbers. Take, for example, C, which is a subset of A:
+C = {1,2,4}.
+The sum of all elements of C is Σ(C) = 7. Mark the option which cannot be the sum of
+all elements of any subset of A:
+(a) 62
+(b) 51
+(c) 47
+(d) 23
+(e) All the numbers above can be obtained as the sum of the elements of a subset of A
+2
+x
+(x,y)
+y
+θ
+Figure 3: A circle and a non-orthogonal system of coordinates.
+4. Figure 3 shows a circle of radius r that should be represented in a non-orthogonal system
+of coordinates (x,y). Axes x and y have the same unit length and the angle between
+these axes is θ, with 0 < θ < π
+2 . Under these conditions, the equation of the circle is
+(a) x2 + y2 + 2xy cos(θ) = r2
+(b) x2 + y2 −2xy cos(θ) = r2
+(c) x2 + y2 + 2xy sin(θ) = r2
+(d) x2 + y2 −2xy sin(θ) = r2
+(e) x2 + y2 = r2
+5. Figure 4 shows a map with a series of streets, where the horizontal streets are aligned
+with the west-east direction and the vertical streets are aligned with the north-south
+direction. All of them are one-way streets and the mandatory direction of traffic in the
+horizontal streets is eastbound, while the mandatory direction of traffic in the vertical
+streets is southbound. In the referred figure, one can see the corners A, B and C and an
+example of an allowed pathway from A to C that passes through B. How many different
+allowed trajectories can be made from A to C with the restriction of not passing through
+the corner B?
+(a) 16
+(b) 40
+(c) 56
+(d) 66
+(e) 116
+3
+A
+B
+C
+southbound
+eastbound
+Figure 4: Map of streets aligned with the cardinal points.
+6. The system of equations
+{ x2 + y2
+=
+25
+x ⋅y
+=
+12
+has
+(a) no real solutions
+(b) only one real solution
+(c) exactly two real solutions
+(d) exactly three real solutions
+(e) exactly four real solutions
+7. The sum of the coefficients of all terms of second degree (x2, y2, x2, xy, yz and xz)
+resulting from polynomial expansion of
+(x −y + z −1)3
+is
+(a) −27
+(b) −3
+(c) 0
+(d) 3
+(e) 27
+8. The equation 64
+32x = 1
+8x2 has
+(a) no real roots
+(b) just one real root
+(c) just two rational roots
+(d) just three integer roots
+(e) just four natural roots
+4
+9. A car runs over two different roads one after the other, at a constant but different speed
+in each of them. In the first road, it develops a speed of 40km/h and takes 3 hours. In
+the second one, it takes 2 hours. If the average speed is 48 km/h, the speed developed in
+the second road will be
+(a) 54 km/h
+(b) 56 km/h
+(c) 60 km/h
+(d) 63 km/h
+(e) 64 km/h
+10. A train runs with a constant ground speed V while two passengers run inside it in opposite
+directions. Passenger 1 runs in the same direction as the train with a speed V1 = 36 km/h
+with respect to the train. Passenger 2 runs in the opposite direction with a speed V2 = 36
+km/h with respect to the train. The ground speed of passenger 1 is V + V1, whereas the
+ground speed of passenger 2 is V −V2. The ground speed of passenger 2 is 3/5 of the
+ground speed of passenger 1. The ground speed of passenger 2 is
+(a) 72 km/h
+(b) 108 km/h
+(c) 144 km/h
+(d) 180 km/h
+(e) 216 km/h
+11. The system of equations
+{ x + ay
+=
+b
+x + y
+=
+a
+has x and y as unknowns and a and b as parameters. Mark the wrong statement on the
+discussion of this system:
+(a) if a ≠1, the system has at least one solution
+(b) if a = b = 1, the system solutions lie on a straight line in the plane (x,y)
+(c) if a = 1 and b = 2, the system has no solution
+(d) if a = 1 and b = 3, the system has no solution
+(e) If a + b = 1, the system will always have a real solution
+12. Figure 5 shows a quadrilateral together with oriented angles α and β between its sides.
+For ABCD to be an inscribed quadrilateral and a circumscribed quadrilateral at the same
+time, it is necessary that
+(a) α = 90○and AB = CD
+(b) α = 60○and AB = BC
+(c) α = 90○and AB = AC
+(d) α = 60○and AB = CD
+(e) α = 30○and AD = DC
+5
+A
+B
+C
+D
+α
+β
+β
+Figure 5: Quadrilateral with oriented angles between its sides.
+A
+B
+C
+x
+y
+Figure 6: Triangle with a moving vertex.
+13. Figure 6 shows a triangle ABC in which vertices A(0,0) and C(0,1) are fixed and vertex
+B(1,t) moves in time t. The rate of change of the perimeter p of the triangle ABC for
+t = 1 is
+(a) −
+√
+2/2
+(b) 0
+(c)
+√
+2/2 −
+√
+5/5
+(d)
+√
+2/2
+(e) 1
+6
+14. Given e = 2.7182818... as the basis of the natural logarithms, the value of the integral
+∫
+π/2
+0
+esin2(x) sin(x)cos(x)dx
+is
+(a) 0
+(b) e −1
+2
+(c) 1
+(d) e −1
+(e) e2
+15. Which of the following options causes the equation A12 = [ 1
+0
+0
+1 ] to be false?
+(a) A = [
+√
+2/2
+−
+√
+2/2
+√
+2/2
+√
+2/2 ]
+(b) A = [
+√
+3/2
+−1/2
+1/2
+√
+3/2 ]
+(c) A = [
+1/2
+−
+√
+3/2
+√
+3/2
+1/2
+]
+(d) A = [ 0
+−1
+1
+0 ]
+(e) A = [
+1/2
+√
+3/2
+−
+√
+3/2
+1/2
+]
+16. A plane contains five straight lines. There are no two of these lines which are parallel to
+each other. Moreover, no point of the plane is crossed by more than two of these lines. If
+these five lines divide the plane in n distinct regions, then n is equal to
+(a) 14
+(b) 15
+(c) 16
+(d) 17
+(e) 32
+7

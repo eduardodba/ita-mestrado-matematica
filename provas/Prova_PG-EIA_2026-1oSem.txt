@@ -1,0 +1,334 @@
+1 
+d 
+2 
+c 
+3 
+b 
+4 
+c 
+5 
+a 
+6 
+d 
+7 
+d 
+8 
+c 
+9 
+b 
+10 
+d 
+11 
+e 
+12 
+b 
+13 
+b 
+14 
+b 
+15 
+b 
+16 
+a 
+ 
+Instituto Tecnol´ogico de Aeron´autica
+Pr´o-Reitoria de P´os-Gradua¸c˜ao
+Prova de Sele¸c˜ao – 1o semestre de 2026 – Quest˜oes de Matem´atica
+03 de novembro de 2025
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras nem softwares nem sites de c´alculo num´erico e/ou
+simb´olico, bem como n˜ao ´e permitido o uso de IA (inteligˆencia artificial) para aux´ılio `a
+solu¸c˜ao da prova
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. About the system of equations
+⎧⎪⎪⎨⎪⎪⎩
+x + y
+=
+0
+y
+x
+=
+−1 ,
+one can say that
+(a) It has no real solution
+(b) It has just one real solution
+(c) It has exactly two distinct real solutions
+(d) It has an infinite number of distinct real solutions
+(e) It is not possible to discuss this system and more information is required
+1
+O
+A
+B
+C
+D
+Figure 1: Semicircle tangent to a quadrant
+2. In a building , the upper water reservoir may be supplied by any of three water pumps,
+each of them having its independent piping system. In a pumping test, each of them
+was used separately to fill the upper reservoir, which was initially empty. These were the
+results:
+I) Pump A took one hour to fill the upper water reservoir.
+II) Pumb B took 1.5 hours to fill the upper water reservoir.
+III) Pump C took 3 hours to fill the upper water reservoir.
+If now the upper reservoir is empty and the three pumps are working simultaneously, how
+many minutes will they take to fill the reservoir?
+(a) 15 minutes
+(b) 20 minutes
+(c) 30 minutes
+(d) 45 minutes
+(e) 60 minutes
+3. In Figure 1, AOB is a quadrant of a circle and semicircle >
+CD is tangent to the lines OA
+and OB. The ratio between the areas of the quadrant AOB and the semicircle >
+CD is
+(a) 4 ∶3
+(b) 3 ∶2
+(c) π ∶2
+(d)
+√
+2 ∶1
+(e) 2 ∶1
+2
+4. The equation
+4x −2x+2 + 3 = 0
+(a) has no real solution.
+(b) has one real solution
+(c) has two real solutions
+(d) has three real solutions
+(e) has four real solutions
+5. A cube should have two of its faces painted in red, while the other ones should be painted
+in other four different colors. Two painting schemes are considered equal if one can get
+all faces of the same colors in the same direction by simple rotations. How many different
+painting schemes can be formed for this cube?
+(a) 15 different schemes
+(b) 16 different schemes
+(c) 20 different schemes
+(d) 24 different schemes
+(e) 30 different schemes
+6. If Ck
+n =
+n!
+(n −k)!k!, the largest value of Cp
+32232−p (1
+2)
+p
+is obtained for
+(a) p = 5
+(b) p = 32
+(c) p = 24
+(d) p = 6
+(e) p = 16
+7. The value of the expression
+4(1 +
+√
+3) −6(1 +
+√
+3)
+2
++ 4(1 +
+√
+3)
+3
+−(1 +
+√
+3)
+4
+is
+(a) 9
+(b) 1
+(c) −4
+√
+3
+(d) −8
+(e) −2
+√
+27
+3
+8. Consider a curve given in polar coordinates by
+r
+=
+θ
+for θ ≥0, where θ = 0 radians is the direction of the x axis in the Cartesian coordinate
+system. About this curve in Cartesian coordinates, two statements are given:
+I) In Cartesian coordinates, the derivative of this curve is
+dy
+dx
+=
+cos(θ) −θ sin(θ)
+sin(θ) + θ cos(θ)
+II) A point in which the tangent to the curve is parallel to the y axis of the Cartesian
+coordinate system is where θ tan(θ) = 1.
+Mark the correct option:
+(a) Both statements (I) and (II) are wrong.
+(b) Statement (I) is correct, but statement (II) is wrong.
+(c) Statement (I) is wrong, but statement (II) is correct.
+(d) Both statements (I) and (II) are correct.
+(e) Nothing can be said and more information is necessary.
+9. The expression
+cos3 (π
+3 ) −3icos2 (π
+3 )sin(π
+3 ) −3cos(π
+3 )sin2 (π
+3 ) + isin3 (π
+3 )
+may be simplified as
+(a) cos(π
+2 ) + isin(π
+2 )
+(b) cos(−π) + isin(−π)
+(c) cos(4π
+3 ) + isin(4π
+3 )
+(d) cos(−4π
+3 ) + isin(−4π
+3 )
+(e) cos(5π
+3 ) + isin(5π
+3 )
+10. Figure 2 shows a plot of the function y(x) = log10(x). If OA = BC, then
+(a) loga(b) = c
+(b) a + b = c
+(c) ac = b
+(d) ab = c
+(e) 10a + 10b = 10c
+4
+O
+x
+y
+A
+B
+C
+a
+b
+c
+Figure 2: Plot of the function y(x) = log10(x)
+11. Consider the 2 × 2 matrix equation
+[X]2 −2[X] + 2[I] = [0],
+in which [X] is an unknown matrix, [I] is the identity matrix and [0] is the null matrix.
+Mark the option which is not a root of the equation above:
+(a) [ 1
+−1
+1
+1 ]
+(b) [ 1
+−i
+−i
+1 ]
+(c) [ 1
+i
+i
+1 ]
+(d) [ 1 + i
+0
+0
+1 −i ]
+(e) [ i
+1
+1
+i ]
+12. The value of the sum
+S
+=
+1 + 1
+2i −1
+4 −1
+8i + 1
+16 + ⋯
+is
+(a) 4
+5 −2
+5i
+(b) 4
+5 + 2
+5i
+(c) 1 −1
+2i
+(d) 1 + 1
+2i
+(e) 4
+3 + 2
+3i
+5
+Figure 3: Tetrahedron inscribed in a cube
+13. The value of
+∫
+1
+0
+3
+√
+x
+3√
+x
+3√
+x
+3√x⋯dx
+is
+(a) 3
+5
+(b) 2
+3
+(c) 1
+(d) 3
+2
+(e) 5
+3
+14. If 1 + 2 + 3 + ⋯+ n = 105, then n is
+(a) 12
+(b) 14
+(c) 11
+(d) 13
+(e) 15
+15. In Figure 3, the ratio of the volume of the tetrahedron to the volume of the cube is
+(a) 1
+4
+(b) 1
+3
+(c)
+√
+3
+4
+(d) 1
+2
+(e) 2
+3
+6
+Figure 4: Triangle with three circles
+16. In Figure 4, three circles have radii R and are inscribed in an equilateral triangle with
+side length of 2 cm. The value of R is
+(a)
+1
+1 +
+√
+3
+cm
+(b)
+√
+3
+1 +
+√
+3
+cm
+(c)
+3
+1 +
+√
+2
+cm
+(d)
+√
+3
+2 +
+√
+3
+cm
+(e)
+2
+2 +
+√
+3
+cm
+7

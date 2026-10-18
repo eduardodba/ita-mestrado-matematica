@@ -1,0 +1,223 @@
+Instituto Tecnol´ogico de Aeron´autica
+Pr´o-Reitoria de P´os-Gradua¸c˜ao
+Prova de Sele¸c˜ao – 1o semestre de 2025 – Quest˜oes de Matem´atica
+11 de novembro de 2024
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras nem softwares nem sites de c´alculo num´erico e/ou
+simb´olico, bem como n˜ao ´e permitido o uso de IA (inteligˆencia artificial) para aux´ılio `a
+solu¸c˜ao da prova
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. Six distinct lines are tangent to a circle and they are not parallel to each other. How
+many distinct regions are formed by these lines?
+Observation: In this problem, a region is defined as a set of points where none of the
+tangent lines defined above intersects the segment connecting any two points of this set;
+hence, the whole circle belongs to one of these regions defined above.
+(a) 22 regions
+(b) 24 regions
+(c) 32 regions
+(d) 48 regions
+(e) 64 regions
+1
+2. In order to know if the system
+⎧⎪⎪⎪⎨⎪⎪⎪⎩
+ax + by + cz = g
+dy + ez = h
+f z = i
+has only one unique solution in x, y and z, one should know the value of the product
+(a) abc
+(b) abd
+(c) adf
+(d) aef
+(e) g hi
+3. The development of (x + 1
+x2)
+n
+has a term independent of x if
+(a) n is even
+(b) n is odd
+(c) n is divisible by 3
+(d) n is any number different from zero
+(e) there is no value of n that satisfies this condition
+4. In how many ways the letters of vestibular can be arranged such that the letters ves
+appear together, in any order?
+(a) 306040
+(b) 404060
+(c) 200020
+(d) 120260
+(e) 241920
+5. About the function
+f(x) = arcsin(arcsin(x)),
+mark the wrong statement:
+(a) The real function f(x) is bijective wth the same image of arcsin(x).
+(b) The real function f(x) has the open interval (−1,1) as its domain.
+(c) The inverse real function f −1(x) is an odd function in its domain.
+(d) The derivative of this function is d
+dxf(x) =
+1
+√
+(1 −x2)(1 −arcsin2 (x))
+.
+(e) The derivative of the inverse function f −1(x) is d
+dyf −1(y) = cos(sin(y))cos(y)
+2
+6. The calculus of the determinant
+RRRRRRRRRRRRRR
+1
+ln(2)
+ln(4)
+−1
+ln(4)
+ln(8)
+1
+ln(8)
+ln(16)
+RRRRRRRRRRRRRR
+results in
+(a) 0
+(b) 1
+(c) −4ln(2)
+(d) −8ln(2)
+(e) −4ln2(2)
+7. About the polynomial equation
+x3 + x −10 = 0
+one can say that
+(a) It has no real roots
+(b) It has one real rational root
+(c) It has one real irrational root
+(d) It has three real roots, all of them are integer
+(e) It has three real roots, all of them are irrational
+8. There are 4 card-processing machines in an office. The fastest of these machines processes
+x cards in 7 hours and the slowest processes x cards in 8 hours. Which of the following
+could not be the average time per machine for each of the 4 machines to process x cards?
+(a) 7.2
+(b) 7.3
+(c) 7.5
+(d) 7.6
+(e) 7.7
+9. The system of equations
+⎧⎪⎪⎪⎪⎨⎪⎪⎪⎪⎩
+1
+1 −x =
+1
+1 −1
+x
+x + y = 1
+(a) has no real solution.
+(b) has one real solution.
+(c) has two real solutions.
+(d) has several real solutions.
+(e) cannot be discussed as the first equation does not contain y.
+3
+Figure 1: Cube truncated in the vertices
+Figure 2: Paths downward over a square
+10. In Figure 1, from a cube with edge length of l, cubes having edge length of l
+3 were removed
+from all vertices. Mark the wrong statement about the solid resulting from this operation:
+(a) The resulting polyhedron has 30 faces.
+(b) The resulting solid has 54 vertices.
+(c) The resulting solid has 84 edges.
+(d) The resulting polyhedron surface has an area equal to 6l2.
+(e) The resulting polyhedron has a volume equal to 19
+27l3.
+11. Figure 2 shows a square over which oriented paths lead from the highest vertex to the
+lowest one. How many different paths from the highest vertex to the lowest one can be
+taken over the square by following the arrows indicated?
+(a) 8
+(b) 12
+(c) 16
+(d) 18
+(e) 20
+4
+12. There are six color inks and each one is to be used to paint a face of a cube. Considering
+that two coloring schemes are equal if all the sides of equal colors can be aligned with a
+single three-dimensional rotation, how many different coloring schemes can be defined for
+this cube?
+(a) 10
+(b) 20
+(c) 30
+(d) 40
+(e) 60
+13. A region in the Cartesian space is delimited by the planes z = 0, z = 1 and the surface
+of revolution around the z-axis of the straight line connecting the points (1,0,0) and
+(0,1,1). What is the volume of this region?
+(a) 1
+2π
+(b) 2
+3π
+(c)
+√
+2
+2 π
+(d) 3
+4π
+(e) π
+14. Which of these expressions produces the same value of
+3√
+5
+√
+2 −7?
+(a)
+√
+6 −4
+√
+2
+(b) 5
+2√
+2 −6
+(c)
+6√
+50 −
+3√
+3
+(d)
+6√
+99 + 40
+√
+2
+(e)
+1
+√
+2 + 1
+5
+3
+4
+12
+13
+Figure 3: Quadrilateral with right angle
+15. Figure 3 shows a quadrilateral with an internal right angle. About this quadrilateral, two
+statements are posed:
+I. The internal area of this quadrilateral is 36.
+II. This quadrilateral can be inscribed in a circle.
+Mark the correct option:
+(a) Statements I and II are wrong.
+(b) Statement I is wrong while statement II is true.
+(c) Statement I is true while statement II is false.
+(d) Both statements I and II are true
+(e) The information in Figure 3 is not enough to determine this quadrilateral properties,
+as only one angle is given.
+16. Given the equations of two lines,
+x + y
+=
+π
+2
+y
+=
+1
+2 (
+√
+3 + π
+6 −x),
+mark the wrong statement about them:
+(a) The first line is tangent to curve y = cos(x)
+(b) The first line has only one point in common with curve y = cos(x)
+(c) The second line is tangent to curve y = cos(x)
+(d) The second line has only one point in common with curve y = cos(x)
+(e) The intersection of these lines occurs at y =
+√
+3 −π
+3
+6
