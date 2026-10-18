@@ -164,3 +164,10 @@ Qual o comprimento do segmento tangente de P ao círculo?
 **E6.** Tetraedro regular inscrito no cubo ocupa `**1/3**` do volume do cubo.
 
 **E7.** Hexágono regular: `(3√3/2)·lado² = (3√3/2)·4 = **6√3 ≈ 10,39**`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões de geometria das 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

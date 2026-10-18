@@ -120,3 +120,10 @@ uma única vez → **exatamente uma raiz real**.
 **E5.** `x⁴−1=(x²−1)(x²+1)=(x−1)(x+1)(x²+1)`.
 
 **E6.** Soma dos coeficientes = `P(1) = (2·1−1)⁵ = 1⁵ = **1**`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

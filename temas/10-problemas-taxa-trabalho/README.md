@@ -114,3 +114,10 @@ Se vendeu R$ 5000, qual a comissão?
 **E5.** `0,10·2000 = 200`; excedente `= 3000`, `0,25·3000 = 750`. Total `= 200 + 750 = R$ 950`.
 
 **E6.** Inversamente proporcional: `4·9 = 6·d → d = 36/6 = 6 dias`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

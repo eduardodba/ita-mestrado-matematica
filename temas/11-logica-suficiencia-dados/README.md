@@ -99,3 +99,10 @@ Cada uma sozinha basta → **(d)**.
 
 **E6.** I: `r²=25 → r=±5` (não determina o sinal). II: `r³=125 → r=5` (determina, pois cubo preserva sinal).
 Só II basta → **(b)**.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

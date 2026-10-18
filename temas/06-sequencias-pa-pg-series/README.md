@@ -105,3 +105,10 @@ Logo `(aᵢ,bᵢ)` gira num círculo de raio 1 → **limitada** para todo i. Ana
 **E5.** `n(n+1)/2 = 55 → n(n+1)=110 → n=10` (`10·11=110`). **n=10**.
 
 **E6.** `x=√(2x) → x²=2x → x=2` (descartando x=0). **x=2**.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

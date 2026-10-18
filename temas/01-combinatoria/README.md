@@ -148,3 +148,10 @@ por não ter essa coincidência no padrão pedido.)
 
 **E7.** `PROVA` tem 5 letras, vogais O e A. Trate as vogais como bloco: `4!` arranjos do bloco+consoantes,
 × `2!` internos do bloco = `24 × 2 = **48**`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões de combinatória das 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

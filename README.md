@@ -71,11 +71,16 @@ ITA-mestrado/
     └── 11-logica-suficiencia-dados/
 ```
 
-Cada pasta de tema contém um `README.md` com quatro seções:
+Cada pasta de tema contém dois arquivos:
+
+**`README.md`** — a teoria e o treino:
 1. **Conceitos e teoremas que você precisa saber** (revisão)
 2. **Resoluções comentadas** das questões reais do ITA sobre o tema
 3. **Exercícios de treino** (com enunciado)
 4. **Gabarito e resoluções** dos exercícios
+
+**`QUESTOES-DAS-PROVAS.md`** — o **banco de questões reais** das 6 provas (2021–2026) daquele tema,
+com o enunciado original em inglês, identificação (ano/questão) e gabarito quando divulgado oficialmente.
 
 ---
 

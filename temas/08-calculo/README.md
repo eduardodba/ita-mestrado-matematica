@@ -122,3 +122,10 @@ da área quando `s = 5 cm`?
 **E5.** `A=s²`, `dA/dt = 2s·ds/dt = 2·5·2 = **20 cm²/s**`.
 
 **E6.** `[ln x]₁^e = ln e − ln 1 = 1 − 0 = **1**`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

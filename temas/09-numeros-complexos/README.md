@@ -85,3 +85,10 @@ Razão `i/2`, `S = 4/5 + 2/5 i`. **Lição:** `S=a₁/(1−q)` + conjugado para 
 
 **E6.** `i = cos90° + i sin90°`. Raízes: `cos45°+i sin45° = (√2/2)(1+i)` e `cos225°+i sin225° = −(√2/2)(1+i)`.
 Ou seja `±(√2/2)(1+i)`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

@@ -136,3 +136,10 @@ E quantas?
 **E5.** `det(2A) = 2³·det A = 8·3 = **24**` (para 3×3, o escalar sai elevado à ordem n).
 
 **E6.** Rotação de `30°`: precisamos `n·30° = 360°` → `**n = 12**`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

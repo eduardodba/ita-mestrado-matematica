@@ -106,3 +106,10 @@ Procure a opção cujo `ln` seja **múltiplo de `ln(x+1)`**. `x²−1=(x−1)(x+
 **E5.** `x³`: `f(−x)=−x³=−f(x)` → **ímpar**. `x²+1`: `g(−x)=x²+1=g(x)` → **par**.
 
 **E6.** `u=2ˣ`: `u²−5u+4=0 → (u−1)(u−4)=0 → u=1 ou 4`. `2ˣ=1→x=0`; `2ˣ=4→x=2`. **x ∈ {0, 2}**.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.

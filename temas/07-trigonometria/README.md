@@ -108,3 +108,10 @@ Seja `s=sinθ`: `2s²−3s+1=0 → s=1 ou s=1/2`. Em `[0,π]`: `sinθ=1→θ=π/
 
 **E6.** `cos2x=2cos²x−1`. Equação: `2cos²x−1=cosx → 2c²−c−1=0 → (2c+1)(c−1)=0 → c=−1/2 ou 1`.
 `cosx=1→x=0`; `cosx=−1/2→x=2π/3, 4π/3`. **Três soluções** em `[0,2π)`.
+
+---
+
+## 5. Banco de questões reais
+
+As questões deste tema nas 6 provas (2021–2026), com enunciado original em inglês e gabarito
+(quando divulgado), estão em **[QUESTOES-DAS-PROVAS.md](QUESTOES-DAS-PROVAS.md)**.
