@@ -1,0 +1,255 @@
+Instituto Tecnol´ogico de Aeron´autica
+Pr´o-Reitoria de P´os-Gradua¸c˜ao
+Prova de Sele¸c˜ao – 2o semestre de 2024 – Quest˜oes de Matem´atica
+20 de maio de 2024
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras nem softwares nem sites de c´alculo num´erico e/ou
+simb´olico
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. In a certain season, a river flows to a reservoir while its floodgates are open. In this
+condition, it takes 24 days to dump all the water of the full reservoir. If the reservoir is
+empty and the floodgates are closed, it takes 12 days to fill the reservoir. If the reservoir
+is full, the floodgates are open but the river is diverted from the reservoir, how many days
+will be necessary to dump all the water from the reservoir?
+(a) 6 days
+(b) 8 days
+(c) 12 days
+(d) 15 days
+(e) 18 days
+1
+2. The function
+f(x)
+=
+xln(1
+x)
+is well defined in the real interval (0,1]. About this function, one cannot say that
+(a) limx→0 f(x) = 0
+(b) f(1) = 0
+(c) df
+dx(x) = 1 + ln(1
+x)
+(d) f(x) has a maximum value at x = e−1, where e is base of natural logarithms
+(e) ∫f(x)dx = 1
+4x2 [1 −2ln(x)] + C, where C is a (real) constant of integration
+3. Let the function f(x) be defined in the interval [x0,x1]. This function is such that
+• d2f
+dx2 (x) = a ≠0,∀x ∈[x0,x1]
+• df
+dx(x0) = b
+• f(x0) = c
+Two statements are posed about this function:
+(I) f(x) = a(x −x0)2 + b(x −x0) + c
+(II) [df
+dx (x1)]
+2
+= [df
+dx (x0)]
+2
++ 2a[f (x1) −f (x0)]
+Mark the right option about these statements
+(a) Both statements (I) and (II) are correct
+(b) Statement (I) is correct but statement (II) is wrong
+(c) Statement (II) is correct but statement (I) is wrong
+(d) Both statements (I) and (II) are wrong
+(e) More information is needed to analyze the veracity of these statements
+4. A path along 5 edges of a tetrahedron can be described by the enumeration of the six
+labels of the vertices to be followed, presented in the order to be followed. No path should
+pass through any edge more than one time. For example, the path 1 →2 →3 →4 →1 →3
+is depicted in Figure 1. How many different proper paths can be formed along 5 of the
+six edges of a tetrahedron?
+(a) 24
+(b) 36
+(c) 48
+(d) 60
+(e) 72
+2
+1
+2
+3
+4
+Figure 1: A path 1 →2 →3 →4 →1 →3 drawn along numbered edges of a tetrahedron
+5. About the system of equations
+{ x2 −xy + y2 = 7
+x3 + y3 = 35
+,
+How many solutions does it have?
+(a) No real solutions
+(b) 1 real solution
+(c) 2 real solutions
+(d) 3 real solutions
+(e) 6 real solutions
+6. Put in simple form, an eigenvector of a matrix [M] is a vector {v} that preserves its
+direction when multiplied by the matrix, only eventually changing its magnitude or ori-
+entation, depending on the value of the eigenvalue associated to it, i.e.,
+[M]{v} = λ{v}.
+In the above equation, λ is the eigenvalue associated to the eigenvector {v} of matrix
+[M]. Given the matrix
+M =
+⎡⎢⎢⎢⎢⎢⎣
+1
+−0.3
+0
+−0.3
+1
+0
+0
+0
+1.3
+⎤⎥⎥⎥⎥⎥⎦
+,
+mark the option which is not an eigenvector of [M]:
+(a) {
+√
+2/2,−
+√
+2/2,0}T
+(b) {0,0,1}T
+(c) {
+√
+3/3,−
+√
+3/3,
+√
+3/3}T
+(d) {1,1,0}T
+(e) {
+√
+3/3,
+√
+3/3,
+√
+3/3}T
+3
+7. How many equal spheres can be stacked in order to form a pyramid having a square basis
+with six spheres in each edge?
+(a) 48 spheres
+(b) 56 spheres
+(c) 72 spheres
+(d) 91 spheres
+(e) 96 spheres
+8. If i =
+√
+−1, ii has the value of
+(a) 1
+(b) −1
+(c) exp(−π/2 + 2kπ), with k ∈Z
+(d) i + 1
+(e) sinh(−1)
+9. About hyperbolic functions, the following statements are posed:
+• sinh(a + b) = sinh(a)cosh(b) + sinh(b)cosh(a)
+• cosh(a + b) = cosh(a)cosh(b) −sinh(b)sinh(a)
+• sinh(3a) = 3sinh(a)cosh2(a) + sinh3(a)
+• cosh(3a) = 3sinh2(a)cosh(a) + cosh3(a)
+Mark the correct option:
+(a) All statements are wrong
+(b) There is only one correct statement
+(c) There are just two correct statements
+(d) There is only one false statement
+(e) All statements are true
+4
+10. The sequence given by
+An
+=
+1
+√
+3i
+[(1 +
+√
+3i
+2
+)
+n
+−(1 −
+√
+3i
+2
+)
+n
+],n ∈N,
+will be composed of
+(a) Natural numbers (all of them are non-negative)
+(b) Integer numbers (some of them are negative)
+(c) Rational numbers (some of them are non-integers)
+(d) Real numbers (some of them are irrational)
+(e) Complex numbers (some of them are not real)
+11. Let
+p
+=
+log3 (2)
+q
+=
+log√
+3 (4)
+r
+=
+log1/3 (
+√
+2)
+Mark the correct option:
+(a) p < q < r
+(b) r < q < p
+(c) q < r < p
+(d) p < r < q
+(e) r < p < q
+12. By simplifying the expression
+cos2(x) −cot(x)
+sin2(x) −tan(x),
+one gets
+(a) sec2(x)
+(b) sin2(x)
+(c) tan2(x)
+(d) cos2(x)
+(e) cot2(x)
+13. In order to
+2 + 4
+m + 8
+m2 + ⋯= 14
+2
+hold true, m should be
+(a) 5
+(b) 6
+(c) 7
+(d) 8
+(e) none of the above values
+5
+A
+O
+B
+O′
+C
+M
+D
+N
+Figure 2: Tangent circles with tangent lines
+14. The solution of the equation
+(n + 2)!(n −2)!
+(n + 1)!(n −1)! = 4
+is a natural number that is also
+(a) even
+(b) a perfect cube
+(c) larger than 10
+(d) divisible by 5
+(e) divisible by 3
+15. A straight line passes through points (3,0) and (0,4). The distance from this line to the
+origin of the Cartesian plane is
+(a) 2
+(b)
+√
+5
+(c) 12/5
+(d) 5/2
+(e) 3
+16. In Figure 2, A, B and C are aligned points such that AB = 9 is the diameter of the
+semicircle centered in O, while BC = 4 is the diameter of the semicircle centered in O′.
+Both semicircles are tangent to each other and BD and MN are the common tangents
+to these circles. Mark the wrong option:
+(a) BD is an altitude of the triangle ODO′
+(b) BD is a median of the triangle MBN
+(c) The triangle MBN is rectangle
+(d) MN = 6.5
+(e) ODO′ and MBN are similar triangles
+6

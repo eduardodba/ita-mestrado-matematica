@@ -1,0 +1,300 @@
+Instituto Tecnol´ogico de Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia de Infraestrutura Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia Aeron´autica e Mecˆanica
+Prova de Sele¸c˜ao – 2o semestre de 2021 – Quest˜oes de Matem´atica
+24 de maio de 2021
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras ou outros dispositivos eletrˆonicos
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. In a small car factory, a team of workers assembles the parts while other team paints the
+car assembled. The two tasks are sequential and, although all the six workers can perform
+both tasks, each worker should be designated to just one of the tasks. One worker alone
+takes four weeks to assemble the parts of one car while one worker alone takes one week
+to paint one car. Both tasks are fully scalable, in the sense that two employees working
+together should take two weeks to assemble one car and two employees working together
+should take half a week to paint one car. Which designation should be used in the factory
+in order to produce each car in the shortest possible time?
+(a) One worker at the assemblage and ﬁve workers in the painwork
+(b) Two workers at the assemblage and four workers in the painwork
+(c) Three workers at the assemblage and three workers in the painwork
+(d) Four workers at the assemblage and two workers in the painwork
+(e) Five workers at the assemblage and one worker in the painwork
+1
+2. In the system of linear equations
+⎧⎪⎪⎪⎪⎪⎪⎪⎪⎨⎪⎪⎪⎪⎪⎪⎪⎪⎩
+x1 = 1
+x1 + x2 = 3
+x1 + x2 + x3 = 7
+⋮
+x1 + x2 + ⋯+ xn = 2n −1
+x10 =?
+(a) 255
+(b) 333
+(c) 512
+(d) 1024
+(e) none of the above
+3. The equation
+ln(x) + ln(4 −x) = 1
+(a) has integer roots
+(b) has non-integer rational roots
+(c) has non-rational real roots
+(d) has no real roots
+(e) none of the above
+4. Two statements are given about three numbers x, y and z:
+I. 1
+x + 1
+y + 1
+z = 3
+II.
+1
+xy + 1
+yz + 1
+xz = 5
+If it is asked to determine the value of
+x + y + z
+xy + yz + xz, one can say that
+(a) statement I alone is suﬃcient, but statement II alone is not suﬃcient to answer the
+question asked;
+(b) statement II alone is suﬃcient, but statement I alone is not suﬃcient to answer the
+question asked;
+(c) both statements I and II together are suﬃcient to answer the question asked, but
+neither statement alone is suﬃcient;
+(d) each statement alone is suﬃcient to answer the question asked;
+(e) statements I and II together are not suﬃcient to answer the question asked, and
+additional data speciﬁc to the problem are needed.
+2
+Figure 1: Triangle with two points in each edge
+5. In the triangle of Figure 1, there are two points in each edge and they are obviously
+colinear with the vertices that bound that edge. If three colinear points do not form a
+triangle, how many diﬀerent triangles can be formed with three of the nine points maked
+in the ﬁgure?
+(a) 27
+(b) 72
+(c) 84
+(d) 9!/3!
+(e) 9!
+6. Each of the lights in a certain row is either blue or green, and no adjacent lights in the
+row are the same color. Two statements are given about these lights:
+I. There are 51 lights in the row.
+II. If the light at each end of the row were removed, there would be 24 green lights and
+25 blue lights remaining in the row.
+If it is asked to determine how many green lights are in the row, one can say that
+(a) statement I alone is suﬃcient, but statement II alone is not suﬃcient to answer the
+question asked;
+(b) statement II alone is suﬃcient, but statement I alone is not suﬃcient to answer the
+question asked;
+(c) both statements I and II together are suﬃcient to answer the question asked, but
+neither statement alone is suﬃcient;
+(d) each statement alone is suﬃcient to answer the question asked;
+(e) statements I and II together are not suﬃcient to answer the question asked, and
+additional data speciﬁc to the problem are needed.
+3
+7. There are six sticks which will be used to form the edges of a tetrahedron. These sticks
+have the same lenght but diﬀerent colors. Two arrangements of the sticks are considered
+to be equal if a 3-D rotation may put all the sticks of the same color in the same direction.
+How many diﬀerent arrangements of the six sticks can be formed?
+(a) 4
+(b) 6
+(c) 8
+(d) 24
+(e) 30
+8. Three machines, A, B, and C, are each capable of completing a certain production order.
+About their productivity, two statements are given:
+I. A alone would complete the entire order in 20 hours.
+II. B alone would complete the entire order in half the time it would take C alone to
+complete it.
+If it is asked the total number of hours required for the three machines, running simulta-
+neously but independently, to complete the production order, one can say that
+(a) statement I alone is suﬃcient, but statement II alone is not suﬃcient to answer the
+question asked;
+(b) statement II alone is suﬃcient, but statement I alone is not suﬃcient to answer the
+question asked;
+(c) both statements I and II together are suﬃcient to answer the question asked, but
+neither statement alone is suﬃcient;
+(d) each statement alone is suﬃcient to answer the question asked;
+(e) statements I and II together are not suﬃcient to answer the question asked, and
+additional data speciﬁc to the problem are needed.
+9. The double argument formulas of hyperbolic functions are
+sinh(2x)
+=
+2sinh(x)cosh(x)
+cosh(2x)
+=
+2cosh2(x) −1.
+Using the formulas above, one can say that
+[1 + tanh(x
+2)][1 −tanh(x
+2)] + 2tanh(x
+2)
+[1 + tanh(x
+2)][1 −tanh(x
+2)] −2tanh(x
+2)
+is
+equal to
+(a) tanh2(x)
+(b) cosh2(x) −sinh2(x)
+(c) cosh(x) + sinh(x)
+cosh(x) −sinh(x)
+(d) 1 + sinh(x)
+1 −sinh(x)
+(e) 1 + cosh(x)
+1 −cosh(x)
+4
+10. About the number 1003003001, one can say that
+(a) it is not divisible by 7
+(b) it is not divisible by 11
+(c) it is not a perfect square
+(d) it is not a perfect cube
+(e) all the options above are wrong
+11. If n is an integer, one cannot say that
+(a)
+1
+2 (n2 + 3n) will always be an integer
+(b)
+1
+3 (n3 + 3n2 + 2n) will always be an integer
+(c) n4 −4n3 + 6n2 −4n + 1 will always be a perfect square
+(d) −7n3 + 27n2 −18n
+2
+will always be a perfect cube
+(e)
+3√
+8n3 + 12n2 + 6n + 1 will always be an integer
+12. Given
+a = x + y
+2
+b = x −y
+2
+a′ = x + 2y
+3
+b′ = x −y
+what is the value of b′
+a′?
+(a) 2b
+a
+(b) 3a
+b
+(c) 3a −b
+2b
+(d)
+3b
+2a + b
+(e)
+6b
+3a −b
+5
+Figure 2: cuboctahedron
+4
+8
+3
+5
+l
+Figure 3: Nonregular pentagon
+13. Figure 2 shows a cuboctahedron, which is a semiregular polyhedron that has regular
+squares and regular triangles as its faces. If the edge of these squares and triangles have
+a length of l, the volume of the cuboctahedron will be
+(a) 5
+3
+√
+2l3
+(b) 7
+3
+√
+2l3
+(c) (2
+3
+√
+3 +
+√
+2)l3
+(d) (
+√
+2
+3 +
+√
+3)l3
+(e) 1
+3 (5
+√
+3 −
+√
+2)l3
+14. In ﬁgure 3, what is the length l?
+(a) 4
+(b)
+√
+17
+(c)
+√
+18
+(d) 2
+√
+5
+(e) More information is necessary in order to determine l
+6
+x
+y
+z
+x0
+y0
+z0
+Figure 4: Plane determined by its intercepts with the coordinates axes
+A
+B
+C
+D
+E
+F
+G
+H
+O
+Figure 5: Quadrilateral
+15. Figure 4 shows a plane which is determined by its intercepts with the coordinanates axes.
+The least distance between this plane and origin is calculated as
+(a)
+√
+3
+1
+x0
++ 1
+y0
++ 1
+z0
+(b)
+x0 y0 z0
+x0 y0 + y0 z0 + x0 z0
+√
+3
+(c) 1
+3
+√
+x2
+0 + y2
+0 + z2
+0
+(d) 1
+3
+√x0 y0 + y0 z0 + x0 z0
+(e)
+x0 y0 z0
+√
+x2
+0 y2
+0 + y2
+0 z2
+0 + x2
+0 z2
+0
+16. Figure 5 shows a quadrilateral ABCD together with the midpoints of its sides E, F, G
+and H and the intersection O of EG and FH. Mark the wrong option:
+(a) The area of triangle EOF is equal to the area of triangle FOG
+(b) FO = OH
+(c) EF = GH
+(d) FH2 + EG2 = 2(EF 2 + EH2)
+(e)̂ FGO =̂ OGH
+7

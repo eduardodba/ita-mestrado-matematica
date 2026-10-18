@@ -25,11 +25,13 @@ Acertar **8 das 16** já passa do corte. A prova mistura questões rápidas (con
 
 ---
 
-## 📊 O que MAIS cai (análise das 6 provas — 96 questões)
+## 📊 O que MAIS cai (análise de 11 provas — 176 questões)
 
-Veja a análise completa em **[00-ANALISE-DO-QUE-CAI.md](00-ANALISE-DO-QUE-CAI.md)**.
+Material calibrado nas **11 provas** que cobrem **1º e 2º semestres (2021–2026)**:
+- Análise dos **1ºs semestres** (6 provas): **[00-ANALISE-DO-QUE-CAI.md](00-ANALISE-DO-QUE-CAI.md)**
+- Análise dos **2ºs semestres** (5 provas): **[00-ANALISE-2oSEMESTRE.md](00-ANALISE-2oSEMESTRE.md)**
 
-Resumo por prioridade:
+Resumo por prioridade (consolidado 1º + 2º sem):
 
 | Prioridade | Tema | Frequência |
 |:----------:|------|:----------:|
@@ -52,11 +54,12 @@ Resumo por prioridade:
 ```
 ITA-mestrado/
 ├── README.md                     ← você está aqui
-├── 00-ANALISE-DO-QUE-CAI.md      ← mapa de frequência tema × ano
+├── 00-ANALISE-DO-QUE-CAI.md      ← frequência tema × ano (1º semestre)
+├── 00-ANALISE-2oSEMESTRE.md      ← frequência tema × ano (2º semestre)
 ├── PLANO-DE-ESTUDO.md            ← cronograma sugerido de revisão
 ├── GLOSSARIO-INGLES-MATEMATICA.md ← vocabulário de matemática em inglês
 ├── DICAS-DE-PROVA.md             ← estratégias e erros comuns
-├── provas/                       ← as 6 provas originais (PDF + texto)
+├── provas/                       ← as 11 provas originais (1º e 2º sem, PDF + texto)
 └── temas/
     ├── 01-combinatoria/
     ├── 02-sistemas-matrizes-determinantes/
@@ -79,8 +82,14 @@ Cada pasta de tema contém dois arquivos:
 3. **Exercícios de treino** (com enunciado)
 4. **Gabarito e resoluções** dos exercícios
 
-**`QUESTOES-DAS-PROVAS.md`** — o **banco de questões reais** das 6 provas (2021–2026) daquele tema,
+**`QUESTOES-DAS-PROVAS.md`** — o **banco de questões reais dos 1ºs semestres** (2021–2026) daquele tema,
 com o enunciado original em inglês, identificação (ano/questão) e gabarito quando divulgado oficialmente.
+
+**`REVISAO-2oSEMESTRE.md`** — a **revisão completa dos 2ºs semestres** (2021–2025): questões reais daquele
+tema, conceitos novos que os 2ºs semestres cobraram, resoluções detalhadas e exercícios de treino com gabarito.
+
+> 📘 O tema **01-combinatoria** tem ainda o **`BURNSIDE-EXPLICADO.md`** — guia aprofundado do método de
+> contagem com rotações (o padrão que mais se repete).
 
 ---
 

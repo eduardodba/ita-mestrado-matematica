@@ -1,0 +1,261 @@
+Instituto Tecnol´ogico de Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia de Infraestrutura Aeron´autica
+Programa de P´os-Gradua¸c˜ao em Engenharia Aeron´autica e Mecˆanica
+Prova de Sele¸c˜ao – 2o semestre de 2023 – Quest˜oes de Matem´atica
+22 de maio de 2023
+Nome do Candidato
+Observa¸c˜oes
+1. Dura¸c˜ao da prova: 90 minutos (uma hora e meia)
+2. N˜ao ´e permitido o uso de calculadoras nem softwares nem sites de c´alculo num´erico e/ou
+simb´olico
+3. Cada pergunta admite uma ´unica resposta
+4. Marque a alternativa que considerar correta no formul´ario Google enviado por e-mail
+Quest˜oes em Inglˆes
+1. If [A]2 = [A][A] = [ 4
+10
+0
+9 ], one can say that
+(a) there is only one matrix [A] that satisﬁes the equation above
+(b) there are only two matrices [A] that satisfy the equation above
+(c) there are only three matrices [A] that satisfy the equation above
+(d) there are only four matrices [A] that satisfy the equation above
+(e) there is no matrix [A] that satisﬁes the equation above
+1
+A
+B
+B′
+C
+C′
+60○
+s
+t
+c
+r = 3
+Figure 1: Triangles with the same escribed circle.
+2. Figure 1 shows two triangles ABC and AB′C′. Both triangles have lines t and s sup-
+porting their sides; moreover, both triangles have the circle c as their excircle or escribed
+circle. Any other line tangent to c by the interior of t and s will produce a triangle with
+the same excircle c, with lines t and s supporting its sides. What is the value of the
+greatest possible area for all of these triangles?
+(a) 3
+(b) 2
+√
+2
+(c) 2
+√
+3
+(d) 4
+(e) 3
+√
+3
+3. About the equations
+x3 −6x −9
+=
+0
+(1)
+x3 −6x + 9
+=
+0
+(2)
+one cannot say that
+(a) equation (1) has one natural root.
+(b) equation (2) has one integer root.
+(c) equation (1) has two complex roots.
+(d) equation (2) has two pure imaginary roots.
+(e) equation (2) has two complex roots.
+2
+4. p plus signs and q minus signs are to be placed in a row, such that p + q = n and p > q −2.
+Considering that no two minus signs should be placed together, in how many diﬀerent
+ways can these signs be placed?
+(a) Cn−q+1
+q
+(b) Cq
+p+q
+(c) (p + q)!
+q!
+(d) Cp+1
+q
+(e) (p + q −1)!
+Note: Cn
+r =
+n!
+(n−r)! r! is the r-combination of n distinct things
+5. Three couples in a riverside are up to cross the river in a boat which can carry up to two
+persons. The three wives are jealous, such that no man should stay in any riverside or in
+the boat in the company of a wife of any other man without her husband. Within these
+constraints, what should be the minimal number of river crossings the boat should do in
+order to take the three couples to the other side?
+(a) 8
+(b) 9
+(c) 10
+(d) 11
+(e) 12
+6. If Sn = ∑n
+i=1(−1)i√
+2i−1 = −1 +
+√
+2 −2 + 2
+√
+2 −4 + 4
+√
+2 −⋯+ (−1)n (
+√
+2n−1), the value of
+limn→∞Sn is:
+(a) −∞
+(b) −3 −
+√
+2
+(c)
+√
+2 + 1
+(d) +∞
+(e) There is no deﬁned limit for this series
+7. Figure 2 shows a triangle and the nine concyclic points that deﬁne the nine-point circle
+(ﬁve of these points coincide in A). Mark the correct coordinates of the center of the
+circle:
+(a) (4,2.5)
+(b) (4,2
+√
+2)
+(c) (4.1,2.4)
+(d) (4.2,2.5)
+(e) (4.3,2.4)
+3
+x
+y
+C
+B
+A
+6
+8
+10
+Figure 2: Triangle with the feet of its altitudes and the midpoitns of its sides.
+8. If n ∈N, mark the formula that may not result an integer number for all natural numbers
+n:
+(a) n2 −n
+2
+(b) n2 + n
+2
+(c) n3 + 3n2 + 2n
+6
+(d) n3 −n
+6
+(e) n3 + n
+6
+9. Assuming e as the base of natural logarithm, the value of the integral
+∫
+∞
+0
+xe−x2 dx
+is
+(a) −1
+(b) 0
+(c) 1
+2
+(d) 1
+(e) ∞
+10. By simplifying n[n! + (n −1)!]
+(n + 1)! −n!
+, where n is a non-null natural number, one gets:
+(a) n
+(b) n + 1
+n
+(c) n −1
+n
+(d)
+n
+n + 1
+(e)
+n
+n −1
+4
+11. About the system of equations
+⎧⎪⎪⎪⎨⎪⎪⎪⎩
+x −y −z
+=
+3
+−x + y −z
+=
+4
+x −y + z
+=
+5
+one can say that
+(a) this sytem has no real solutions.
+(b) this sytem has one real solution.
+(c) this sytem has two real solutions.
+(d) this sytem has more than two solutions.
+(e) more information is needed in order to discuss this system.
+12. Let f(x) =
+√
+1 −x2. For what real value of x one gets a real value for f ′(x) = f(x)?
+(a) 1 −
+√
+5
+2
+.
+(b) 0.
+(c)
+√
+2
+2 .
+(d) arcsin(1
+2).
+(e) There is no real value of x that holds f ′(x) = f(x) true.
+13. The manager of a clothing store used to sell a shirt by R$ 150,00. In the beginning of a
+certain month, he raised the price of that item by 20%. After two weeks the sales decline
+and the manager decides to reduce price of this item by 20%. Then, the new the price of
+that shirt will be
+(a) R$ 120,00.
+(b) R$ 139,00.
+(c) R$ 150,00.
+(d) R$ 144,00.
+(e) none of the previous options.
+14. The real root of equation
+(7x + 2
+√
+10)(7x −2
+√
+10)
+=
+9
+is
+(a) a negative irrational number.
+(b) a positive irrational number.
+(c) a positive even number.
+(d) a negative integer number.
+(e) a positive odd number.
+5
+A
+B
+C
+α
+r = h
+Figure 3: Triangle and circle with same area.
+15. Assuming e as the base of natural logarithm, the value of the integral
+∫
+e−1
+0
+x + 2
+x + 1 dx
+is
+(a) e −1
+(b) 2
+(c) e
+(d) e + 1
+(e) ∞
+16. Figure 3 shows a circle and an isosceles triangle which have the same area. About this
+ﬁgure, three statemens are posed:
+• BC = 2πr
+•̂ BAC = 2arctan(π)
+• AC = r
+√
+π2 −1
+Mark the correct choice about the discussion of these statements:
+(a) All three statements are false.
+(b) There are two false statements.
+(c) There is only one false statement.
+(d) All statements are true.
+(e) These statements cannot be discussed if r = h is not given.
+6
