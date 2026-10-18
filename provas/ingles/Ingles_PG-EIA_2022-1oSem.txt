@@ -1,0 +1,497 @@
+Part 1 - Read the article “Pollination advantage of rare plants unveiled” and answer the questions 1 to 7: 
+1 - The term “spill over” in this text is used to describe: 
+A) The pollinators visiting a certain plant-species after being attracted by other plants-species; 
+B) The reduction in flower visitation if flowers of different species open simultaneously; 
+C) The pollination of rare plant species with the pollen from common species; 
+D) The extinction of rare plant species. 
+ 
+2 - The term “pollinator-mediated facilitation” can be interpreted as: 
+A) a definition for different pollinator species, including several bees, butterfly, wasp and other species; 
+B) The phenomenon of certain plant species positively affecting the pollination of other plant species; 
+C) a plant-pollinator interaction; 
+D) None of the above. 
+ 
+3 - Mark the incorrect sentence according to the provided text. 
+A) Pollinators help on pollen transfer between plant individuals distant from each other 
+B) It was previously believed that the flowering of a plant species could not affect the pollination of other species 
+C) Pollinators may favor plant species diversity in a certain area 
+D) Flowering overlapping is sometimes negative for plant species that flower at the same time 
+ 
+4 - Which of the following statements is correct? 
+A) Pollinator sharing is always good for all kinds of flowering plants, specially those in diverse plant clusters; 
+B) Flying insects are the only species able to pollinate flowering plants; 
+C) Previous studies show an ongoing worldwide decay in pollinators; 
+D) None of the above. 
+ 
+5 - The only true alternative about the effect of competition for flower visits by shared pollinators, according to the text, 
+is: 
+A) It always results in reduced pollination; 
+B) It can result in overall increase in flower visitation when multiple species of flowering plant are clustered in the 
+same patch; 
+C) Flowers with plentiful nectar repeals pollinators that are then attracted to neighbouring species; 
+D) There are no situations in which one or more species might benefit by overlapping their flowering time with that of 
+other species. 
+ 
+6 - About the authorship of the described study on the pollination advantage of rare plants, which is correct? 
+A) Marcelo A. Aizen is the sole author; 
+B) Marcelo A. Aizen is one of the co-authors; 
+C) Wei, N. is the sole author; 
+D) Wei N. is one of the co-authors. 
+ 
+7 - A main conclusion of the work described in the text is: 
+A) Asymmetric facilitation prevents an overarching conceptual framework with which to develop management 
+guidelines for the preservation of biodiversity; 
+B) The propagation of common plants could help to rescue endangered plant species at the cost of pollinator diversity; 
+C) Specialized pollinators are probably more susceptible to extinction, which is a threat to the reproduction of rare 
+plants; 
+D) None of the above. 
+ 
+Part 2 - Questions 8 to 10 are not related to the article: 
+ 
+8 - "Do or Make”. Only one of the following phrases is incorrect: 
+A) The only thing that matters for this young businessman is to make a lot of money; 
+B) He deserves all our support because he always does his best; 
+C) He dislikes school because his classmates always do fun of him; 
+D) You should make an effort and help me with the ironing. 
+ 
+9 – “In the end or At the end”. Only one of the following phrases is correct: 
+A) At the end Lucy decided to marry him; 
+B) Put your signature at the end of the contract; 
+C) I was thinking about going to Italy but at the end I decided to go to Spain. 
+D) I would like to invite you to the museum. It is in the end of the street. 
+ 
+10 - Mark the alternative that best completes the sentence. 
+Would they mind ______ a little earlier? 
+A) Arrive 
+B) Them to 
+C) Arriving 
+D) Feel 
+5.	 Cao, Y. et al. Nature 556, 43–50 (2018).
+6.	 Hennighausen, Z. & Kar, S. Electron. Struct. 3, 014004 (2021).
+The author declares no competing interests.
+between the layers (Fig. 1). Future studies 
+should investigate stacked monocrystalline 
+layers, in which each sheet consists of a single 
+2D lattice. This would enable a better under­
+standing of the relationship between thermal 
+anisotropy and the angle of rotation. 
+Twisted bilayer graphene, which consists 
+of two stacked sheets of graphene twisted 
+out of lattice alignment, becomes a super­
+conductor5 at the ‘magic’ twist angle of 1.1o. 
+Perhaps, in future, an analogous magic angle 
+could be discovered for heat conduction, pro­
+ducing twisted layered systems that behave 
+as superb thermal insulators or periodic 
+heat-flux modulators (systems in which the 
+anisotropic thermal conductivity alters in a 
+regular spatial pattern across the layers). If 
+so, Kim and colleagues’ findings could signify 
+the start of a new area of study, analogous to 
+twistronics (the study of how the angle of 
+rotation between layers of vertically stacked 
+2D structures triggers various electronic 
+phenomena6). 
+Another follow-up to Kim and colleagues’ 
+work could be to engineer twisted hetero­
+structures — stacks composed of combinations 
+of 2D materials. These could be used to inves­
+tigate the limits of the heat-transport direc­
+tionality that can be achieved by rotating 2D 
+layers. Because there are many combinations 
+of 2D materials that could be tested, it would 
+be helpful to establish a general approach for 
+predicting which twisted hetero­structures are 
+most likely to have the best thermal proper­
+ties, rather than relying on a trial-and-error 
+approach. Nevertheless, on the basis of the 
+current findings, it seems possible that systems 
+containing large crystalline mono­layers of 2D 
+materials, such as graphene and  hexagonal 
+boron nitride, could reach a thermal aniso­
+tropy factor of much greater than 1,000.
+Finally, Kim et al. demonstrated a potential 
+application of their anisotropic thermal con­
+ductors by coating nanoscale gold electrodes 
+with a film of the layered MoS2 material. The 
+authors observed that the coated electrodes 
+can carry a greater current without breaking 
+than can bare electrodes. They attribute this 
+effect to the remarkable ability of the MoS2 film 
+to dissipate heat — channelling it in only one 
+desired direction (that is, through the layers 
+of MoS2), and not to the surface of the coated 
+electrodes. If this idea can be implemented 
+in microchips, it could make a big difference 
+to the number of electronic components that 
+can be incorporated into future devices, such 
+as laptops.
+Mariusz Zdrojek is in the Faculty of 
+Physics, Warsaw University of Technology, 
+00-662 Warsaw, Poland.
+e-mail: mariusz.zdrojek@pw.edu.pl
+1.	 Kim, S. E. et al. Nature 597, 660–665 (2021).
+2.	 Ghosh, S. et al. Nature Mater. 9, 555–558 (2010).
+3.	 Minnich, A. J. Nanoscale Microscale Thermophys. Eng. 20, 
+1–21 (2016). 
+4.	 Jiang, P., Qian, X., Yang, R. & Lindsay, L. Phys. Rev. Mater. 
+2, 064005 (2018). 
+Species diversification results from the 
+balance between the formation of new 
+species (speciation) and the loss of existing 
+ones (extinction). The tremendous prolifer­
+ation of different life forms on Earth can be 
+attributed to both high rates of speciation 
+and low rates of extinction. Flowering plants 
+— a group called angiosperms — are one of the 
+most diverse groups of non-mobile organ­
+ism. There are approximately 352,000 plant 
+species nearly 90% of which depend, to var­
+ious extents, on insects and other animals 
+for pollin­ation and seed production1. These 
+animal pollinators have been key to the 
+unstoppable diversification of the angio­
+sperms, starting at least 120 million years 
+ago, with pollinators promoting speciation by 
+acting as potent selection agents for a pleth­
+ora of flower traits2,3. Pollinators also aid 
+species persistence by enabling pollen trans­
+fer between relatively distant individuals in 
+sparse plant populations4. Wei et al.5 report 
+on page 688 that, for plant species that flower 
+at the same time, pollinators mediate inter­
+actions that might facilitate species coexist­
+ence in diverse plant communities.
+Plant species that flower at the same time 
+can compete for flower visits by shared 
+pollinators, resulting in reduced pollination. 
+For example, flowers of one species might be 
+visited less frequently when more-attractive or 
+more-rewarding flowers are produced nearby 
+by other species. Alternatively, limited pollina­
+tor availability can result in an overall reduc­
+tion in flower visitation if flowers of different 
+species open simultaneously and are similarly 
+attractive or rewarding. By contrast, there are 
+situations in which one or more species might 
+benefit by overlapping their flowering time 
+with that of other species. This could be the 
+case when species producing flowers with 
+plentiful nectar attract pollinators that then 
+‘spill over’ their visits to neighbouring spe­
+cies that offer comparatively less pollen or 
+nectar, or when multiple species of flowering 
+plant clustered in the same patch attract more 
+pollinators just by flowering together, thereby 
+increasing flower visitation6,7. The phenom­
+enon of certain plant species positively 
+affecting the pollination of other plant spe­
+cies, termed pollinator-mediated facilitation, 
+seems to be more common than was 
+previously thought6,8,9.  
+Pollinator-mediated facilitation can pro­
+mote species coexistence in diverse com­
+munities, particularly if rare plant species 
+benefit from pollinators being attracted by 
+common ‘co-flowering’ plants6,10 that act 
+as pollinator ‘magnets’. However, although 
+rare species might profit from such an effect, 
+there are still lingering costs associated with 
+pollinator sharing that might outweigh the 
+benefits. First, the transfer of pollen between 
+plants of a given species might be reduced 
+through pollen losses during intervening vis­
+its to flowers of other species, which would 
+result in reduced pollination success. Second, 
+pollen-receiving flower structures called stig­
+mas might become clogged with pollen from 
+other species, hampering the performance of a 
+species’ own pollen11. Such costs are projected 
+to be high for rare species because shared 
+pollinators are expected to visit more flowers 
+of abundant species than of rare ones during 
+single foraging bouts. However, these costs 
+are reduced if rare plant species specialize in 
+a particular pollinator or pollinator group, by 
+increasing the shape match (morphological 
+fit) between flowers and pollinators, which can 
+improve the effectiveness of pollen transfer7.
+Wei and colleagues explored the benefits 
+and costs of pollinator-mediated inter­actions 
+in relation to plant abundance through plant–
+pollinator interactions (which pollinator spe­
+cies visit the flowers of which plant species), 
+flower shape and quantitative patterns of pol­
+len transfer within and between plant species. 
+The authors studied pollination during the 
+Ecology
+Pollination advantage 
+of rare plants unveiled
+Marcelo A. Aizen
+An analysis of plant–pollinator interactions reveals that the 
+presence of abundant plant species favours the pollination of 
+rare species. Such asymmetric facilitation might promote the 
+coexistence of species in diverse plant communities. See p.688
+638  |  Nature  |  Vol 597  |  30 September 2021
+News & views
+©
+ 2
+0
+2
+1
+ S
+p
+r
+i
+n
+g
+e
+r
+ N
+a
+t
+u
+r
+e
+ L
+i
+m
+i
+t
+e
+d
+.
+ A
+l
+l
+ r
+i
+g
+h
+t
+s
+ r
+e
+s
+e
+r
+v
+e
+d
+.
+peak flowering seasons of 2016 and 2017 at 
+sites called serpentine seeps in California’s 
+grassland and scrub habitats, which are a 
+hotspot of global biodiversity. The plant com­
+munity investigated included 79 plant spe­
+cies whose flowers were visited by more than 
+400 pollinator species, including myriad bee 
+and fly species, several beetle, butterfly, moth, 
+wasp and ant species, and one hummingbird 
+species. Analysis of the authors’ unique data 
+set revealed that, although the stigmas of rare 
+plant species tend to receive slightly more for­
+eign pollen than do the stigmas of abundant 
+species, the rare species receive more pollen 
+from flowers of their own species than abun­
+dant species receive from their own species. 
+Despite acting as pollinator magnets, 
+abundant plant species seem to be penalized 
+by losing more of their own pollen than do 
+rare plants when pollinators visit flowers of 
+other species. As the authors expected, the 
+observed higher pollination efficiency of 
+rare over abundant species was associated 
+with more-complex flower morphologies and 
+more-specialized (species-specific) plant−
+pollinator interactions (Fig. 1). Importantly, 
+the authors discarded an alternative hypoth­
+esis that this more-efficient pollination might 
+be explained by a mechanism ensuring repro­
+duction that involves the autonomous transfer 
+of self-pollen and self-fertilization of flowers. 
+The authors’ findings support the existence 
+of a pollinator-mediated mechanism that dif­
+ferentially enhances the pollination of rare 
+species in diverse plant communities. This 
+type of asymmetric facilitation has also been 
+reported in a study conducted in a diverse 
+grassland community in Brazil10. However, Wei 
+and colleagues’ study goes deeper. It reaches 
+a mechanistic understanding that addresses 
+not only the pollination benefits but also the 
+costs of pollinator sharing in terms of the 
+loss of a species’ own pollen and receipt of 
+foreign pollen. Furthermore, it assesses how 
+pollinator specialization associated with dis­
+tinctive flower shapes could alleviate these 
+costs. The authors’ results were achieved by 
+creatively linking data provided by tracking 
+the network of plant–pollinator inter­actions 
+and the network of pollen transfer.
+Although Wei and colleagues’ study offers 
+much both to praise and to learn from, the 
+inference that pollinator-mediated facilita­
+tion is a process that favours the coexistence 
+of plant species should be considered only as 
+an intriguing proposal. This is because it is not 
+known whether the pollination benefits for 
+rare plants in the community studied result in 
+an increase in seed production. As the authors 
+recognize, other factors, such as available 
+resources (light, water, nitrogen and phos­
+phorus, among others) and the number of 
+ovules to be fertilized, might be more relevant 
+than pollination as factors that limit the num­
+ber of seeds produced5. Furthermore, even 
+if increasing pollinator attraction in diverse 
+communities increases seed production by 
+rare plants, the question remains whether 
+such a reproductive boost would enhance 
+population growth. For many plant species, 
+seed production above a certain level will 
+have little or no effect on population growth, 
+because either seedling establishment or the 
+survival of already-established plants can be 
+more-constraining factors12.
+Despite these limitations, Wei and col­
+leagues’ study has broad implications for our 
+understanding of some consequences of the 
+ongoing global decline in pollinators13. Seed 
+production is often chronically limited by 
+pollinator availability14, so dwindling polli­
+nator populations will further imperil plant 
+reproduction, undoubtedly becoming a short- 
+or long-term limiting factor in population 
+survival. On the basis of Wei and colleagues’ 
+work, we can predict that the local or regional 
+decline in specialized pollinators, which are 
+probably more susceptible to extinction, will 
+impair the reproduction of rare plant species 
+more than it will that of abundant ones. On a 
+more positive note, this study has implications 
+for the restoration of native plant communi­
+ties, because it indicates that the propaga­
+tion of common plants could help to rescue 
+endangered plant species while also increasing 
+pollinator diversity. More generally, asym­
+metric facilitation provides an over­arching 
+conceptual framework with which to develop 
+management guidelines for the preservation 
+of biodiversity.
+Marcelo A. Aizen is at the Research Institute 
+for Biodiversity and the Environment 
+(INIBIOMA), National University of Comahue 
+– CONICET, 8400 San Carlos de Bariloche, 
+Río Negro, Argentina, and at the Institute for 
+Advanced Study, Berlin, Germany. 
+e-mail: maizen@comahue-conicet.gob.ar 
+1.	 Ollerton, J., Winfree, R. & Tarrant, S. Oikos 120, 321–326 
+(2011). 
+2.	 Hernández-Hernández, T. & Wiens, J. J. Am. Nat. 195, 
+948–963 (2020). 
+3.	 van der Niet, T. & Johnson, S. D. Trends Ecol. Evol. 27, 
+353–361 (2012). 
+4.	 Bawa, K. S. Trends Ecol. Evol. 10, 311–312 (1995). 
+5.	 Wei, N. et al. Nature 597, 688–692 (2021).
+6.	 Hegland, S. J., Grytnes, J.-A. & Totland, Ø. Ecol. Res. 24, 
+929–936 (2009). 
+7.	 Sargent, R. D. & Ackerly, D. D. Trends Ecol. Evol. 23, 
+123–130 (2008). 
+8.	 Ghazoul, J. J. Ecol. 94, 295–304 (2006). 
+9.	 Tur, C., Sáez, A., Traveset, A. & Aizen, M. A. Ecol. Lett. 19, 
+576–586 (2016). 
+10.	 Bergamo, P. J., Streher, N. S., Traveset, A., Wolowski, M. & 
+Sazima, M. Ecol. Lett. 23, 129–139 (2020). 
+11.	 Morales, C. L. & Traveset, A. Crit. Rev. Plant Sci. 27, 
+221–238 (2008). 
+12.	 Silvertown, J., Franco, M., Pisanty, I. & Mendoza, A. J. Ecol. 
+81, 465–476 (1993). 
+13.	 IPBES. The Assessment Report on Pollinators, Pollination 
+and Food Production of the Intergovernmental Science-
+Policy Platform on Biodiversity and Ecosystem Services 
+(IPBES, 2016). 
+14.	Knight, T. M. et al. Annu. Rev. Ecol. Syst. 36, 467–497 (2005). 
+The author declares no competing interests.
+This article was published online on 8 September 2021.
+Figure 1 | Pollination and species coexistence. a, Wei et al.5 assessed pollination at grassland sites 
+in California, tracking flower visits by a range of types of pollinator, including bees, butterflies and 
+hummingbirds. Abundant species can act as ‘magnets’ for a high diversity of pollinators, and this can result in 
+‘spillover’, when pollinators visit flowers of other, neighbouring plant species. The flowers of rare neighbouring 
+species typically have specialized shapes that are tailored to match the pollen-bearing structures of certain 
+visitors, such as the beaks of hummingbirds. b, The authors assessed pollen deposited on the stigmas of 
+flowers. This revealed that rare plant species are more successful in achieving pollinator-mediated transfer of 
+pollen between flowers of their own species than are abundant plant species, which pay a larger cost in terms 
+of pollen loss when their pollinators visit flowers of other species. As a consequence, rare plant species benefit 
+more from the presence of the abundant species than abundant species gain from the presence of rare species.
+Hummingbird
+Butterfly
+Bumblebee
+Honeybee
+Abundant plant
+species
+Rare plant
+species
+Pollinator–plant
+interactions assessed
+Analysis of pollen
+deposition
+More-eﬀicient pollination
+of rare species
+a
+b
+Pollen of
+rare species
+Pollen of
+abundant
+species
+Stigma of 
+abundant species
+Stigma of 
+rare species
+Nature  |  Vol 597  |  30 September 2021  |  639
+©
+ 2
+0
+2
+1
+ S
+p
+r
+i
+n
+g
+e
+r
+ N
+a
+t
+u
+r
+e
+ L
+i
+m
+i
+t
+e
+d
+.
+ A
+l
+l
+ r
+i
+g
+h
+t
+s
+ r
+e
+s
+e
+r
+v
+e
+d
+.

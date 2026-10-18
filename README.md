@@ -1,6 +1,10 @@
-# Preparação — Prova de Seleção PG-EIA / ITA (Matemática)
+# Preparação — Prova de Seleção PG-EIA / ITA
 
-Material de estudo para a **prova de seleção do Mestrado em Engenharia de Infraestrutura Aeronáutica (PG-EIA) do ITA**, calibrado nas **6 provas reais de 2021 a 2026** (1º semestre).
+Material de estudo para a **prova de seleção do Mestrado em Engenharia de Infraestrutura Aeronáutica (PG-EIA) do ITA**, calibrado nas **provas reais de 2021 a 2026** (1º e 2º semestres).
+
+O processo tem **duas provas escritas eliminatórias** (mestrado/PMG):
+- 🧮 **Matemática** — organizada por tema abaixo (pasta `temas/`)
+- 🇬🇧 **Inglês** — material completo na pasta **[`ingles/`](ingles/)**
 
 > Organizado por tema, com teoria de revisão, conceitos/teoremas essenciais, resoluções comentadas das questões reais e exercícios de treino.
 

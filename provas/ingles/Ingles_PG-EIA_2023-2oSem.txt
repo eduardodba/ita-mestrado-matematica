@@ -1,0 +1,548 @@
+ 
+English Test for Master and PMG Candidates – 2023.2 
+ 
+Part 1 - Questions 1 to 4 
+ 
+Question 1 - Which phrase uses ‘neither’ correctly? 
+A) Neither wallet are mine. 
+B) Neither of these wallets aren’t mine. 
+C) Neither of these wallets is mine. 
+D) There is no correct answer. 
+ 
+Question 2 - “In 1982, I started studying Portuguese. In 1984, I visited Brazil for the first time.” 
+Which sentence correctly describes these events? 
+A) I have been studying Portuguese for two years before I first visited Brazil. 
+B) Before I first visited Brazil, I have been studying Portuguese for two years. 
+C) I had been studying Portuguese for two years before I first visited Brazil. 
+D) Both B and C are correct. 
+ 
+Question 3 - Fill the gaps with the correct choice: 
+The prime minister _______ his resignation tomorrow. 
+A) is expected to have announced 
+B) is expected that he will 
+C) is expected to will announce 
+D) is expected to announce 
+ 
+Question 4 - Fill the gaps with the correct choice: 
+Hundreds of people _______ killed in the earthquake. 
+A) are reported that they were 
+B) are reported to have been 
+C) are reported that they are 
+D) are reported to be 
+ 
+Part 2 - Read the article “US aims for electric-car revolution — will it work?” and answer 
+the questions 5 to 7: 
+ 
+Question 5 - Mark the correct sentence according to the provided text. 
+A) The US government is going to reduce greenhouse-gas emissions by 67% in the next 
+decade or so. 
+B) The US history of innovation in industry will suffice for an electric vehicle revolution. 
+C) Dependence on foreign technology is not of concern for the US regarding electric 
+vehicles. 
+D) Charging infrastructure will be needed to attend the demand of growing electric 
+vehicles fleets. 
+ 
+Question 6 - According to the provided text, what can be said about electric vehicles? 
+A) Electric vehicles use batteries that need special materials which the US government 
+prefers to buy from countries under specific agreements. 
+B) Electric vehicles can be used to reduce greenhouse-gas emissions, and this is the 
+reason why the US government wants to only allow sales of electric vehicles in the future. 
+C) Electric vehicles use batteries with special materials that must be recycled to not harm 
+the environment. 
+D) None of the above sentences. 
+ 
+Question 7 - Mark the incorrect sentence according to the provided text. 
+A) In the US, pollution regulations can be legally questioned at courts. 
+B) Modern electric vehicles’ batteries need specific raw materials that need to be imported 
+into the US. 
+C) The EPA has proposed a new set of pollution regulations that is based on technological 
+change that disfavours electric vehicles. 
+D) Sales of electric passenger vehicles in the US are expected to rise in the near future, 
+even without new emissions regulations. 
+ 
+Part 3 - Read the article “5G enables automated control of train traffic”, and answer the 
+questions 8 to 10: 
+ 
+Question 8 - Mark the correct sentence according to the provided text. 
+A) With recent advances, safety key tasks in railway networks are based on 5G mobile 
+networks in Europe. 
+B) 5G mobile networks have potential at developing autonomous driving in very specific 
+controlled environments. 
+C) From the trials of Corujo et al., it is possible to conclude that low data package loss 
+was important for successful traffic control tests. 
+D) The results from Corujo et al. showed that the solutions tested in a controlled 
+environment can be promptly implemented in railway networks. 
+ 
+Question 9 - Mark the correct sentence according to the provided text. 
+A) The results of Curujo et al. do not provide valuable information for research on 
+autonomous driving of aeroplanes and ships. 
+B) Coverage of 5G networks is not of concern for railway traffic applications in Europe. 
+C) Nowadays in Europe, the automation of railway level crossings often rely on sensors 
+connected by cables. 
+D) In order to set up 5G 'living labs', the European Commission has made investments 
+in several cities like Aveiro in Portugal. 
+ 
+Question 10 - The conclusion of the paper is that the railway operation can be promptly 
+automated with a 5G network? 
+A) in a controlled environment 
+B) in all environments 
+C) just in the laboratory 
+D) only a) and c) 
+ 
+US aims for electric-car  
+revolution — will it work?
+and other regions will rise, so it will be 
+important for the United States to strengthen 
+its international partnerships.
+What impact would the rules have on 
+climate change?
+The EPA’s initial estimate is that the rules 
+would reduce carbon emissions by around 
+ten billion tonnes over three decades. That 
+is more than double the United States’ 
+emissions last year, or more than one-quarter 
+of the global total. “The administration is 
+going to make history if indeed, at the end of 
+the day, they finalized these new standards,” 
+says Oge. “I’m really hopeful.”
+Could the courts challenge the rules?
+US courts have overturned environmental 
+rules in the past. One thing in favour of 
+the latest EPA proposal is that it follows 
+procedures that the agency has long used 
+to control pollutants. Rather than dictating 
+technological change, the agency is setting 
+pollution limits for car manufacturers. Those 
+limits can be met with existing technologies, 
+and it’s up to the automobile industry to 
+decide how to comply, says Chester France, 
+a former EPA official who is now a consultant 
+for the Environmental Defense Fund, an 
+advocacy group based in New York City. “I 
+would fully expect those standards to be 
+legally durable.”
+By Jeff Tollefson
+Even without the EPA’s rules, electric 
+vehicles could account for more than 50% 
+of new US passenger-vehicle sales by 2030, 
+according to a January study (see go.nature.
+com/3gjhj3b) by the International Council on 
+Clean Transportation, a non-profit research 
+group in Washington DC, and the consultancy 
+Energy Innovation Policy and Technology in 
+San Francisco, California. 
+What about securing raw materials?
+Lithium and cobalt are needed to manufacture 
+modern batteries, and the administration 
+of US President Joe Biden is encouraging 
+companies to purchase these and other 
+materials through countries that have free-
+trade agreements with the United States. 
+The administration is also encouraging 
+domestic manufacturing, to secure supply 
+chains and dial back dependence on China. 
+Some tax credits are available only if the 
+manufacturing of batteries and vehicles takes 
+place in the United States, or if key minerals 
+are sourced from free-trade partners such 
+as Chile, Australia, Canada or Mexico. But so 
+far, there are no obvious showstoppers when 
+it comes to supplies of crucial minerals for 
+electric-car batteries, according to the energy 
+consultancy BloombergNEF.
+“The investments are there, and these 
+nations can theoretically provide sufficient 
+supplies,” says Evelina Stoikou, an energy-
+storage analyst at BloombergNEF in New York 
+City. But she warns that demand from Europe 
+The Environmental Protection Agency has 
+released draft regulations that set the stage 
+for a huge transition to electric vehicles.
+The US Environmental Protection Agency 
+(EPA) has proposed a landmark set of 
+pollution regulations that could spark an 
+electric-vehicle revolution and drive down 
+greenhouse-gas emissions.
+Under the rules, electric vehicles could 
+account for an estimated 67% of new US 
+passenger-car sales by 2032 and additional 
+gains for larger vehicles — a major feat for a 
+country where transportation is the largest 
+source of greenhouse-gas emissions.
+“These actions will accelerate the ongoing 
+transition to a clean-vehicle future, tackle 
+the climate crisis and improve our air quality 
+for communities across the country,” EPA 
+administrator Michael Regan said during a 
+press conference.
+The rules, which are currently in draft 
+form pending public comments, apply to 
+automobiles sold between 2027 and 2032. 
+They would reduce average emissions from 
+new passenger vehicles by more than half 
+compared to the existing standard. But will 
+the proposal succeed and how might it 
+affect climate change?
+Can the United States make enough electric 
+vehicles in time?
+The country has one of the largest vehicle 
+fleets in the world, so one question is 
+whether it’s possible to scale up to so 
+many more electric vehicles in just a few 
+years. Challenges include the need to 
+roll out charging infrastructure, ramp up 
+manufacturing capacity for electric cars and 
+convince people to change their habits.
+However, the rules are arriving in 
+an economy that is already primed for 
+innovation and change, says Margo Oge, 
+who led the development of similar vehicle 
+regulations as head of the EPA’s Office of 
+Transportation and Air Quality under former 
+president Barack Obama.
+In particular, an infrastructure bill enacted 
+by Congress in 2021 and a massive spending 
+bill known as the Inflation Reduction Act, 
+passed in 2022, are funnelling federal money 
+into charging infrastructure and tax credits 
+for consumers and for automobile or battery 
+manufacturers that upgrade or build new 
+facilities.
+DOMINICK SOKOTOFF/ZUMA/ALAMY
+Electric cars could account for more than half of new US passenger-vehicle sales in ten years.
+424  |  Nature  |  Vol 616  |  20 April 2023
+News in focus
+News 
+explainer
+©
+ 2
+0
+2
+3
+ S
+p
+r
+i
+n
+g
+e
+r
+ N
+a
+t
+u
+r
+e
+ L
+i
+m
+i
+t
+e
+d
+.
+ A
+l
+l
+ r
+i
+g
+h
+t
+s
+ r
+e
+s
+e
+r
+v
+e
+d
+.
+The ability to drive a car can be useful when 
+travelling abroad, but it doesn’t necessarily 
+equip a driver with the knowledge required to 
+navigate foreign roads and follow regulations. 
+Autonomous vehicles suffer no such culture 
+shock, and could make it easier to get around 
+in a foreign country. The fifth generation of 
+mobile networks (5G) provides the sort of 
+connectivity and flexibility needed for safe 
+autonomous driving. Writing in IEEE Access, 
+Corujo et al.1 put 5G to the test of managing 
+the control signals used in railway operations 
+— a step towards 5G-run automation in the 
+broader transport sector. 
+Connected automated transport is a 
+focus of European research investment, 
+as is the role that 5G will have in realizing it 
+(see go.nature.com/3hvnnnp). 5G networks 
+hold promise because they can be tailored to 
+provide specialized services for a given infra-
+structure. This is known as network slicing2, 
+and widespread use of this technique was not 
+possible with previous generations of mobile 
+networks. The 5G infrastructure is multi­
+plexed, which means that each network ‘slice’ 
+constitutes a potentially isolated network 
+that can be customized for a particular task. 
+Because of this, 5G can adjust its performance 
+dynamically, depending on the application: 
+for example, one task might need high band-
+width, rather than fast data transfer. 
+Researchers have started to test the capa-
+bilities of 5G for autonomous transportation 
+— not only in terms of cars on roads3, but also 
+of public-transport vehicles, such as trains. 
+As part of this initiative, the European Com-
+mission has established several cities as ‘liv-
+ing labs’, in which it has set up 5G networks 
+in strategic areas, such as harbours. One 
+such project is based in Aveiro, Portugal (see 
+go.nature.com/41hjk), where Corujo et al. 
+conducted their investigation of how 5G could 
+be used to automate the operation of railway 
+networks. The team examined two specific use 
+cases: controlling the barriers at railway level 
+crossings, and providing drivers (either human 
+or algorithmic) with crucial safety informa-
+tion from the crossing as a train approaches 
+it (Fig. 1).
+In the first case, the authors used the 5G net-
+work to detect incoming trains automatically 
+and to lower barriers to stop road traffic and 
+pedestrians, with timing aligned with global 
+regulations. The test was done on a railway 
+track in Aveiro that is used infrequently and 
+only by heavy freight trains. Corujo et al. 
+placed sensors on the track a few kilometres 
+from a level crossing. When these sensors 
+detected an incoming train, the information 
+was transmitted to a level-crossing controller 
+that lowered the barriers to separate the road 
+from the tracks. 
+The crucial safety decisions involved in this 
+process required the reliable, fast communi-
+cation provided by 5G. Conventional level 
+crossings are controlled and monitored by 
+various means, including manually by station 
+staff, and automatically through sensors that 
+are connected to the level-crossing control-
+ler by cable. Wireless connections, such as 5G, 
+offer fast and reliable connectivity without 
+the maintenance required for cable-based 
+signalling.
+The second test was designed to assess 
+whether transmission of live video footage 
+from the level crossing could improve conduc-
+tors’ decision-making as the train approached 
+the crossing. Using this information, a human 
+driver or an automated engine could assess the 
+state of the level crossing before reaching it, 
+and make a safe stop if necessary. Although 
+Engineering
+5G enables automated 
+control of train traffic
+Toktam Mahmoodi 
+Key tasks for ensuring railway safety have been performed 
+automatically using fifth-generation (5G) mobile networks. 
+The trial forms part of a Europe-wide scheme to test the 
+feasibility of automating transport. 
+Figure 1 | Testing automation of a railway level crossing using 5G networks. 
+Corujo et al.1 tested two ways of using fifth-generation (5G) mobile networks 
+to automate control of a level crossing on a train track in Aveiro, Portugal. In 
+the first test, the authors detected a train using track sensors located a few 
+kilometres from the level crossing, and transmitted the information (red 
+arrows) to a level-crossing controller that then lowered the barriers, preventing 
+road traffic from crossing the track. In the second test, live video footage 
+of a level crossing was transmitted (blue arrows) to the driver as the train 
+approached the crossing. The 5G network provided the speed and bandwidth 
+necessary for safe automation in preliminary tests conducted in a controlled 
+laboratory environment, and showed potential for similar success in the 
+real-world setting.
+Sensor
+5G network
+Instruction to
+lower barrier
+Live footage of
+level crossing
+Barrier
+Camera
+Few kilometres
+Nature  |   1
+News & views
+https://doi.org/10.1038/d41586-023-01401-6
+©
+ 2
+0
+2
+3
+ S
+p
+r
+i
+n
+g
+e
+r
+ N
+a
+t
+u
+r
+e
+ L
+i
+m
+i
+t
+e
+d
+.
+ A
+l
+l
+ r
+i
+g
+h
+t
+s
+ r
+e
+s
+e
+r
+v
+e
+d
+.
+this is not as time-sensitive as the first test, live 
+(and real-time) video transmission requires 
+substantial bandwidth, which is not provided 
+by the radio communication systems that are 
+currently used by railway operations.
+The authors used key metrics to establish 
+the success of each test. Their first use case 
+required low latency, which is the time it takes 
+for data to pass from one point on a network to 
+another; low jitter, which is the variation in the 
+amount of latency; and relatively low packet 
+loss, which is a measure of data loss during 
+transmission. The second use case needed 
+high bandwidth, low packet loss and relatively 
+low latency. Corujo et al. conducted both tests 
+first in a controlled laboratory environment, 
+and then in the Aveiro living lab, using two 5G 
+networks. The networks achieved the minimal 
+performance requirements for all four met-
+rics in the standard lab setting, but packet loss 
+was a problem at high transmission rates in 
+the living lab. One of the networks also failed 
+to achieve the required latency and jitter, but 
+the other succeeded.
+The test environment has a key role in 
+ensuring the success of such trials. Standard 
+labs offer controlled conditions that aid the 
+reproducibility of results, but these conditions 
+can be unrealistic and therefore ultimately 
+unhelpful. By contrast, on-site tests are more 
+informative, but can involve certain real-world 
+challenges. For example, when it comes to 
+wireless communication, coverage is always 
+a major obstacle, and test environments that 
+are not fully controlled must overcome this 
+problem. 
+Corujo et al. used existing technology to 
+improve the coverage by better distributing 
+the part of a mobile telecommunication sys-
+tem known as the radio access network. The 
+set-up that they used is typically referred to 
+as a cloud radio access network or a decom-
+posed radio access network. In this approach, 
+the processor undertaking heavy computation 
+is located centrally, close to the power supply, 
+and is separated from the radio transmission 
+unit, so that this unit can be placed close to the 
+user4. Aside from improving distribution, this 
+set-up has numerous advantages, including 
+low communication latency (through proxim-
+ity to the user) and improved coordination of 
+radio resources — all contributing to perfor-
+mance enhancements.   
+The authors’ results show that connected 
+railway operation can be automated with a 
+5G network in a controlled environment. The 
+tests performed in the Aveiro living lab were 
+not as successful as those in the standard lab, 
+but they still show 5G’s tremendous potential 
+for delivering automated railway services. 
+Corujo and colleagues’ experiments also pave 
+the way for exploration of how 5G could auto-
+mate other types of transport, including air or 
+sea transportation. These cases would require 
+greater network coverage and more diverse 
+radio technologies, as well as integration of 
+several wireless communication systems. 
+However, the approach adopted by Corujo 
+et al. could assist in these endeavours. 
+Toktam Mahmoodi is at the Centre for 
+Telecommunications Research, King’s College 
+London, London WC2R 2LS, UK.
+e-mail: toktam.mahmoodi@kcl.ac.uk
+1.	 Corujo, D. et al. IEEE Access 11, 15348–15363 (2023).
+2.	 GSM Association. An Introduction to Network Slicing 
+(GSMA, 2017).
+3.	 Fallgren, M. et al. IEEE Vehicular Technol. Mag. 13, 28–38 
+(2018). 
+4.	 Smith, P. et al. NGMN Overview on 5G RAN Functional 
+Decomposition (ed. MacKenzie, R.) (NGMN Alliance, 
+2018).
+The author declares no competing interests.
+2  |  Nature
+News & views
+©
+ 2
+0
+2
+3
+ S
+p
+r
+i
+n
+g
+e
+r
+ N
+a
+t
+u
+r
+e
+ L
+i
+m
+i
+t
+e
+d
+.
+ A
+l
+l
+ r
+i
+g
+h
+t
+s
+ r
+e
+s
+e
+r
+v
+e
+d
+.
