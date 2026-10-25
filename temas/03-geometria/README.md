@@ -54,6 +54,10 @@ triângulos (pontos notáveis), sólidos de revolução.
 
 ## 2. Resoluções comentadas (questões reais do ITA)
 
+> 📐 **Quer a resolução detalhada, linha por linha, de cada questão?** Veja
+> **[RESOLUCOES-PASSO-A-PASSO.md](RESOLUCOES-PASSO-A-PASSO.md)** — com ideia-chave, desenvolvimento
+> completo e conclusão de todas as questões de geometria das provas. Abaixo ficam as versões resumidas.
+
 ### 📌 2026 — Q3: Quadrante e semicírculo tangente
 *"AOB is a quadrant; semicircle CD is tangent to OA and OB. Ratio of areas."* Gabarito: **(b) 3:2**... (verifique).
 

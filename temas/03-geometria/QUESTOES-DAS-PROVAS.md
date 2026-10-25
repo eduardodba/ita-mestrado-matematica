@@ -1,7 +1,9 @@
 # Questões reais das provas — Geometria Plana e Espacial
 
 Questões extraídas das provas PG-EIA/ITA (2021–2026), enunciado original (inglês).
-Resoluções comentadas no `README.md` deste tema.
+
+> 📐 **Resolução PASSO A PASSO, completa e detalhada, de cada questão abaixo em
+> [RESOLUCOES-PASSO-A-PASSO.md](RESOLUCOES-PASSO-A-PASSO.md).** O `README.md` traz as resoluções resumidas.
 
 ---
 
