@@ -9,18 +9,26 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 **O que pede:** calcular `4(1+√3) − 6(1+√3)² + 4(1+√3)³ − (1+√3)⁴`.
 
-**Ideia-chave — Reconhecer o binômio:** os coeficientes `4, −6, 4, −1` (com sinais) são parte da
-expansão de `(a−1)⁴ = a⁴ − 4a³ + 6a² − 4a + 1`.
+**Ideia-chave — Não expanda na força bruta!** Calcular `(1+√3)⁴` termo a termo é trabalhoso e fácil de
+errar. Em vez disso, note que os números `4, 6, 4, 1` que multiplicam as potências são os **coeficientes
+do binômio** (o "triângulo de Pascal" da 4ª linha: `1, 4, 6, 4, 1`). Isso sugere reconstruir um
+`(a − 1)⁴` escondido.
+
+**Lembrete do binômio:** `(a − 1)⁴ = a⁴ − 4a³ + 6a² − 4a + 1`.
 
 **Desenvolvimento:**
-1. Seja `a = 1+√3`. A expressão é `4a − 6a² + 4a³ − a⁴`.
-2. Observe que `−(a⁴ − 4a³ + 6a² − 4a) = −[(a−1)⁴ − 1] = 1 − (a−1)⁴`
-   (pois `(a−1)⁴ = a⁴−4a³+6a²−4a+1`, então `a⁴−4a³+6a²−4a = (a−1)⁴ − 1`).
-3. Com `a − 1 = √3`: `(a−1)⁴ = (√3)⁴ = 9`.
-4. Valor `= 1 − 9 = −8`.
+1. Chame `a = 1 + √3` (para não carregar a raiz o tempo todo). A expressão vira:
+   `4a − 6a² + 4a³ − a⁴`.
+2. Reorganize em ordem decrescente de potência e ponha o sinal de menos em evidência:
+   `4a − 6a² + 4a³ − a⁴ = −(a⁴ − 4a³ + 6a² − 4a)`.
+3. Compare o que está dentro do parêntese com o binômio: `(a−1)⁴ = a⁴ − 4a³ + 6a² − 4a + 1`. A diferença
+   é só o `+1` no fim. Logo `a⁴ − 4a³ + 6a² − 4a = (a−1)⁴ − 1`.
+4. Substituindo no passo 2: `−[(a−1)⁴ − 1] = 1 − (a−1)⁴`.
+5. Agora o pulo do gato: `a − 1 = (1 + √3) − 1 = √3`. Então `(a−1)⁴ = (√3)⁴ = (√3)²·(√3)² = 3·3 = 9`.
+6. Valor final: `1 − 9 = −8`.
 
 **Conclusão:** `−8` → **alternativa (d)**.
-(Chave: coeficientes `1,4,6,4,1` ⇒ reconhecer `(a−1)⁴`.)
+(Chave: ver `1,4,6,4,1` e pensar em `(a−1)⁴`; a substituição `a = 1+√3` faz `a−1 = √3`, limpando a conta.)
 
 ---
 

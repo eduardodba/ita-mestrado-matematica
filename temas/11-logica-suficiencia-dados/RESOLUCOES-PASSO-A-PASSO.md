@@ -26,19 +26,28 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 ## 2021/1 — Q7: Suficiência — "r > 0?" (I. rt=18, II. r+t=11) → (c)
 
-**O que pede:** decidir se `r > 0`.
+**O que pede:** este é o formato "suficiência de dados". A pergunta é **sim/não**: "`r > 0`?". NÃO
+precisamos achar o valor de `r` — só decidir se as informações permitem **responder com certeza** se `r`
+é positivo. O truque é testar as afirmações isoladas e depois juntas.
 
-**Ideia-chave — Analisar I e II isoladas, depois juntas.**
+**Método (vale para toda questão de suficiência):**
+> (1) a afirmação I **sozinha** permite responder? → (2) a afirmação II **sozinha** permite? →
+> (3) se nenhuma sozinha, as **duas juntas** permitem? → cruze com as 5 alternativas padrão.
 
 **Desenvolvimento:**
-1. **I só** (`rt=18`): produto positivo ⇒ `r,t` de mesmo sinal, mas podem ser ambos positivos ou ambos
-   negativos ⇒ não decide o sinal de `r`. **Insuficiente.**
-2. **II só** (`r+t=11`): não fixa `r` (ex.: 10 e 1, ou −5 e 16) ⇒ **insuficiente.**
-3. **Juntas:** `r,t` são raízes de `x² − 11x + 18 = 0 → (x−2)(x−9)=0 → {2,9}`, ambos positivos ⇒ `r>0`
-   com certeza. **Suficientes juntas.**
+1. **Só a afirmação I** (`r·t = 18`): o produto é positivo, então `r` e `t` têm o **mesmo sinal** — mas
+   podem ser **ambos positivos** (ex.: `r=2, t=9`) ou **ambos negativos** (ex.: `r=−2, t=−9`, pois
+   `(−2)(−9)=18`). No 1º caso `r>0`, no 2º `r<0`. Como dá para responder "sim" **ou** "não", **I sozinha
+   não decide** → insuficiente.
+2. **Só a afirmação II** (`r + t = 11`): não fixa `r`. Ex.: `r=10, t=1` (`r>0`) ou `r=−5, t=16` (`r<0`).
+   De novo dá os dois sinais → **II sozinha não decide** → insuficiente.
+3. **As duas juntas** (`r·t = 18` E `r + t = 11`): números com soma `11` e produto `18` são exatamente as
+   raízes de `x² − 11x + 18 = 0`. Fatorando: `(x − 2)(x − 9) = 0` → `{r, t} = {2, 9}`. **Ambos positivos!**
+   Então, com as duas, temos certeza de que `r > 0` → **juntas são suficientes**.
 
-**Conclusão:** as duas juntas bastam, nenhuma sozinha → **alternativa (c)**.
-(Chave: soma e produto ⇒ raízes de 2º grau.)
+**Conclusão:** nenhuma sozinha basta, mas as duas juntas sim → **alternativa (c)**.
+(Chave: em "soma e produto", os dois números são raízes de `x² − (soma)x + (produto) = 0`; e, em
+suficiência, basta decidir se dá para responder — não calcular o valor.)
 
 ---
 

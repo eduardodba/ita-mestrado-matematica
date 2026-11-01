@@ -9,18 +9,30 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 **O que pede:** somar a série infinita.
 
-**Ideia-chave — PG de razão complexa:** identifique a razão `q`; se `|q|<1`, `S = a₁/(1−q)`.
+**Ideia-chave — É uma PG (progressão geométrica), só que a razão é um número complexo.** A fórmula da
+soma infinita `S = a₁/(1 − q)` vale igualzinho para razão complexa, desde que `|q| < 1` (módulo menor
+que 1, para a série convergir).
 
 **Desenvolvimento:**
-1. Termos: `1, i/2, −1/4, −i/8, 1/16, ...`. A razão entre termos consecutivos é `q = i/2`
-   (confira: `1·(i/2) = i/2`; `(i/2)·(i/2) = i²/4 = −1/4`; etc.) ✔.
-2. `|q| = 1/2 < 1` ⇒ converge.
-3. `S = a₁/(1−q) = 1/(1 − i/2) = 1/((2−i)/2) = 2/(2−i)`.
-4. Racionalize multiplicando pelo conjugado: `2(2+i)/((2−i)(2+i)) = (4+2i)/(4+1) = (4+2i)/5`.
-5. `S = 4/5 + (2/5)i`.
+1. **Descobrir a razão `q`** (cada termo dividido pelo anterior deve dar o mesmo valor):
+   - termos: `1, (1/2)i, −1/4, −(1/8)i, 1/16, ...`
+   - `(1/2)i ÷ 1 = i/2`. Confirme no próximo: `(i/2)·(i/2) = i²/4 = −1/4` ✔ (bate com o 3º termo);
+     `(−1/4)·(i/2) = −i/8` ✔. Então a razão é `q = i/2`.
+2. **Checar convergência:** `|q| = |i/2| = 1/2 < 1` ✔ → a série converge e podemos usar a fórmula.
+3. **Aplicar a fórmula** com `a₁ = 1`:
+   `S = a₁/(1 − q) = 1/(1 − i/2)`.
+   Primeiro junte o denominador: `1 − i/2 = (2 − i)/2`. Dividir por uma fração é multiplicar pelo inverso:
+   `S = 1 ÷ (2−i)/2 = 2/(2 − i)`.
+4. **Racionalizar** (tirar o `i` do denominador): multiplique em cima e embaixo pelo **conjugado** do
+   denominador. O conjugado de `2 − i` é `2 + i`.
+   - Embaixo: `(2 − i)(2 + i) = 2² − i² = 4 − (−1) = 5` (usa o produto `(a−b)(a+b) = a² − b²`, e `i² = −1`).
+   - Em cima: `2·(2 + i) = 4 + 2i`.
+   - Logo `S = (4 + 2i)/5`.
+5. Separe parte real e imaginária: `S = 4/5 + (2/5)i`.
 
-**Conclusão:** `4/5 + 2/5 i` → **alternativa (b)**.
-(Chave: razão complexa + `S=a₁/(1−q)` + conjugado.)
+**Conclusão:** `S = 4/5 + 2/5 i` → **alternativa (b)**.
+(Chave: reconhecer a PG de razão complexa `q = i/2`; aplicar `S = a₁/(1−q)`; **racionalizar** pelo
+conjugado — lembrando que `(2−i)(2+i) = 4 + 1 = 5`.)
 
 ---
 

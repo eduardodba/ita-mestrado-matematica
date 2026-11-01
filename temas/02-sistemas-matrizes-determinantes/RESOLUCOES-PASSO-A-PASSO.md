@@ -216,16 +216,23 @@ Depende do determinante dos coeficientes.
 
 **O que pede:** quantas soluções reais o sistema tem.
 
-**Ideia-chave — Fatoração da soma de cubos:** `x³+y³ = (x+y)(x²−xy+y²)`.
+**Ideia-chave — Não tente resolver o sistema "no braço".** As duas equações são não lineares, mas há uma
+fatoração que conecta as duas: a **soma de cubos** `x³ + y³ = (x + y)(x² − xy + y²)`. E repare que o
+segundo fator, `x² − xy + y²`, é **exatamente** o lado esquerdo da 1ª equação (= 7). Isso destrava tudo.
 
 **Desenvolvimento:**
-1. `x³+y³ = (x+y)(x²−xy+y²) = (x+y)·7 = 35 → x+y = 5`.
-2. Com `x+y=5` e `x²−xy+y²=7`. Note `x²−xy+y² = (x+y)² − 3xy = 25 − 3xy = 7 → xy = 6`.
-3. `x+y=5, xy=6` ⇒ `x,y` são raízes de `t²−5t+6=0 → t=2, t=3`.
-4. Soluções: `(2,3)` e `(3,2)` → **2** soluções reais.
+1. Pela soma de cubos: `x³ + y³ = (x + y)·(x² − xy + y²)`. Como `x² − xy + y² = 7` (1ª equação) e
+   `x³ + y³ = 35` (2ª), substituindo: `35 = (x + y)·7 → x + y = 5`.
+2. Agora temos duas informações **simétricas**: `x + y = 5` e `x² − xy + y² = 7`. Transforme a segunda
+   usando a identidade `x² + y² = (x+y)² − 2xy`:
+   `x² − xy + y² = (x² + y²) − xy = [(x+y)² − 2xy] − xy = (x+y)² − 3xy`.
+   Então `(x+y)² − 3xy = 7 → 5² − 3xy = 7 → 25 − 3xy = 7 → 3xy = 18 → xy = 6`.
+3. Agora sabemos `soma = x + y = 5` e `produto = xy = 6`. Logo `x` e `y` são as duas raízes de
+   `t² − (soma)t + produto = 0 → t² − 5t + 6 = 0 → (t−2)(t−3) = 0 → t = 2` ou `t = 3`.
+4. Os pares (reais) que satisfazem: `(x, y) = (2, 3)` e `(x, y) = (3, 2)` → **2 soluções reais**.
 
 **Conclusão:** `2` soluções reais → **alternativa (c)**.
-(Chave: soma de cubos + identidade `(x+y)²−3xy`.)
+(Chave: `x³+y³ = (x+y)(x²−xy+y²)` liga as duas equações; depois `soma` e `produto` ⇒ equação do 2º grau.)
 
 ---
 

@@ -74,15 +74,27 @@ Ver também `../04-funcoes-log-exp/RESOLUCOES-PASSO-A-PASSO.md` (2025/1-Q5).
 
 **O que pede:** calcular a integral definida.
 
-**Ideia-chave — Substituição `u = sin²x`:** então `du = 2 sin x cos x dx`.
+**Ideia-chave — Substituição (mudança de variável).** Quando a integral tem uma função "e a derivada dela
+por perto", trocamos de variável para simplificar. Aqui, dentro do `e^{...}` está `sin²x`, e repare que
+`sin x cos x` (que aparece multiplicando) é essencialmente a derivada de `sin²x`. Então vale a pena
+chamar `u = sin²x`.
 
 **Desenvolvimento:**
-1. `u = sin²x → du = 2 sin x cos x dx → sin x cos x dx = du/2`.
-2. Limites: `x=0 → u=0`; `x=π/2 → u=1`.
-3. Integral: `∫₀¹ e^u · (du/2) = (1/2)∫₀¹ e^u du = (1/2)[e^u]₀¹ = (1/2)(e − 1)`.
+1. **Escolher `u` e achar `du`:** seja `u = sin²x`. Derivando (regra da cadeia: derivada de `(sin x)²` é
+   `2 sin x · cos x`): `du = 2 sin x cos x dx`. Isolando o pedaço que aparece na integral:
+   `sin x cos x dx = du/2`.
+2. **Trocar os limites de integração** (como mudamos de `x` para `u`, os limites também mudam — é isso que
+   evita ter de voltar para `x` no final):
+   - quando `x = 0`: `u = sin²0 = 0`;
+   - quando `x = π/2`: `u = sin²(π/2) = 1² = 1`.
+3. **Reescrever a integral toda em `u`:** o `e^{sin²x}` vira `e^u`, e `sin x cos x dx` vira `du/2`:
+   `∫₀^{π/2} e^{sin²x}·sin x cos x dx = ∫₀¹ e^u · (du/2) = (1/2)∫₀¹ e^u du`.
+4. **Integrar** (a primitiva de `e^u` é o próprio `e^u`):
+   `(1/2)·[e^u]₀¹ = (1/2)·(e¹ − e⁰) = (1/2)·(e − 1)`.
 
-**Conclusão:** `(e−1)/2` → **alternativa (b)**.
-(Chave: reconhecer `sin x cos x dx` como meia diferencial de `sin²x`; trocar os limites.)
+**Conclusão:** `(e − 1)/2` → **alternativa (b)**.
+(Chave: ao ver "função composta × derivada da de dentro", substitua `u =` função de dentro; **troque os
+limites** de `x` para `u` e integre direto, sem precisar desfazer a substituição.)
 
 ---
 
