@@ -30,18 +30,29 @@ Inclui funções hiperbólicas, que caíram nos 2ºs semestres.
 
 **O que pede:** sobre as retas `x+y=π/2` e `y = ½(√3 + π/6 − x)` em relação a `y=cos x`, marcar a errada.
 
-**Ideia-chave — Tangência de reta à curva:** a reta é tangente a `y=cos x` se toca em um ponto com a
-mesma inclinação (`y' = −sin x`).
+**Ideia-chave — Tangência de reta à curva:** a reta tangencia `y = cos x` num ponto onde a inclinação da
+reta iguala `y' = −sin x` E a reta passa pelo ponto `(x₀, cos x₀)`.
 
-**Desenvolvimento:**
-1. Primeira reta `y = π/2 − x` (coef. angular −1). Para tangência a `y=cos x`: `−sin x = −1 → x = π/2`,
-   onde `cos(π/2)=0` e a reta passa por `(π/2, 0)` ✔ ⇒ tangente.
-2. Segunda reta: coef. angular `−1/2`. Tangência: `−sin x = −1/2 → x = π/6`, `cos(π/6)=√3/2`; verifique se
-   a reta passa por `(π/6, √3/2)`.
-3. Analise a interseção das retas e cada afirmação; a que não se sustenta é a errada.
+**Desenvolvimento — verificando cada afirmação:**
+1. **1ª reta** `x + y = π/2 → y = π/2 − x`, coeficiente angular `−1`.
+   Tangência: `−sin x = −1 → sin x = 1 → x = π/2`. Em `x = π/2`: `cos(π/2) = 0`, e a reta dá
+   `π/2 − π/2 = 0` ✔. Logo a **1ª reta é tangente** a `cos x` em `(π/2, 0)` → afirmação (a) **verdadeira**.
+2. **2ª reta** `y = ½(√3 + π/6 − x)`, coeficiente angular `−1/2`.
+   Tangência: `−sin x = −1/2 → sin x = 1/2 → x = π/6`. Em `x = π/6`: `cos(π/6) = √3/2`, e a reta dá
+   `½(√3 + π/6 − π/6) = ½·√3 = √3/2` ✔. Logo a **2ª reta é tangente** em `(π/6, √3/2)` → (c) **verdadeira**.
+3. **Interseção das duas retas:** iguale `π/2 − x = ½(√3 + π/6 − x)`:
+   `2(π/2 − x) = √3 + π/6 − x → π − 2x = √3 + π/6 − x → π − π/6 − √3 = x → x = 5π/6 − √3`.
+   Então `y = π/2 − x = π/2 − (5π/6 − √3) = −π/3 + √3 = √3 − π/3`.
+4. A afirmação (e) diz que a interseção ocorre em `y = (√3 − π/3)/6`. Mas calculamos `y = √3 − π/3`
+   (**sem** dividir por 6). Logo (e) está **ERRADA** (fator `/6` indevido).
 
-**Conclusão:** a afirmação incorreta sobre tangência/interseção (conforme verificação dos pontos).
-(Chave: tangência ⇒ mesma inclinação e mesmo ponto.)
+> Nota sobre (b)/(d): "ter apenas um ponto em comum" vale no sentido local do ponto de tangência; como
+> `cos x` é periódica, uma reta pode reencontrá-la longe — mas, no espírito da questão, (b) e (d) são
+> tratadas como verdadeiras. O erro **inequívoco e verificável por conta** está na (e).
+
+**Conclusão:** a afirmação errada é a **(e)** — a interseção das retas ocorre em `y = √3 − π/3`,
+e não em `(√3 − π/3)/6`.
+(Chave: tangência ⇒ mesma inclinação e mesmo ponto; depois resolver o sistema das duas retas.)
 
 ---
 
@@ -117,37 +128,43 @@ mesma inclinação (`y' = −sin x`).
 
 **O que pede:** avaliar fórmulas de `sinh/cosh` de soma e de triplo argumento.
 
-**Ideia-chave — Identidades hiperbólicas corretas:**
-- `sinh(a+b) = sinh a cosh b + cosh a sinh b` (✔ igual à trig).
-- `cosh(a+b) = cosh a cosh b + sinh a sinh b` (**sinal +**, diferente da trig que teria −).
+**Ideia-chave — Verificar cada uma das 4 fórmulas usando `cosh²a − sinh²a = 1` e as somas de arcos.**
 
-**Desenvolvimento:**
-1. Compare cada fórmula dada com as corretas.
-2. A fórmula de `cosh(a+b)` com sinal `−` (como a questão escreve) está **errada**.
-3. As de triplo argumento: derive de `sinh(3a)=sinh(2a+a)` e `cosh(3a)=cosh(2a+a)` e compare.
-4. Conte quantas estão corretas para marcar a opção.
+**Desenvolvimento — fórmula por fórmula:**
+1. `sinh(a+b) = sinh a cosh b + sinh b cosh a` → **correta** (idêntica à trig, sem troca de sinal).
+2. `cosh(a+b) = cosh a cosh b − sinh b sinh a` → **ERRADA**: o correto é com sinal **+**
+   (`cosh(a+b) = cosh a cosh b + sinh a sinh b`). A questão escreveu `−`.
+3. `sinh(3a) = 3 sinh a cosh²a + sinh³a` → **correta**. Verificação: desenvolvendo
+   `sinh3a = sinh(2a+a) = 3 sinh a + 4 sinh³a`. E `3 sinh a cosh²a + sinh³a = 3 sinh a(1+sinh²a) + sinh³a
+   = 3 sinh a + 3 sinh³a + sinh³a = 3 sinh a + 4 sinh³a` ✔ — coincide.
+4. `cosh(3a) = 3 sinh²a cosh a + cosh³a` → **correta**. Verificação: `cosh3a = cosh a + 4 sinh²a cosh a`.
+   E `3 sinh²a cosh a + cosh³a = 3 sinh²a cosh a + cosh a(1+sinh²a) = cosh a + 4 sinh²a cosh a` ✔.
+5. Balanço: 3 corretas e **1 falsa** (a de `cosh(a+b)`).
 
-**Conclusão:** o número de corretas conforme a análise (a de `cosh(a+b)` com `−` é a falsa).
-(Chave: hiperbólicas têm sinais próprios — `cosh(a+b)` usa `+`.)
+**Conclusão:** há **apenas uma afirmação falsa** → **alternativa (d)** ("there is only one false statement").
+(Chave: só `cosh(a+b)` tem o sinal trocado; as de triplo argumento conferem via `cosh²=1+sinh²`.)
 
 ---
 
-## 2024/2 — Q12: Simplificar [cos²x − cot x]/[sin²x − tan x] → cos²x
+## 2024/2 — Q12: Simplificar [cos²x − cot x]/[sin²x − tan x] → cot²x
 
-**O que pede:** simplificar a expressão.
+**O que pede:** simplificar `[cos²x − cot x] / [sin²x − tan x]`.
 
-**Ideia-chave — Escrever cot e tan em seno/cosseno e fatorar.**
+**Ideia-chave — Multiplicar numerador e denominador por `sin x·cos x`** (elimina as frações de cot/tan).
 
 **Desenvolvimento:**
-1. `cot x = cos x/sin x`, `tan x = sin x/cos x`.
-2. Numerador: `cos²x − cos x/sin x = (cos²x·sin x − cos x)/sin x = cos x(cos x·sin x − 1)/sin x`.
-3. Denominador: `sin²x − sin x/cos x = (sin²x·cos x − sin x)/cos x = sin x(sin x·cos x − 1)/cos x`.
-4. Razão: `[cos x(cos x sin x − 1)/sin x] / [sin x(sin x cos x − 1)/cos x]`.
-   O fator `(cos x sin x − 1)` cancela; sobra `[cos x/sin x]·[cos x/sin x] = cos²x/sin²x`... 
-5. Reorganizando os fatores de `sin x` e `cos x` corretamente, a expressão simplifica para `cos²x`.
-   (Confirme numericamente: em `x=π/4`, `[1/2 − 1]/[1/2 − 1] = 1`? teste outro valor para fixar `cos²x`.)
+1. Multiplique **numerador** por `sin x cos x`, usando `cot x = cos x/sin x`:
+   `cos²x·(sin x cos x) − (cos x/sin x)·(sin x cos x) = sin x cos³x − cos²x = cos²x(sin x cos x − 1)`.
+2. Multiplique **denominador** por `sin x cos x`, usando `tan x = sin x/cos x`:
+   `sin²x·(sin x cos x) − (sin x/cos x)·(sin x cos x) = sin³x cos x − sin²x = sin²x(sin x cos x − 1)`.
+3. A razão (o fator `sin x cos x` some pois multiplicou os dois, e `(sin x cos x − 1)` cancela):
+   `[cos²x(sin x cos x − 1)] / [sin²x(sin x cos x − 1)] = cos²x / sin²x = cot²x`.
+4. **Conferência numérica** em `x = π/3`: `cos²x = 1/4`, `cot x = 1/√3`, `sin²x = 3/4`, `tan x = √3`.
+   Num `= 1/4 − 1/√3 ≈ 0,25 − 0,577 = −0,327`; Den `= 3/4 − √3 ≈ 0,75 − 1,732 = −0,982`;
+   razão `≈ 0,333 = 1/3`. E `cot²(π/3) = (1/√3)² = 1/3` ✔.
 
-**Conclusão:** `cos²x` → **alternativa (d)**.
+**Conclusão:** `cot²x` → **alternativa (e)**.
+(Chave: multiplicar por `sin x cos x`; o fator `(sin x cos x − 1)` cancela, sobra `cos²x/sin²x = cot²x`.)
 (Chave: converter cot/tan, fatorar o termo comum `(sin x cos x − 1)`. Dica: teste um valor para confirmar.)
 
 ---

@@ -57,11 +57,11 @@ Trigonometria aparece em quase todas, e os 2ºs semestres **enfatizaram funçõe
 
 ## Resoluções detalhadas
 
-### 2024/2 — Q12 (simplificar → cos²x)
-`[cos²x − cot x]/[sin²x − tan x]`. Escreva `cot = cos/sin`, `tan = sin/cos`:
-- Numerador: `cos²x − cos/sin = cos(cos·sin − 1)/sin`... melhor: multiplique por `sin·cos` e fatore.
-Fazendo a álgebra, a razão simplifica para `cos²x`. **Resposta (d).**
-(Dica de prova: teste um valor, ex. `x=π/4`, para confirmar a alternativa rapidamente.)
+### 2024/2 — Q12 (simplificar → cot²x)
+`[cos²x − cot x]/[sin²x − tan x]`. Multiplique numerador e denominador por `sin x cos x`:
+- Numerador → `cos²x(sin x cos x − 1)`; Denominador → `sin²x(sin x cos x − 1)`.
+- O fator `(sin x cos x − 1)` cancela ⇒ `cos²x/sin²x = cot²x`. **Resposta (e).**
+(Resolução completa e conferência numérica em `RESOLUCOES-PASSO-A-PASSO.md`.)
 
 ### 2022/2 — Q13 (ângulos notáveis, achar a errada)
 `15° = 45°−30°`, `105° = 60°+45°`. Calcule cada valor:
