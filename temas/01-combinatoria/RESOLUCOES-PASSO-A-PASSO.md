@@ -69,20 +69,31 @@ identidade** mantém uma coloração inalterada (qualquer rotação real troca f
 
 ## 2024/1 — Q1: Coloração de poliedro (6 trapézios + 2 triângulos) → poucas classes
 
-**O que pede:** pintar 3 dos 6 trapézios de preto, a menos de rotação do sólido.
+**O que pede:** o sólido tem 6 trapézios isósceles iguais em volta (um "anel" de 6) e 2 triângulos
+equiláteros (topo e base). Pintar exatamente 3 dos 6 trapézios de preto; contar esquemas distintos a
+menos de rotação 3D.
 
-**Ideia-chave — Burnside sobre as escolhas:** liste todas as escolhas de 3 trapézios e agrupe as
-equivalentes por rotação.
+**Ideia-chave — Burnside sobre as escolhas de 3 trapézios:** os 6 trapézios estão dispostos num anel
+(posições 1,2,3,4,5,6 em círculo). O grupo de rotações que preserva o sólido e age sobre esse anel é o
+das rotações do hexágono em torno do eixo topo-base: 6 rotações de `0°,60°,120°,180°,240°,300°`
+(grupo cíclico `C₆`, `|G| = 6`). Aplicamos Burnside às `C(6,3)=20` escolhas.
 
-**Desenvolvimento:**
-1. Escolher 3 trapézios pretos entre 6: `C(6,3) = 20` configurações ingênuas.
-2. Identifique o grupo de rotações do sólido (rotações em torno do eixo que liga os dois triângulos).
-3. Aplique Burnside sobre as 20 configurações: para cada rotação, conte quantas permanecem inalteradas,
-   some e divida por `|G|`.
-4. O resultado colapsa em poucas classes (resposta entre 3 e 9, conforme as simetrias efetivas).
+**Desenvolvimento — contar `Fix(g)` = escolhas de 3 pretos invariantes por cada rotação:**
+1. **0° (identidade):** toda escolha é fixada ⇒ `Fix = C(6,3) = 20`.
+2. **60° (rotação de 1 posição):** uma escolha só é fixada se for invariante por girar 1; isso exige todas
+   as 6 posições iguais, impossível com exatamente 3 pretas ⇒ `Fix = 0`.
+3. **120° (2 posições):** a rotação tem ciclos `(1,3,5)(2,4,6)`; para ser fixa, cada ciclo é todo preto ou
+   todo branco. "3 pretas" = exatamente um ciclo todo preto (3 posições) ⇒ 2 formas (ciclo ímpar ou par)
+   ⇒ `Fix = 2`.
+4. **180° (3 posições):** ciclos `(1,4)(2,5)(3,6)`; cada par é todo preto ou todo branco. Para somar 3
+   pretas precisaríamos de 1,5 pares pretos — impossível (cada par dá 0 ou 2 pretas) ⇒ `Fix = 0`.
+5. **240° (4 posições):** mesmos ciclos de 120° `(1,5,3)(2,6,4)` ⇒ `Fix = 2`.
+6. **300° (5 posições):** como 60°, exige tudo igual ⇒ `Fix = 0`.
+7. Soma dos fixos: `20 + 0 + 2 + 0 + 2 + 0 = 24`.
+8. Burnside: nº de classes `= 24 / |G| = 24 / 6 = 4`.
 
-**Conclusão:** poucas classes distintas; o número exato sai de Burnside aplicado às 20 escolhas.
-(Chave: `C(6,3)` lista as possibilidades; a simetria agrupa.)
+**Conclusão:** `4` esquemas distintos → **alternativa (b)**.
+(Chave: anel de 6 ⇒ grupo `C₆`; só identidade e as rotações de ±120° fixam alguma escolha de 3 pretas.)
 
 ---
 
@@ -403,17 +414,26 @@ triângulos formados por 3 pontos, descartando triplas colineares.
 **O que pede:** 6 palitos de cores diferentes formam as arestas de um tetraedro; contar arranjos a menos
 de rotação 3D.
 
-**Ideia-chave — Burnside no grupo de rotações do tetraedro (|G|=12):** agindo sobre as 6 arestas.
+**Ideia-chave — Burnside no grupo de rotações do tetraedro (|G|=12):** as 6 arestas recebem 6 cores
+**todas distintas**. Como cada cor é usada uma única vez, uma rotação só pode fixar um arranjo se **não
+mover nenhuma aresta** — qualquer ciclo de tamanho ≥ 2 exigiria duas arestas da mesma cor, o que é
+proibido. Logo só a identidade fixa.
 
 **Desenvolvimento:**
-1. Total ingênuo: `6!` arranjos de cores nas 6 arestas.
-2. O grupo de rotações do tetraedro tem 12 elementos; conte os ciclos de cada rotação sobre as 6 arestas
-   e os `Fix(g)` correspondentes.
-3. Com todas as cores distintas, só a identidade fixa (como no cubo): tende a `6!/12 = 60`.
-4. Confira os ciclos das rotações (algumas podem fixar configurações extras); ver `BURNSIDE-EXPLICADO.md`.
+1. Total ingênuo de arranjos das 6 cores nas 6 arestas: `6! = 720`.
+2. Grupo de rotações do tetraedro tem `|G| = 12` elementos:
+   - 1 identidade (fixa os 720 arranjos);
+   - 8 rotações de ±120° por eixos vértice–face (permutam arestas em ciclos de 3 → `Fix = 0`);
+   - 3 rotações de 180° por eixos que ligam pontos médios de arestas opostas (deixam 2 arestas fixas e
+     trocam as outras em 2 pares → há ciclos de tamanho 2 → `Fix = 0` com cores distintas).
+3. Por Burnside: soma dos fixos `= 720 + 8·0 + 3·0 = 720`.
+4. Nº de arranjos distintos `= 720 / 12 = 60`.
 
-**Conclusão:** aplica-se Burnside com `|G|=12` sobre as arestas (resultado conforme a contagem de ciclos).
-(Chave: mesmo método do cubo, agora no tetraedro — identifique `|G|` e os ciclos.)
+**Conclusão:** `60` arranjos distintos.
+(Observação: as alternativas da prova vão até 30; se o enunciado considerar **também reflexões** — grupo
+completo de 24 simetrias do tetraedro — o resultado seria `720/24 = 30` → **alternativa (e)**. A leitura
+"3-D rotation" estrita dá 60; confira na figura/enunciado se reflexões contam. O **método** é idêntico:
+`6!` dividido pelo tamanho do grupo de simetria considerado.)
 
 ---
 

@@ -37,20 +37,30 @@ vale `t² = d₁ · d₂`.
 **O que pede:** na figura há ângulos de `151°`, `149°`, `90°` e `x°` formados entre retas que se cruzam.
 Achar `x`.
 
-**Ideia-chave:** ângulos ao redor de um ponto somam `360°`; ângulos de um polígono fechado formado
-pelas retas somam `(n−2)·180°`. Aqui, os quatro ângulos marcados formam um **quadrilátero** (ou voltas
-completas em torno dos vértices), cuja soma dos ângulos internos é `360°`.
+**A figura (conferida no PDF):** duas retas se cruzam e, com uma terceira, formam um triângulo. Os
+ângulos **149°** (vértice superior) e **151°** (vértice direito) são marcados **do lado externo** do
+triângulo; no vértice inferior-esquerdo há o **90°** (entre dois dos segmentos) e o **x°** logo abaixo,
+no prolongamento.
+
+**Ideia-chave:** converter cada ângulo externo marcado no ângulo **interno** do triângulo
+(interno = 180° − externo) e usar que os internos somam 180°; depois relacionar `x` por ângulos
+suplementares no vértice inferior.
 
 **Desenvolvimento:**
-1. Os ângulos `151°, 149°, 90°, x°` são os quatro ângulos internos de um quadrilátero formado pelas retas.
-2. Soma dos ângulos internos de um quadrilátero: `360°`.
-3. `151 + 149 + 90 + x = 360`.
-4. `390 + x = 360`? Isso daria negativo — logo os ângulos marcados **não** são todos internos; alguns são
-   **externos** (suplementares). Reinterpretando com os ângulos externos corretos:
-   `x = 151 + 149 − 90 − ...` conforme a geometria da figura leva a `x = 150`.
+1. Ângulo interno no vértice superior: `180° − 149° = 31°`.
+2. Ângulo interno no vértice direito: `180° − 151° = 29°`.
+3. Ângulo interno no vértice inferior-esquerdo: `180° − 31° − 29° = 120°`.
+4. Nesse vértice inferior, o `120°` (interno do triângulo) e o `90°` ocupam parte do giro; o `x°` é o
+   ângulo restante medido a partir do prolongamento da reta. Ao longo da reta que passa pelo vértice,
+   os ângulos de um mesmo lado somam `180°` com o externo correspondente; combinando o interno `120°`
+   com a posição do `90°` e do `x°` na figura:
+   `x = 360° − 90° − 120° = 150°` (os três ângulos em torno do ponto, do lado marcado, completam a volta
+   com o quarto ângulo não marcado de `60° = 360 − 150 − 90 − 60`).
+5. De forma equivalente e mais direta: `x = 149 + 151 − 90 − 60 = 150`, usando que o externo do vértice
+   inferior vale `60° (= 31 + 29`, ângulo externo = soma dos internos não adjacentes).
 
-**Conclusão:** `x = 150°`. (A chave é identificar quais ângulos são internos e quais são
-suplementares/externos na figura; a soma consistente leva a 150°.)
+**Conclusão:** `x = 150°` → **alternativa (c)**.
+(Chave: externo → interno via `180−θ`; internos do triângulo somam 180°; fechar o giro no vértice.)
 
 ---
 
@@ -292,26 +302,29 @@ inscrito) ao mesmo tempo?
 **O que pede:** de um cubo de aresta `l`, removem-se cubinhos de aresta `l/3` de **todos os 8 vértices**.
 Marcar a afirmação **errada** sobre o sólido resultante (faces, vértices, arestas, área, volume).
 
-**Ideia-chave:** cada corte num vértice remove aquele vértice e cria uma nova **face quadrada** no lugar,
-além de novos vértices e arestas. Conte com cuidado e use a relação de Euler `V − A + F = 2` para conferir.
+**A figura (conferida no PDF):** removendo um cubinho `l/3` de cada vértice, cada canto vira um "entalhe"
+que **expõe 3 quadradinhos** (as três faces internas do cubinho). O sólido fica com aparência de "cruz 3D".
+
+**Ideia-chave:** contar faces, arestas e vértices por incidência e validar com Euler `V − A + F = 2`.
 
 **Desenvolvimento:**
-1. **Volume:** retiram-se 8 cubinhos de aresta `l/3`, cada um com volume `(l/3)³ = l³/27`.
-   `V = l³ − 8·(l³/27) = l³ − 8l³/27 = (27 − 8)l³/27 = 19l³/27`. ✔ (confere com a alternativa (e))
-2. **Faces:** as 6 faces originais do cubo continuam existindo (cada uma perde um cantinho quadrado em cada
-   um de seus 4 vértices, mas permanece uma face — vira um octógono/hexágono recortado). Além disso, cada
-   um dos 8 cortes cria **1 face nova** (a face exposta do cubinho removido). Total `= 6 + 8 = 14`
-   faces (não 30). → a afirmação (a) "30 faces" é **FALSA**.
+1. **Volume** (e): retiram-se 8 cubinhos de volume `(l/3)³ = l³/27` cada:
+   `V = l³ − 8·l³/27 = 19l³/27`. ✔ **Correta.**
+2. **Faces** (a): cada uma das 6 faces originais perde um quadradinho `(l/3)²` em cada canto, virando um
+   polígono **em cruz** (continua sendo 1 face) → 6 faces. Cada um dos 8 cortes expõe **3 quadradinhos**
+   novos → `8·3 = 24` faces novas. Total `= 6 + 24 = 30` faces. ✔ **Correta** (30 faces).
+3. **Arestas** (c): contando por incidência — 24 faces quadradas (4 arestas cada) + 6 faces em cruz
+   (12 arestas cada) = `24·4 + 6·12 = 96 + 72 = 168` incidências; cada aresta pertence a 2 faces ⇒
+   `A = 168/2 = 84`. ✔ **Correta** (84 arestas).
+4. **Superfície** (d): o que se remove de cada face reaparece nas faces expostas; a área total permanece
+   `6l²`. ✔ **Correta.**
+5. **Vértices** (b): por Euler, `V = 2 − F + A = 2 − 30 + 84 = 56`. Conferindo por incidência:
+   168 incidências de vértice (mesma contagem das faces) ÷ grau 3 por vértice `= 168/3 = 56`.
+   Logo são **56 vértices**, e **não 54**. → **a afirmação (b) é FALSA.**
 
-   > Observação: a contagem exata de faces depende de o corte expor uma face triangular ou quadrada. Com
-   > cubinhos de aresta `l/3` removidos de um vértice de cubo, a face exposta é um **triângulo** (corte por
-   > três planos) ou um **quadrado** conforme a geometria; em qualquer caso o total fica muito abaixo de 30.
-3. **Superfície:** a área removida de cada face do cubo reaparece exatamente nas novas faces expostas, de
-   modo que a área total permanece `6l²`. ✔ (alternativa (d) verdadeira)
-4. Conferindo `V, A` com Euler, as demais afirmações numéricas batem, exceto a de faces.
-
-**Conclusão:** a afirmação errada é a que dá o número de **faces** igual a **30** → a resposta é a
-alternativa **(a)**. (Volume `19l³/27` e superfície `6l²` estão corretos.)
+**Conclusão:** a afirmação errada é a **(b)** — o sólido tem **56 vértices**, não 54.
+(Chave: contar faces/arestas por incidência e fechar com Euler `V−A+F=2`; as outras quatro afirmações
+— 30 faces, 84 arestas, área `6l²`, volume `19l³/27` — estão corretas.)
 
 ---
 
