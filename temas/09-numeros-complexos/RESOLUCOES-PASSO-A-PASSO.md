@@ -47,15 +47,27 @@ Resumo: razão `−(1+i)/2`, `|q|=√2/2<1`; `S = 2/(3+i) = (6−2i)/10 = 0,6 �
 
 **O que pede:** o valor de `i^i`.
 
-**Ideia-chave — Potência complexa:** `a^b = e^{b·ln a}`, com `ln` complexo (multivalorado).
+**Ideia-chave — Como elevar à potência quando o expoente é complexo?** Usa-se a mesma definição dos
+reais: `a^b = e^{b·ln a}`. O detalhe é que, nos complexos, o logaritmo precisa da **forma de Euler** do
+número e é "multivalorado" (tem infinitos valores, separados por `2π`).
+
+**Passo preparatório — escrever `i` na forma de Euler.** Um complexo é `r·e^{iθ}`, com `r` = módulo e
+`θ` = ângulo. O número `i` tem módulo `1` e aponta para cima (ângulo `90° = π/2`). Como somar voltas
+inteiras (`2π`) não muda o ponto, escrevemos de forma geral:
+`i = e^{i(π/2 + 2kπ)}`, para qualquer inteiro `k`.
 
 **Desenvolvimento:**
-1. `i = e^{i(π/2 + 2kπ)}`, logo `ln i = i(π/2 + 2kπ)`, `k ∈ ℤ`.
-2. `i^i = e^{i·ln i} = e^{i·[i(π/2 + 2kπ)]} = e^{i²(π/2 + 2kπ)} = e^{−(π/2 + 2kπ)}`.
-3. É um número **real** positivo. Para `k=0`: `i^i = e^{−π/2} ≈ 0,2079`.
+1. Logaritmo de `i`: tirando `ln` da forma de Euler, `ln i = i(π/2 + 2kπ)` (o `ln` "desce" o expoente).
+2. Agora aplique `a^b = e^{b·ln a}` com `a = i` e `b = i`:
+   `i^i = e^{i · ln i} = e^{i · [i(π/2 + 2kπ)]}`.
+3. Multiplique os `i` no expoente: `i · i = i² = −1`. Então o expoente vira `−(π/2 + 2kπ)`:
+   `i^i = e^{−(π/2 + 2kπ)}`.
+4. Repare: o expoente é um número **real** (não tem mais `i`!), logo `i^i` é um número **real positivo**.
+   Para o valor principal (`k = 0`): `i^i = e^{−π/2} ≈ 0,2079`.
 
-**Conclusão:** `i^i = exp(−π/2 + 2kπ)`, `k∈ℤ` → **alternativa (c)**.
-(Chave: `a^b = e^{b ln a}`, `ln i = i(π/2 + 2kπ)`.)
+**Conclusão:** `i^i = exp(−π/2 + 2kπ)`, `k ∈ ℤ` → **alternativa (c)**.
+(Chave: `a^b = e^{b·ln a}`; escrever `i = e^{i(π/2+2kπ)}`; o `i·i = −1` no expoente torna `i^i` **real**
+— um fato famoso e surpreendente.)
 
 ---
 

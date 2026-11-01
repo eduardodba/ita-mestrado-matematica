@@ -9,19 +9,28 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 **O que pede:** quantas soluções reais tem a equação.
 
-**Ideia-chave — Substituição `u = 2^x`:** `4^x = (2^x)²` e `2^(x+2) = 4·2^x`, reduzindo a um 2º grau.
+**Ideia-chave — Transformar numa equação do 2º grau com a substituição `u = 2^x`.** Este é um padrão que
+cai muito: quando aparecem `4^x` e `2^x` (ou `9^x` e `3^x`, etc.) na mesma equação, troca-se a base menor
+por uma letra. As peças se encaixam assim:
+- `4^x = (2²)^x = (2^x)² = u²` (potência de potência: multiplica os expoentes);
+- `2^(x+2) = 2^x · 2² = 4·2^x = 4u` (propriedade `a^(m+n) = a^m·a^n`).
 
 **Desenvolvimento:**
-1. `4^x = (2^x)² = u²`; `2^(x+2) = 2^x·2² = 4u`.
-2. Equação: `u² − 4u + 3 = 0`.
-3. Fatorando: `(u−1)(u−3) = 0 → u = 1` ou `u = 3`.
-4. Ambos positivos (ok, pois `u = 2^x > 0`):
-   - `2^x = 1 → x = 0`.
-   - `2^x = 3 → x = log₂3`.
-5. Duas soluções reais.
+1. Fazendo `u = 2^x`, a equação `4^x − 2^(x+2) + 3 = 0` vira `u² − 4u + 3 = 0`.
+2. Resolva o 2º grau (fatorando ou por Bhaskara): `u² − 4u + 3 = (u − 1)(u − 3) = 0` → `u = 1` ou `u = 3`.
+3. **Volte para `x`** — e aqui está o cuidado principal: `u = 2^x` é **sempre positivo**, então só valem
+   raízes `u > 0`. As duas (`1` e `3`) são positivas, então ambas servem:
+   - `2^x = 1 → x = 0` (pois `2⁰ = 1`);
+   - `2^x = 3 → x = log₂ 3` (um número real, ≈ 1,585).
+4. Temos **dois** valores reais de `x`.
 
 **Conclusão:** duas soluções reais → **alternativa (c)**.
-(Chave: `u=2^x`, resolver 2º grau, manter só `u>0`.)
+(Chave: `u = 2^x` transforma em 2º grau; ao voltar, **descarte qualquer `u ≤ 0`** — exponencial nunca é
+negativa. Aqui as duas raízes eram positivas, dando 2 soluções.)
+
+> ⚠️ **Pegadinha típica:** se uma das raízes em `u` fosse negativa ou zero (ex.: `u = −2`), ela seria
+> **descartada**, porque não existe `x` real com `2^x = −2`. É por isso que o número de soluções em `x`
+> pode ser menor que o número de raízes em `u`.
 
 ---
 

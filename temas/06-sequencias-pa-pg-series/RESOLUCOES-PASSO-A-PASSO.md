@@ -40,15 +40,25 @@ conjugado — lembrando que `(2−i)(2+i) = 4 + 1 = 5`.)
 
 **O que pede:** `∫₀¹ ∛(x·∛(x·∛(x·...))) dx`.
 
-**Ideia-chave — Resolver o radical infinito por ponto fixo:** seja `y` a torre infinita; monte `y = f(x,y)`.
+**Ideia-chave — A torre é infinita, então ela "se contém".** Primeiro simplificamos a função dentro da
+integral; depois integramos. O truque para a torre infinita: dê um nome `y` a ela e observe que, por ser
+**infinita**, o que está "dentro do primeiro radical" é idêntico à torre toda de novo.
 
 **Desenvolvimento:**
-1. Seja `y = ∛(x·∛(x·∛(x...)))`. Então `y³ = x·y` (a torre interna é igual a `y`).
-2. `y³ = x·y → y² = x → y = x^{1/2} = √x` (descartando `y=0`).
-3. Integral: `∫₀¹ √x dx = ∫₀¹ x^{1/2} dx = [x^{3/2}·(2/3)]₀¹ = 2/3`.
+1. Defina `y = ∛(x·∛(x·∛(x·...)))`. Como a torre é infinita, tudo o que está debaixo do primeiro `∛`
+   depois do primeiro `x` é a **mesma** torre `y`. Ou seja, dentro do primeiro radical temos `x·y`:
+   `y = ∛(x·y)`.
+2. Eleve os dois lados ao cubo para tirar a raiz cúbica: `y³ = x·y`.
+3. Resolva para `y` (descartando a solução trivial `y = 0`, que não corresponde à torre): divida por `y`:
+   `y² = x → y = √x` (a raiz positiva, pois a torre é positiva para `x ∈ (0,1]`).
+4. Então a função dentro da integral é simplesmente `√x`. A integral vira:
+   `∫₀¹ √x dx = ∫₀¹ x^{1/2} dx`.
+5. Integre pela regra `∫ x^n dx = x^{n+1}/(n+1)`, com `n = 1/2`:
+   `= [x^{3/2} / (3/2)]₀¹ = [(2/3)·x^{3/2}]₀¹ = (2/3)·1 − 0 = 2/3`.
 
 **Conclusão:** `2/3` → **alternativa (b)**.
-(Chave: radical infinito ⇒ equação `y³ = xy`; depois integrar.)
+(Chave: torre infinita ⇒ ela se repete dentro de si ⇒ `y = ∛(x·y)` ⇒ `y = √x`; depois é uma integral
+simples de potência.)
 
 ---
 
