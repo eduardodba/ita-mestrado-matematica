@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Imagens temporárias de render de PDF (só para conferência de figuras)
+provas/_figs/

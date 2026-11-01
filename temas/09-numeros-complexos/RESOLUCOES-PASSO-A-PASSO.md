@@ -72,26 +72,33 @@ Resumo: razão `−(1+i)/2`, `|q|=√2/2<1`; `S = 2/(3+i) = (6−2i)/10 = 0,6 �
 4. `sin(nπ/3)` assume valores `0, ±√3/2`; multiplicado por `2/√3` dá `0, ±1` ⇒ a sequência é de
    **inteiros** (0, 1, 1, 0, −1, −1, ...).
 
-**Conclusão:** os termos são **inteiros** (alguns negativos / alguns zero), conforme a classificação da
-alternativa correspondente.
-(Chave: forma polar `e^{±iπ/3}` + `e^{iα}−e^{−iα}=2i sin α`.)
+5. Os termos: `A₀=0, A₁=1, A₂=1, A₃=0, A₄=−1, A₅=−1, A₆=0, ...` (período 6). São todos **inteiros**,
+   e **alguns são negativos**.
+
+**Conclusão:** a sequência é de **inteiros, alguns negativos** → **alternativa (b)** (gabarito oficial
+2024/2: **10-b**).
+(Chave: forma polar `e^{±iπ/3}` + `e^{iα}−e^{−iα}=2i sin α` ⇒ `Aₙ = (2/√3) sin(nπ/3) ∈ {0,±1}`.)
 
 ---
 
-## 2025/2 — Q8: Conjugado da potência (z² vs (z̄)²) → I falsa, II verdadeira
+## 2025/2 — Q8: z² = (z̄)²  vs  conjugado(z⁴) = (z̄)⁴ → I falsa, II verdadeira
 
-**O que pede:** avaliar I. `z² = (z̄)²` para todo `z`; II. `z⁴ = (z̄)⁴` para todo `z`.
+**O que pede (enunciado exato do PDF):**
+- I. Para todo `z`: `z² = (z̄)²`.
+- II. Para todo `z`: `conjugado(z⁴) = (z̄)⁴` (a barra está sobre `z⁴`, isto é, o **conjugado** de `z⁴`).
 
-**Ideia-chave — Propriedade do conjugado:** `conjugado(zⁿ) = (z̄)ⁿ`. Assim `zⁿ = (z̄)ⁿ` ⟺ `zⁿ` é real.
+**Ideia-chave — Propriedade do conjugado:** `conjugado(zⁿ) = (z̄)ⁿ` para todo `n` (o conjugado de uma
+potência é a potência do conjugado). Já `zⁿ = (z̄)ⁿ` (sem a barra) só vale quando `zⁿ` é real.
 
 **Desenvolvimento:**
-1. `(z̄)² = conjugado(z²)`. Então `z² = (z̄)²` ⟺ `z² = conjugado(z²)` ⟺ `z²` é **real**.
-   Isso **não** vale para todo `z` (ex.: `z = 1 + i → z² = 2i`, não real) ⇒ I é **falsa**.
-2. Para II, `z⁴ = (z̄)⁴ ⟺ z⁴` é real. Pela estrutura da questão e os casos considerados, II é tomada como
-   **verdadeira** no contexto proposto (conforme gabarito).
+1. **I** `z² = (z̄)²`: como `(z̄)² = conjugado(z²)`, isso equivale a `z² = conjugado(z²)`, ou seja `z²`
+   **real**. Nem todo `z` tem `z²` real — ex.: `z = 1 + i → z² = 2i` (não real), e `(z̄)² = (1−i)² = −2i ≠ 2i`.
+   ⇒ **I é FALSA.**
+2. **II** `conjugado(z⁴) = (z̄)⁴`: é a propriedade geral `conjugado(zⁿ) = (z̄)ⁿ` com `n = 4`, válida para
+   **todo** `z`. ⇒ **II é VERDADEIRA.**
 
-**Conclusão:** I falsa, II verdadeira → **alternativa (c)**.
-(Chave: `zⁿ = (z̄)ⁿ ⟺ zⁿ` real.)
+**Conclusão:** I falsa, II verdadeira → **alternativa (c)** (gabarito oficial 2025/2: **8-c**).
+(Chave: distinguir `zⁿ = (z̄)ⁿ` — só se `zⁿ` real — de `conjugado(zⁿ) = (z̄)ⁿ` — sempre verdadeira.)
 
 ---
 

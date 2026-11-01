@@ -111,15 +111,23 @@ até 96 processos).
 
 **O que pede:** completar a tabela de A, B, C, D em relação à soma; marcar a afirmação **errada**.
 
-**Ideia-chave — Soma das porcentagens = 100%; usar regra de três.**
+**Dados da tabela:** `A = 60` (valor), `B = 50%` (da soma), `C = 45` (valor), `D = 15%` (da soma),
+e a soma total corresponde a `100%`. Seja `S` a soma.
+
+**Ideia-chave — Montar `A + B + C + D = S` com B e D como frações de S.**
 
 **Desenvolvimento:**
-1. Com os dados parciais (A=60, B=50%, C=45, D=15%), monte a soma total e as quantidades.
-2. Use que `B = 50%` da soma e `A, C` são valores absolutos para achar o total.
-3. Verifique cada afirmação (soma=300, A=20%, B=150, C=25%, B+D=195); a que não bate é a errada.
+1. `B = 0,50·S` e `D = 0,15·S`; `A = 60` e `C = 45` são valores fixos.
+2. `60 + 0,50S + 45 + 0,15S = S → 105 + 0,65S = S → 105 = 0,35S → S = 300`.
+3. Agora cada afirmação:
+   - (a) "a soma é 300" → `S = 300` ✔ **verdadeira**.
+   - (b) "A é 20% da soma" → `60/300 = 20%` ✔ **verdadeira**.
+   - (c) "B = 150" → `0,50·300 = 150` ✔ **verdadeira**.
+   - (d) "C corresponde a 25% da soma" → `45/300 = 15%`, **não** 25% → **FALSA**.
+   - (e) "B e D somam 195" → `150 + 0,15·300 = 150 + 45 = 195` ✔ **verdadeira**.
 
-**Conclusão:** a afirmação inconsistente com `soma = 100%` é a errada.
-(Chave: porcentagens somam 100%; cruzar com os valores absolutos.)
+**Conclusão:** a afirmação errada é a **(d)** — `C = 45` é `15%` da soma, não `25%`.
+(Chave: achar `S` com `B,D` como frações de `S`; depois testar cada porcentagem.)
 
 ---
 
@@ -182,15 +190,27 @@ Marcar a afirmação **errada**.
 **Ideia-chave — Balanço de vazões de C no tempo:** entrada em C = soma do que A e B despejam (enquanto
 não esvaziam); saída de C = 4 L/s.
 
-**Desenvolvimento:**
-1. A esvazia em `180/3 = 60 s`; B em `100/2 = 50 s`.
-2. Enquanto ambos drenam (0 a 50 s), entrada em C = `3+2 = 5 L/s`; saída `4 L/s` ⇒ líquido `+1 L/s`.
-3. De 50 a 60 s (só A): entrada `3`, saída `4` ⇒ líquido `−1 L/s`; depois de 60 s, só saída `−4 L/s`.
-4. Acompanhe o nível de C (começa em 200): sobe até certo ponto, verifica se chega a 250 (flood) e quando
-   esvazia. Compare com cada afirmação; a que não bate com esse balanço é a errada.
+**Desenvolvimento — acompanhar o nível de C (inicia em 200 L, capacidade 250 L):**
+1. **Tempos de A e B:** A esvazia em `180/3 = 60 s`; B em `100/2 = 50 s`.
+2. **Fase 0–50 s** (A e B drenam para C): entrada `3+2 = 5 L/s`, saída `4 L/s` ⇒ líquido `+1 L/s`.
+   Nível de C: `200 + 1·t`. Em `t=50 s`: `200 + 50 = 250 L` → atinge a capacidade **exatamente** no fim
+   da fase, sem excesso ⇒ **não transborda/despeja**.
+3. **Fase 50–60 s** (só A, pois B esvaziou): entrada `3`, saída `4` ⇒ líquido `−1 L/s`.
+   Nível: `250 − (t−50)`. Em `t=60 s`: `250 − 10 = 240 L`.
+4. **Fase > 60 s** (A também esvaziou, só saída): líquido `−4 L/s`. Nível: `240 − 4·(t−60)`.
+   Esvazia quando `240 = 4·(t−60) → t−60 = 60 → t = 120 s = 2 min`.
+5. Testando cada afirmação:
+   - (a) "C cheio (250 L) em `t = 1 min 40 s = 100 s`" → mas C atinge 250 L em `t = 50 s`, não em 100 s
+     → **FALSA**.
+   - (b) "C vazio em `t = 2 min`" → `120 s` ✔ **verdadeira**.
+   - (c) "C não transborda em momento algum" → o nível só toca 250 instantaneamente, sem excesso ✔
+     **verdadeira**.
+   - (d) "A vazio em `60 s`" → `180/3 = 60` ✔ **verdadeira**.
+   - (e) "B vazio em `50 s`" → `100/2 = 50` ✔ **verdadeira**.
 
-**Conclusão:** a afirmação inconsistente com o balanço de vazões de C é a errada.
-(Chave: montar entrada−saída de C por intervalos de tempo.)
+**Conclusão:** a afirmação errada é a **(a)** — C fica cheio em `50 s`, não em `100 s`
+(gabarito oficial 2022/2: **3-a**).
+(Chave: montar o balanço entrada−saída de C fase a fase e rastrear o nível.)
 
 ---
 

@@ -120,17 +120,20 @@ agora. Quando você tiver a minha idade atual, nossas idades somarão 69." Minha
 **O que pede:** determinar quantas luzes verdes há, dado I. 51 luzes; II. tirando as pontas restam 24
 verdes e 25 azuis.
 
-**Ideia-chave — Cores alternam ⇒ padrão rígido.**
+**Ideia-chave — Cores alternam (nenhuma adjacente igual) ⇒ a estrutura é rígida; analisar I e II isoladas.**
 
 **Desenvolvimento:**
-1. Como não há duas adjacentes iguais, a fileira alterna cores. Numa fileira ímpar (51), as duas pontas
-   têm a mesma cor.
-2. **II** diz que, removidas as duas pontas (restam 49), há 24 verdes e 25 azuis. Logo entre as 49 do meio
-   há 25 azuis ⇒ as pontas (mesma cor) são **verdes** ⇒ total de verdes `= 24 + 2 = 26`.
-3. **II** sozinha já determina (com o padrão alternado implícito). **I** sozinha (só o total) não.
+1. **I sozinha** (51 luzes, alternadas): numa fileira ímpar alternada, uma cor aparece 26 vezes e a outra
+   25 — mas **não se sabe qual** é a verde. Poderia haver 26 verdes ou 25 verdes. ⇒ **I insuficiente.**
+2. **II sozinha** (removendo as 2 pontas restam 24 verdes e 25 azuis): isso já diz que há `49` luzes no
+   meio (logo `51` no total) e fixa o padrão. O miolo de 49 (ímpar) alternado tem as duas pontas da mesma
+   cor; como são 25 azuis e 24 verdes, o miolo **começa e termina em azul**. Pela alternância, as luzes
+   vizinhas a essas pontas (ou seja, as **pontas da fileira completa**) são **verdes**.
+   ⇒ total de verdes `= 24 (miolo) + 2 (pontas) = 26`. **II sozinha determina (26 verdes).**
+3. Conclusão da suficiência: II basta sozinha; I não.
 
-**Conclusão:** analise se II sozinha basta (determina 26 verdes) — provável **(b)**; confirme com o padrão.
-(Chave: alternância fixa a estrutura; as pontas de fileira ímpar têm a mesma cor.)
+**Conclusão:** **alternativa (b)** — a afirmação II sozinha é suficiente (26 luzes verdes), a I não.
+(Chave: II fixa o total e o padrão; alternância faz as pontas serem verdes ⇒ 24 + 2 = 26.)
 
 ---
 
@@ -188,17 +191,26 @@ que falha em algum caso).
 
 ## 2022/2 — Q6: Suficiência — eventos independentes (diagrama de Euler)
 
-**O que pede:** com A, B independentes e um diagrama com `x, y` (`xy≠0`), o que se pode determinar.
+**O diagrama (conferido no PDF):** só `A = x`, interseção `A∩B = x²y`, só `B = y`, e fora de `A∪B = 1`.
+Universo `U = x + x²y + y + 1`.
 
-**Ideia-chave — Independência impõe `P(A∩B)=P(A)P(B)`.**
+**Ideia-chave — Independência:** `P(A∩B) = P(A)·P(B)`. Em contagens (dividindo por `|U|`), vira
+`#(A∩B)·U = #A · #B`, com `#A = x + x²y` e `#B = x²y + y`.
 
 **Desenvolvimento:**
-1. A independência dá **uma equação** relacionando `x` e `y`.
-2. Uma equação com duas incógnitas permite expressar uma em função da outra, mas não fixa ambas.
-3. Logo: determina-se uma (ou uma relação), não as duas isoladamente.
+1. Monte a equação da independência:
+   `x²y·U = (x + x²y)(x²y + y)`, com `U = x + x²y + y + 1`.
+2. Lado esquerdo: `x²y·(x + x²y + y + 1) = x³y + x⁴y² + x²y² + x²y`.
+3. Lado direito: `(x + x²y)(x²y + y) = x³y + xy + x⁴y² + x²y²`.
+4. Igualando e cancelando os termos comuns (`x³y, x⁴y², x²y²`):
+   `x²y = xy`.
+5. Como `xy ≠ 0`, divide-se por `xy`: `x = 1`.
+6. Ou seja, a independência **força `x = 1`** (determinado!), mas **não impõe nada sobre `y`** (qualquer
+   valor serve). Logo `x` é determinável e `y` não.
 
-**Conclusão:** só é possível determinar uma variável / uma relação → **alternativa (b)** (conforme o
-diagrama, `x` determinável e `y` não, ou vice-versa).
+**Conclusão:** **alternativa (b)** — `x` pode ser determinado (`x = 1`), `y` não
+(gabarito oficial 2022/2: **6-b**).
+(Chave: independência ⇒ `#(A∩B)·U = #A·#B`; a álgebra colapsa em `x = 1`, deixando `y` livre.)
 (Chave: independência = 1 equação entre x e y.)
 
 ---
