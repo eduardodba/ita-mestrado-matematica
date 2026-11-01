@@ -29,8 +29,8 @@ f(x)=(x²−x−1)². A afirmação (e) diz que `x=1/2` é raiz de `f'`. Derive:
 
 ### 2024/2º — Q2: Análise de f(x)=x·ln(1/x) (ver também tema 04)
 Mark what one CANNOT say (limite, f(1), derivada, máximo, integral).
-**Gabarito: (d)** — o máximo não é em `x=e⁻¹`. Derive `f'=ln(1/x)−1`; `f'=0 → ln(1/x)=1 → x=e⁻¹`...
-analise com cuidado o domínio `(0,1]` e o sinal.
+**Gabarito: (c)** — a derivada correta é `f' = ln(1/x) − 1`; a opção (c) escreve `1 + ln(1/x)` (sinal do
+termo constante trocado) ⇒ é a falsa. O ponto crítico `f'=0 → x=e⁻¹` é de fato um **máximo** (d correta).
 
 ### 2024/2º — Q3: Função com f''=a constante (MRUV disfarçado)
 f com f''=a≠0, f'(x₀)=b, f(x₀)=c. Avalie:

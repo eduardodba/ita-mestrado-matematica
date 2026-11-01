@@ -122,19 +122,22 @@ Resumo: `f'=2(x²−x−1)(2x−1)` zera em `x₁,x₂` e em `x=1/2`; a forma fa
 
 **O que pede:** marcar o que **não** se pode dizer sobre `f(x)=x ln(1/x)` em `(0,1]`.
 
-**Ideia-chave — Derivada e ponto crítico.**
+**Ideia-chave — Reescrever `f(x) = x ln(1/x) = −x ln x` e testar cada afirmação.**
 
-**Desenvolvimento:**
-1. `f(x) = x·ln(1/x) = −x ln x`. `f(1) = 0` ✔.
-2. `lim_{x→0⁺} (−x ln x) = 0` ✔ (x vai a zero mais rápido que ln x vai a −∞).
-3. `f'(x) = −(ln x + 1) = −ln x − 1`. Zera em `ln x = −1 → x = e^{−1}`.
-4. Em `x=e^{−1}`, `f'` muda de + para − ⇒ é **máximo** — então a afirmação "máximo em `x=e^{−1}`" está
-   **correta**. A afirmação errada é outra (verifique a forma da derivada/integral dada).
-5. A alternativa que apresenta a **derivada ou integral incorreta** é a resposta (gabarito (d)).
+**Desenvolvimento — afirmação por afirmação (gabarito oficial: (c)):**
+1. (a) `lim_{x→0⁺} (−x ln x) = 0` ✔ **verdadeira** (`x` tende a 0 mais rápido que `ln x` tende a −∞).
+2. (b) `f(1) = 1·ln(1) = 0` ✔ **verdadeira**.
+3. (c) Derivada: `f'(x) = d/dx[x·ln(1/x)] = ln(1/x) + x·d/dx[ln(1/x)] = ln(1/x) + x·(−1/x) = ln(1/x) − 1`.
+   A afirmação (c) escreve `df/dx = 1 + ln(1/x)`, ou seja `ln(1/x) + 1`. O correto é `ln(1/x) − 1`
+   (sinal do termo constante trocado) → **(c) é FALSA**.
+4. (d) Máximo: `f'(x) = 0 → ln(1/x) − 1 = 0 → ln(1/x) = 1 → 1/x = e → x = e^{−1}`. Como `f'' < 0` aí,
+   é máximo ✔ **verdadeira**.
+5. (e) Integral por partes: `∫ −x ln x dx = −[x²/2·ln x − x²/4] = −x²/2 ln x + x²/4 = (x²/4)(1 − 2 ln x) + C`
+   ✔ **verdadeira** (coincide com a opção (e)).
 
-**Conclusão:** a afirmação errada → **alternativa (d)** (conforme o gabarito; a derivada/forma dada não
-confere com `f'=−ln x −1`).
-(Chave: `f=−x ln x`, `f'=−ln x −1`, ponto crítico em `e^{−1}`.)
+**Conclusão:** a afirmação errada é a **(c)** — a derivada correta é `ln(1/x) − 1`, não `1 + ln(1/x)`.
+(Chave: `f = −x ln x`; `f' = ln(1/x) − 1`; só o termo constante da (c) está com sinal trocado.
+Gabarito oficial 2024/2: **2-c**.)
 
 ---
 

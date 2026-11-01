@@ -25,6 +25,10 @@ than his wife.
 A path along 5 edges of a tetrahedron (6 vértices em ordem, sem repetir aresta). How many different
 proper paths can be formed along 5 of the 6 edges?
 (a) 24 · (b) 36 · (c) 48 · (d) 60 · (e) 72
+**Gabarito oficial: (e) 72.** O tetraedro tem 4 vértices e 6 arestas; um "caminho euleriano por 5 das 6
+arestas" usa cada aresta no máximo uma vez. Contando as trilhas de comprimento 5 (deixando exatamente 1
+aresta de fora) sobre os 4 vértices — escolhendo a aresta omitida e as orientações/partidas válidas —
+obtêm-se **72** caminhos distintos.
 
 ### 2024/2º — Q7: Empilhamento de esferas (pirâmide de base quadrada)
 How many equal spheres can be stacked to form a pyramid with a square basis with six spheres in each

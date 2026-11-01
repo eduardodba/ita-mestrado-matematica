@@ -20,8 +20,9 @@ If a,b,m>0 and (m+a)/(m+b) = 3a/b, what is m?
 ### 2024/2º — Q2: Função x·ln(1/x) (análise + derivada + integral)
 f(x)=x·ln(1/x) on (0,1]. Mark what one CANNOT say:
 (a) lim_{x→0} f=0 · (b) f(1)=0 · (c) f'=1+ln(1/x) · (d) máximo em x=e⁻¹ · (e) ∫f dx = ...
-**Gabarito: (d)** — derive e ache o ponto crítico; o máximo NÃO é em `e⁻¹` (verifique o sinal).
-*(questão híbrida com cálculo — ver tema 08)*
+**Gabarito: (c)** — a derivada correta é `f' = ln(1/x) − 1` (e não `1 + ln(1/x)`). O máximo em `x=e⁻¹`
+(d) está **certo**; a afirmação falsa é a (c), com o sinal do termo constante trocado.
+*(questão híbrida com cálculo — resolução completa no tema 08)*
 
 ### 2024/2º — Q11: Comparar logaritmos de bases diferentes
 p=log₃2, q=log_{√3}4, r=log_{1/3}√2. Mark the correct ordering.
