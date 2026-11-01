@@ -29,16 +29,23 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 **O que pede:** com `OA = BC` no gráfico de `y = log₁₀x`, achar a relação entre `a, b, c`.
 
-**Ideia-chave — Traduzir distâncias em logaritmos:** no gráfico, as alturas são logaritmos dos pontos.
+**A figura (conferida no PDF):** no eixo x estão `a < b < c`; no eixo y estão as alturas `A, B, C` dos
+pontos correspondentes da curva `y = log₁₀x`. Ou seja `A = log a`, `B = log b`, `C = log c`
+(com `a < 1 < b < c`, pois `A` é pequeno/negativo e `C` é o maior).
+
+**Ideia-chave — Ler as distâncias no eixo y como valores de log:**
+- `OA` = distância da origem até `A` = `log a` (em módulo, a altura do ponto sobre `x=a`).
+- `BC` = distância de `B` até `C` no eixo y = `C − B = log c − log b`.
 
 **Desenvolvimento:**
-1. Os pontos no eixo x são `a, b, c`; suas alturas no gráfico são `log a`, `log b`, `log c`.
-2. A condição `OA = BC` iguala comprimentos que, em termos de log, viram uma igualdade do tipo
-   `log b − log a = log c − log b` ou similar, conforme a figura.
-3. Simplificando a igualdade de logs (soma/diferença), chega-se a `a^b = c` (a relação da alternativa (d)).
+1. Condição do enunciado: `OA = BC`.
+2. Traduzindo: `log a = log c − log b`.
+3. Passe `log b` para a esquerda: `log a + log b = log c`.
+4. Propriedade do produto: `log(ab) = log c`.
+5. Como o log é injetivo: `ab = c`.
 
-**Conclusão:** a relação é `a^b = c` → **alternativa (d)**.
-(Chave: distâncias no gráfico de log viram equações entre logaritmos.)
+**Conclusão:** `ab = c` → **alternativa (d)**.
+(Chave: distâncias verticais no gráfico de `log` = valores de log; `log a + log b = log(ab)`.)
 
 ---
 
@@ -218,16 +225,17 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 **O que pede:** com `a=(x+y)/2`, `b=(x−y)/2`, `a'=(x+2y)/3`, `b'=x−y`, achar `b'/a'`.
 
-**Ideia-chave — Substituir e simplificar em termos de x,y.**
+**Ideia-chave — Escrever `x` e `y` em função de `a` e `b`, depois montar `b'/a'`.**
 
 **Desenvolvimento:**
-1. `b' = x − y`; `a' = (x+2y)/3`.
-2. `b'/a' = (x−y) / [(x+2y)/3] = 3(x−y)/(x+2y)`.
-3. Reescreva em função de `a` e `b` se a alternativa pedir: `x−y = 2b`, `x+y = 2a` ⇒ `x+2y = (x+y)+y`.
-   Manipule até casar com a forma da opção correta.
+1. De `a = (x+y)/2` e `b = (x−y)/2`: somando, `a + b = x`; subtraindo, `a − b = y`.
+   Ou seja `x = a+b` e `y = a−b`.
+2. `b' = x − y = (a+b) − (a−b) = 2b`.
+3. `a' = (x + 2y)/3 = [(a+b) + 2(a−b)]/3 = (a + b + 2a − 2b)/3 = (3a − b)/3`.
+4. `b'/a' = 2b ÷ [(3a − b)/3] = 2b · 3/(3a − b) = 6b/(3a − b)`.
 
-**Conclusão:** `b'/a' = 3(x−y)/(x+2y)`, reescrito conforme a alternativa.
-(Chave: substituição direta e simplificação algébrica.)
+**Conclusão:** `b'/a' = 6b/(3a − b)` → **alternativa (e)**.
+(Chave: inverter `a=(x+y)/2, b=(x−y)/2` para `x=a+b, y=a−b` e substituir.)
 
 ---
 

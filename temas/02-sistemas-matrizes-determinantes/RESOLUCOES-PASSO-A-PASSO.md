@@ -26,17 +26,20 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 
 **O que pede:** entre 5 matrizes, marcar a que **não** satisfaz `X² − 2X + 2I = 0`.
 
-**Ideia-chave — Substituição direta:** calcule `X²`, depois `X² − 2X + 2I`, e veja se dá a matriz nula.
-Teoricamente, as raízes têm autovalores satisfazendo `λ² − 2λ + 2 = 0 → λ = 1 ± i`.
+**Ideia-chave — Cayley-Hamilton:** uma matriz 2×2 satisfaz seu **polinômio característico**
+`λ² − (traço)λ + (det) = 0`. Para satisfazer `X² − 2X + 2I = 0`, precisamos que o polinômio
+característico seja `λ² − 2λ + 2`, ou seja: **traço(X) = 2** e **det(X) = 2**. Basta testar esses dois
+números em cada matriz (bem mais rápido que multiplicar).
 
-**Desenvolvimento:**
-1. Para cada matriz `X`, calcule `X·X`.
-2. Compute `X² − 2X + 2I`.
-3. A matriz para a qual o resultado **não** é `[[0,0],[0,0]]` é a resposta.
-4. Pela estrutura (autovalores `1±i`), a que destoa dessa condição é a alternativa (e).
+**Desenvolvimento — testar traço e determinante (lembrando `i² = −1`):**
+1. (a) `[[1,1],[−1,1]]`: traço `= 1+1 = 2` ✓; det `= 1·1 − 1·(−1) = 1+1 = 2` ✓ → é raiz.
+2. (b) `[[1,−i],[−i,1]]`: traço `= 2` ✓; det `= 1·1 − (−i)(−i) = 1 − i² = 1 − (−1) = 2` ✓ → é raiz.
+3. (c) `[[1,i],[i,1]]`: traço `= 2` ✓; det `= 1 − i·i = 1 − (−1) = 2` ✓ → é raiz.
+4. (d) `[[1+i,0],[0,1−i]]`: traço `= (1+i)+(1−i) = 2` ✓; det `= (1+i)(1−i) = 1 − i² = 2` ✓ → é raiz.
+5. (e) `[[i,1],[1,i]]`: traço `= i + i = 2i ≠ 2` ✗ → **não** satisfaz `X²−2X+2I=0`.
 
-**Conclusão:** a matriz que **não** é raiz → **alternativa (e)**.
-(Chave: substituir e verificar; lembrar que matrizes não comutam.)
+**Conclusão:** a matriz que **não** é raiz é a `[[i,1],[1,i]]` → **alternativa (e)**.
+(Chave: por Cayley-Hamilton, raiz ⟺ traço = 2 e det = 2; a (e) tem traço `2i`.)
 
 ---
 
@@ -101,11 +104,20 @@ Teoricamente, as raízes têm autovalores satisfazendo `λ² − 2λ + 2 = 0 →
 
 **Desenvolvimento:**
 1. Subtraia as equações: `(x+ay) − (x+y) = b − a → (a−1)y = b−a`.
-2. **Se `a≠1`:** `y = (b−a)/(a−1)` determinado ⇒ há solução (ao menos uma). As afirmações sobre `a≠1`
-   com solução são verdadeiras.
-3. **Se `a=1`:** vira `0·y = b−1`. Se `b=1` ⇒ `0=0` ⇒ infinitas soluções (reta); se `b≠1` ⇒ sem solução.
-4. Compare cada alternativa com esses casos; a que contradiz é a errada (uma afirmação sobre `a=1, b` que
-   não bate com "sem solução / infinitas").
+2. **Se `a≠1`:** `y = (b−a)/(a−1)` fica determinado ⇒ há solução única. ⇒ afirmação (a) "se a≠1, há ao
+   menos uma solução" é **verdadeira**.
+3. **Se `a=1`:** vira `0·y = b−1`. Se `b=1` ⇒ `0=0` ⇒ infinitas soluções (uma reta no plano); se `b≠1`
+   ⇒ sem solução.
+4. Testando cada alternativa:
+   - (b) `a=b=1`: infinitas soluções sobre uma reta ✔ **verdadeira**.
+   - (c) `a=1, b=2`: `b−1 = 1 ≠ 0` ⇒ sem solução ✔ **verdadeira**.
+   - (d) `a=1, b=3`: `b−1 = 2 ≠ 0` ⇒ sem solução ✔ **verdadeira**.
+   - (e) "se `a+b=1`, sempre há solução real": tome `a=1, b=0` (satisfaz `a+b=1`). Então `a=1, b≠1` ⇒
+     **sem solução**. Logo a afirmação (e) é **FALSA** (existe um caso com `a+b=1` e nenhuma solução).
+
+**Conclusão:** a afirmação errada é a **(e)** → o contraexemplo `a=1, b=0` (com `a+b=1`) deixa o sistema
+**sem solução**.
+(Chave: `(a−1)y = b−a`; o caso `a=1` quebra a afirmação (e).)
 
 **Conclusão:** a afirmação errada é a que classifica mal o caso `a=1`.
 (Chave: `(a−1)y = b−a` separa tudo em `a=1` vs `a≠1`.)
