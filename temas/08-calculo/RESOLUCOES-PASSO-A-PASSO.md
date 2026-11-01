@@ -10,19 +10,27 @@ Estrutura: **o que pede**, **ideia-chave**, **desenvolvimento** e **conclusão**
 **O que pede:** avaliar duas afirmações sobre `r = θ` (θ≥0): a expressão de `dy/dx` e a condição de
 tangente paralela ao eixo y.
 
-**Ideia-chave — Derivada em coordenadas polares:** `x = r cosθ`, `y = r sinθ`, e
-`dy/dx = (dy/dθ)/(dx/dθ)`. Tangente **vertical** quando `dx/dθ = 0`.
+**Ideia-chave — Converter de polar para cartesiano e usar a regra da cadeia:** um ponto em polares é
+`(r, θ)`; em cartesianas é `x = r cosθ`, `y = r sinθ`. Como `r = θ` depende de `θ`, tanto `x` quanto `y`
+são funções só de `θ`. A inclinação da curva é `dy/dx`, mas como não temos `y` em função de `x`
+diretamente, usamos:
+> `dy/dx = (dy/dθ) ÷ (dx/dθ)` — ambas as derivadas em relação ao parâmetro `θ`.
 
 **Desenvolvimento:**
-1. Com `r = θ`: `x = θcosθ`, `y = θsinθ`.
-2. `dx/dθ = cosθ − θsinθ`; `dy/dθ = sinθ + θcosθ`.
-3. `dy/dx = (sinθ + θcosθ)/(cosθ − θsinθ)`.
-   → A afirmação (I) que dá `(cosθ − θsinθ)/(sinθ + θcosθ)` está **invertida** ⇒ (I) é **errada**.
-4. Tangente paralela ao eixo y (vertical) ⟺ `dx/dθ = 0 ⟺ cosθ − θsinθ = 0 ⟺ θ tanθ = 1`.
-   → A afirmação (II) está **correta**.
+1. Substituindo `r = θ`: `x = θ·cosθ` e `y = θ·sinθ`.
+2. Derive cada uma usando a **regra do produto** `(uv)' = u'v + uv'`:
+   - `dx/dθ = d/dθ(θ·cosθ) = (1)·cosθ + θ·(−sinθ) = cosθ − θ sinθ`.
+   - `dy/dθ = d/dθ(θ·sinθ) = (1)·sinθ + θ·(cosθ) = sinθ + θ cosθ`.
+3. Portanto `dy/dx = (dy/dθ)/(dx/dθ) = (sinθ + θ cosθ)/(cosθ − θ sinθ)`.
+   → A afirmação **(I)** escreveu a fração **de cabeça para baixo** (`(cosθ − θsinθ)/(sinθ + θcosθ)`),
+   que seria `dx/dy`, não `dy/dx` ⇒ **(I) está ERRADA**.
+4. **Tangente paralela ao eixo y** significa tangente **vertical** — uma reta vertical tem inclinação
+   "infinita", o que acontece quando o **denominador** de `dy/dx` zera (e o numerador não):
+   `dx/dθ = 0 → cosθ − θ sinθ = 0 → cosθ = θ sinθ → 1 = θ·(sinθ/cosθ) → θ·tanθ = 1`.
+   → A afirmação **(II)** diz exatamente `θ tanθ = 1` ⇒ **(II) está CORRETA**.
 
 **Conclusão:** (I) errada, (II) correta → **alternativa (c)**.
-(Chave: em polares `dy/dx=(dy/dθ)/(dx/dθ)`; tangente vertical ⇒ `dx/dθ=0`.)
+(Chave: curva em `θ` ⇒ `dy/dx = (dy/dθ)/(dx/dθ)`; **tangente vertical** ⇔ **denominador** `dx/dθ = 0`.)
 
 ---
 

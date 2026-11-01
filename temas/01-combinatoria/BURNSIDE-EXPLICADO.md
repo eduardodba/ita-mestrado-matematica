@@ -1,270 +1,246 @@
-# Lema de Burnside — explicado em detalhe 🌟
+# Lema de Burnside — do zero, bem devagar 🌟
 
-> Este é o método por trás das questões de **"colorir um cubo/sólido considerando rotações iguais"**,
-> que caíram em **2021, 2024, 2025 e 2026**. Dominar Burnside resolve uma família inteira de questões.
-
----
-
-## 1. Qual problema o Burnside resolve?
-
-Imagine pintar as 6 faces de um cubo. Se você simplesmente multiplicar as escolhas de cor,
-vai **contar várias vezes a mesma pintura**, porque ao **girar** o cubo você vê a mesma coisa
-de outro ângulo. Duas pinturas que se transformam uma na outra por rotação são, para o problema,
-**a mesma pintura**.
-
-Burnside dá uma forma sistemática de contar **quantas pinturas realmente diferentes** existem,
-descontando as repetições causadas pelas rotações.
-
-**Vocabulário:**
-- **Simetria / rotação:** um movimento que leva o objeto a ocupar o mesmo lugar no espaço (ex.: girar o cubo 90°).
-- **Grupo de simetrias `G`:** o conjunto de todas essas rotações. `|G|` é quantas são.
-- Duas colorações são **equivalentes** se existe uma rotação que transforma uma na outra.
-- Queremos contar o número de **classes de equivalência** (colorações "realmente distintas").
+> Este é o método das questões de **"colorir um cubo/sólido/figura considerando que girar não cria algo
+> novo"** — caiu em 2021, 2024, 2025 e 2026. Aqui vamos construir a ideia **do zero**, com um exemplo
+> pequenininho primeiro (dá para desenhar no papel), e só depois chegar na fórmula.
 
 ---
 
-## 2. O enunciado do Lema
+## PARTE 1 — Entendendo o problema SEM fórmula nenhuma
 
-> **Número de colorações distintas** = (1/|G|) · Σ_{g ∈ G} Fix(g)
+### O incômodo central
+Suponha que você vai pintar as 3 "contas" de um **colar triangular** (3 posições num triângulo), e tem
+**2 cores**: Preto (P) e Branco (B).
 
-Onde:
-- `|G|` = número total de simetrias (rotações) do objeto.
-- `Fix(g)` = número de colorações que permanecem **exatamente iguais** depois de aplicar a rotação `g`
-  (colorações "fixadas" por `g`).
-
-Em palavras simples:
-
-> **Conte, para cada rotação, quantas colorações ela deixa inalteradas. Tire a média. Pronto.**
-
-### Por que isso funciona (ideia intuitiva, sem demonstração formal)
-Cada coloração distinta aparece, ao longo de todas as rotações, exatamente o "número certo de vezes"
-para que a média colapse na contagem de classes. É um resultado de teoria de grupos (também chamado
-"lema de Cauchy-Frobenius"). Para a prova, **o que importa é saber aplicar**.
-
----
-
-## 3. Como calcular `Fix(g)` — a parte prática ⭐
-
-Esta é a chave. Para cada rotação `g`:
-
-1. Veja como `g` **permuta as posições** (faces, vértices, casas) do objeto.
-2. Essa permutação se decompõe em **ciclos**.
-3. Para a coloração ficar inalterada por `g`, **todas as posições de um mesmo ciclo precisam ter a mesma cor**.
-4. Logo, se `g` tem `c` ciclos e há `k` cores disponíveis:
-
-> **Fix(g) = k^c**  (cada ciclo escolhe livremente 1 cor entre k)
-
-> ⚠️ Se a questão impõe restrição (ex.: "exatamente 2 faces vermelhas"), você conta, dentro de cada
-> rotação, só as colorações que respeitam a restrição E são constantes nos ciclos.
-
----
-
-## 4. As 24 rotações do cubo (tabela essencial)
-
-Para pintar as **faces** de um cubo, o grupo de rotações tem **24 elementos**, organizados em 5 tipos.
-A tabela mostra, para cada tipo, como a rotação permuta as **6 faces** e quantos ciclos resultam:
-
-| Tipo de rotação | Quantas | Ângulo | Ciclos nas 6 faces | Nº de ciclos `c` |
-|-----------------|:-------:|:------:|--------------------|:----------------:|
-| Identidade (não gira) | 1 | 0° | cada face fixa: (1)(2)(3)(4)(5)(6) | **6** |
-| Eixo por centros de faces | 3 | 180° | 2 faces fixas + 2 pares: (1)(2)(34)(56) | **4** |
-| Eixo por centros de faces | 6 | ±90° | 2 faces fixas + 1 quádrupla: (1)(2)(3456) | **3** |
-| Eixo por vértices opostos | 8 | ±120° | duas triplas: (135)(246) | **2** |
-| Eixo por meios de arestas | 6 | 180° | três pares: (12)(34)(56) | **3** |
-| **Total** | **24** | | | |
-
-> Confira o total: 1 + 3 + 6 + 8 + 6 = **24** ✔. Esse "24" é o `|G|` do cubo.
-
-Guarde esta tabela. Com ela você resolve praticamente qualquer questão de coloração de cubo.
-
----
-
-## 5. Exemplo-guia resolvido passo a passo
-
-### Exemplo A — Pintar as 6 faces do cubo com até `k` cores (cada face qualquer cor)
-
-Aplicamos Burnside somando `k^c` (coluna "nº de ciclos") vezes "quantas" rotações daquele tipo:
+Se você contar "na força bruta", cada posição tem 2 escolhas → `2 × 2 × 2 = 8` pinturas:
 
 ```
-Soma = 1·k⁶  +  3·k⁴  +  6·k³  +  8·k²  +  6·k³
-     = k⁶ + 3k⁴ + 12k³ + 8k²
-```
-(juntando os dois tipos com 3 ciclos: 6k³ + 6k³ = 12k³)
-
-**Número de colorações distintas = (k⁶ + 3k⁴ + 12k³ + 8k²) / 24.**
-
-Teste com `k = 6` cores (cada cor usável à vontade):
-```
-6⁶ + 3·6⁴ + 12·6³ + 8·6² = 46656 + 3888 + 2592 + 288 = 53424
-53424 / 24 = 2226 colorações distintas.
+1) PPP      2) PPB      3) PBP      4) BPP
+5) PBB      6) BPB      7) BBP      8) BBB
 ```
 
-### Exemplo B — Pintar as 6 faces com 6 cores, **cada cor usada exatamente uma vez** (a questão de 2025)
+Mas um colar pode ser **girado**. Se eu giro o colar, `PPB`, `PBP` e `BPP` são **o mesmo colar** visto de
+ângulos diferentes (um P e dois... não — um B e dois P, colocados em rotação). Então, na prática, não são
+8 colares distintos. Quantos são **de verdade**?
 
-Agora há restrição: as 6 cores são todas diferentes, uma por face. Aqui só a **identidade** fixa alguma
-coloração — qualquer rotação de verdade embaralharia faces de cores diferentes, então não pode fixar
-nenhuma coloração "todas as cores distintas" (um ciclo de tamanho ≥2 exigiria duas faces da mesma cor,
-o que é proibido).
+### Contando "na mão" (agrupando os iguais)
+Vamos juntar as 8 pinturas em grupos, onde cada grupo reúne as que viram a mesma coisa ao girar:
 
-```
-Fix(identidade) = 6! = 720   (as 6 cores nas 6 faces)
-Fix(qualquer outra das 23 rotações) = 0
-Soma = 720 + 0·23 = 720
-Distintas = 720 / 24 = 30.
-```
+- **Grupo 1:** `PPP` — girar não muda nada. (1 pintura)
+- **Grupo 2:** `BBB` — idem. (1 pintura)
+- **Grupo 3:** `PPB`, `PBP`, `BPP` — são rotações umas das outras (dois P, um B). (3 pinturas → 1 colar)
+- **Grupo 4:** `BBP`, `BPB`, `PBB` — rotações umas das outras (dois B, um P). (3 pinturas → 1 colar)
 
-✅ **30** — exatamente o gabarito da questão **2025-Q12**.
+São **4 colares realmente diferentes**: `PPP`, `BBB`, "dois P e um B", "dois B e um P".
+
+> 🎯 **Esse "4" é a resposta.** O Lema de Burnside é só uma **máquina para chegar nesse 4 sem precisar
+> listar e agrupar tudo à mão** — o que seria impossível num cubo (com 24 rotações).
 
 ---
 
-## 6. Questões REAIS da prova resolvidas com Burnside
+## PARTE 2 — As três palavras que você precisa
 
-### 📌 2025 — Q12 (gabarito (c) = 30)
-*"Six color inks, each used to paint a face of a cube; two schemes equal if aligned by a single 3D
-rotation. How many different schemes?"*
-
-É exatamente o **Exemplo B** acima. Como as 6 cores são distintas, só a identidade fixa colorações:
-`6!/24 = 720/24 = 30`. **Resposta: 30.** ✔
-
-> 💡 Atalho de prova: "pintar as 6 faces do cubo com 6 cores todas diferentes" → **sempre `6!/24 = 30`**.
+1. **Rotação (ou simetria):** um jeito de girar o objeto deixando-o "no mesmo lugar". O colar triangular
+   tem **3 rotações**: girar 0° (não mexer), girar 120° e girar 240°.
+2. **Grupo `G`:** o conjunto dessas rotações. Aqui `G = {0°, 120°, 240°}`, então **|G| = 3**.
+3. **Coloração fixada por uma rotação `g`** (notação `Fix(g)`): é uma pintura que, **depois** de aplicar
+   `g`, fica **idêntica** à de antes. (Como se a rotação não tivesse efeito visível naquela pintura.)
 
 ---
 
-### 📌 2026 — Q5 (gabarito (a) = 15)
-*"Two faces painted red; the other four in four different colors; equal up to rotations. How many schemes?"*
+## PARTE 3 — O coração do método: contar `Fix(g)` com CICLOS
 
-Aqui a restrição é diferente: **2 faces vermelhas (cor repetida) + 4 cores distintas nas outras 4 faces.**
-A forma mais segura e rápida é **separar por casos** da posição das duas faces vermelhas, e dentro de
-cada caso contar as 4 cores distintas descontando as rotações que sobram.
+Toda rotação **embaralha as posições**. A pergunta-chave é: *quais posições trocam de lugar entre si?*
+Isso forma os **ciclos**.
 
-**Passo 1 — As duas faces vermelhas são OPOSTAS ou ADJACENTES?** (são os únicos casos possíveis num cubo)
+### Exemplo no colar triangular (posições 1, 2, 3)
+- **Rotação 0° (identidade):** ninguém se move. Ciclos: `(1)(2)(3)` → **3 ciclos**.
+- **Rotação 120°:** a posição 1 vai para onde estava a 2, a 2 para a 3, a 3 para a 1. Ciclo: `(1 2 3)`
+  → **1 ciclo** (um único ciclo com as 3 posições).
+- **Rotação 240°:** 1→3→2→1. Ciclo: `(1 3 2)` → **1 ciclo**.
 
-**Caso 1: faces vermelhas OPOSTAS (ex.: topo e base).**
-- Restam 4 faces laterais formando um "anel", para receber 4 cores distintas.
-- Colocar 4 cores distintas em 4 posições em anel = `4!` ingênuo, mas as rotações que **mantêm as duas
-  vermelhas no lugar** são as rotações de 90° em torno do eixo vertical: são **4** (0°, 90°, 180°, 270°).
-- Colorações distintas do anel = `4!/4 = 24/4 = 6`.
+### A regra de ouro
+> Para uma pintura ficar **inalterada** por uma rotação, **todas as posições de um mesmo ciclo têm que
+> ter a MESMA cor** (senão, ao girar, uma cor apareceria onde estava outra, e a figura mudaria).
 
-**Caso 2: faces vermelhas ADJACENTES (compartilham uma aresta).**
-- As simetrias que mantêm esse par de faces no lugar: só a **identidade** e uma reflexão —
-  mas reflexões não contam (só rotações). A única rotação que preserva o par adjacente é um giro de 180°
-  em torno do eixo que passa pelo meio da aresta comum. São **2** rotações (identidade + esse giro).
-- As outras 4 faces recebem 4 cores distintas: `4!` arranjos, divididos pelas 2 rotações = `24/2 = 12`...
+Então, se a rotação tem `c` ciclos e você tem `k` cores:
+> **Fix(g) = k^c** — cada ciclo escolhe livremente 1 cor (k opções), e são `c` ciclos independentes.
 
-  ⚠️ Mas atenção: nem toda configuração do caso 2 é fixada pelo giro de 180°, então o desconto não é
-  uma divisão limpa. Fazendo a contagem cuidadosa de classes (via Burnside restrito às rotações que
-  preservam "2 vermelhas adjacentes"), o caso 2 contribui com **9** classes.
+### Aplicando no colar (k = 2 cores):
+| Rotação | Ciclos | Nº de ciclos `c` | Fix = `2^c` |
+|---------|--------|:----------------:|:-----------:|
+| 0° | (1)(2)(3) | 3 | `2³ = 8` |
+| 120° | (1 2 3) | 1 | `2¹ = 2` |
+| 240° | (1 3 2) | 1 | `2¹ = 2` |
 
-**Total = Caso 1 + Caso 2 = 6 + 9 = 15.** ✅ Bate com o gabarito **(a) 15**.
-
-> 💡 Lição de prova: quando há **cor repetida**, o truque é **fixar a posição relativa das faces repetidas**
-> (opostas vs. adjacentes) e contar o resto em cada caso. Opostas e adjacentes têm grupos de simetria
-> remanescentes diferentes — por isso dão números diferentes (6 e 9).
-
----
-
-### 📌 2024 — Q1 (poliedro: 6 trapézios + 2 triângulos; pintar 3 dos 6 trapézios de preto)
-*"How many coloring schemes painting 3 of the 6 trapezoids black, up to rotations?"*
-
-O sólido (um **antiprisma/tronco**) tem menos simetrias que o cubo. O grupo de rotações que preserva
-a figura age sobre os 6 trapézios laterais. Passos:
-
-1. Total ingênuo de escolher 3 trapézios pretos entre 6: `C(6,3) = 20`.
-2. Identifique o grupo de rotações do sólido (tipicamente rotações em torno do eixo que liga os dois
-   triângulos — como um "anel" de 6 trapézios, mais eventualmente um giro que troca topo/base).
-3. Aplique Burnside **sobre as 20 configurações**: para cada rotação, conte quantas das 20 escolhas
-   de 3 pretos ficam inalteradas (`Fix(g)`), some e divida por `|G|`.
-
-O resultado cai em poucas classes (a resposta da prova está entre as opções 3 a 9). O ponto didático:
-**mesmo sólido "estranho" se resolve com o mesmo esqueleto** — liste as rotações, conte os fixos, tire a média.
+**Lendo a tabela:**
+- Em 0°, qualquer uma das 8 pinturas fica igual (a identidade nunca muda nada) → `Fix = 8`.
+- Em 120°, para a pintura não mudar, as 3 posições (que estão todas no mesmo ciclo) precisam da mesma cor
+  → só `PPP` e `BBB` servem → `Fix = 2`.
+- Em 240°, mesma coisa → `Fix = 2`.
 
 ---
 
-### 📌 2021 — Q11 (pintar 4 quadrados de um bloco, preto/branco, a menos de rotação)
-*"Four squares, each black or white; rotations count as the same. How many different ways?"*
+## PARTE 4 — A fórmula do Lema de Burnside (finalmente)
 
-Objeto plano quadrado → grupo de rotações tem **|G| = 4** (0°, 90°, 180°, 270°). `k = 2` cores.
+> **Número de colorações distintas = (soma de todos os `Fix(g)`) ÷ (número de rotações `|G|`)**
+>
+> Ou seja: é a **média** de `Fix(g)` sobre todas as rotações.
 
-Veja como cada rotação permuta as 4 casas e conte os ciclos:
-
-| Rotação | Permutação das 4 casas | Ciclos `c` | Fix = 2^c |
-|---------|------------------------|:----------:|:---------:|
-| 0° (identidade) | (1)(2)(3)(4) | 4 | 2⁴ = 16 |
-| 90° | (1234) | 1 | 2¹ = 2 |
-| 180° | (13)(24) | 2 | 2² = 4 |
-| 270° | (1432) | 1 | 2¹ = 2 |
-
+### No nosso colar:
 ```
-Soma = 16 + 2 + 4 + 2 = 24
-Distintas = 24 / 4 = 6.
+soma dos Fix = 8 + 2 + 2 = 12
+|G| = 3
+distintas = 12 / 3 = 4   ✅
 ```
 
-✅ **6** colorações distintas (bate com a alternativa (b) da questão).
+**Deu 4** — exatamente o que contamos na mão na Parte 1! A fórmula funciona, e agora podemos usá-la em
+objetos onde contar à mão seria inviável.
 
-> 💡 Repare como `Fix(g) = 2^(nº de ciclos)` aparece direto da tabela. Esse é o coração do método.
+### Por que dividir pela média funciona? (intuição)
+Pense assim: cada colar **realmente distinto** é "visto" várias vezes quando você soma os `Fix`. A soma
+conta cada pintura uma vez para cada rotação que a deixa parada. Quando você divide pelo total de
+rotações, esses excessos se cancelam **na média exata**, sobrando o número de classes. (É um teorema
+demonstrado — para a prova, basta confiar e aplicar.)
 
 ---
 
-## 7. Receita de bolso (para a prova)
+## PARTE 5 — Exemplo médio: quadrado com 2 cores (caiu em 2021!)
+
+Pintar as **4 casas de um quadrado** com 2 cores, considerando iguais as que são rotação uma da outra.
+O quadrado tem **4 rotações**: 0°, 90°, 180°, 270° → `|G| = 4`.
+
+**Como cada rotação embaralha as 4 casas** (numere-as 1,2,3,4 em volta):
+| Rotação | O que faz | Ciclos | `c` | Fix = `2^c` |
+|---------|-----------|--------|:---:|:-----------:|
+| 0° | nada | (1)(2)(3)(4) | 4 | `2⁴ = 16` |
+| 90° | 1→2→3→4→1 | (1 2 3 4) | 1 | `2¹ = 2` |
+| 180° | 1↔3, 2↔4 | (1 3)(2 4) | 2 | `2² = 4` |
+| 270° | 1→4→3→2→1 | (1 4 3 2) | 1 | `2¹ = 2` |
+
+```
+soma dos Fix = 16 + 2 + 4 + 2 = 24
+|G| = 4
+distintas = 24 / 4 = 6
+```
+
+**São 6 pinturas distintas do quadrado.** (Confere com a questão 2021/1-Q11.)
+
+> 💡 Repare no padrão: a **identidade** sempre dá `k^(nº de posições)` (aqui `2⁴`), e é o maior termo.
+> As outras rotações têm menos ciclos, logo contribuem menos.
+
+---
+
+## PARTE 6 — O CUBO (o caso que mais cai)
+
+Pintar as **6 faces** de um cubo. O grupo de rotações do cubo tem **24 rotações**, de 5 tipos.
+Esta é a tabela que vale a pena ter em mente — mostra como cada tipo de rotação embaralha as **6 faces**:
+
+| Tipo de rotação | Quantas | Como age nas 6 faces | Nº de ciclos `c` |
+|-----------------|:-------:|----------------------|:----------------:|
+| Identidade (0°) | 1 | cada face parada: (1)(2)(3)(4)(5)(6) | **6** |
+| Eixo por centros de faces, 90° e 270° | 6 | 2 faces paradas + 4 girando juntas: (1)(2)(3 4 5 6) | **3** |
+| Eixo por centros de faces, 180° | 3 | 2 paradas + 2 pares: (1)(2)(3 5)(4 6) | **4** |
+| Eixo por 2 vértices opostos, ±120° | 8 | duas triplas de faces: (1 2 3)(4 5 6) | **2** |
+| Eixo por meios de arestas opostas, 180° | 6 | três pares: (1 2)(3 4)(5 6) | **3** |
+| **Total** | **24** | | |
+
+Confira o total: `1 + 6 + 3 + 8 + 6 = 24` ✔.
+
+### Exemplo A — 6 faces com `k` cores livres (cada face qualquer cor)
+Some `(quantas rotações) × k^(ciclos)` por tipo:
+```
+Fix total = 1·k⁶  +  6·k³  +  3·k⁴  +  8·k²  +  6·k³
+          = k⁶ + 3k⁴ + 12k³ + 8k²        (juntando 6k³ + 6k³ = 12k³)
+distintas = (k⁶ + 3k⁴ + 12k³ + 8k²) / 24
+```
+Com `k = 2` (preto/branco): `(64 + 48 + 96 + 32)/24 = 240/24 = `**10** colorações distintas do cubo.
+
+### Exemplo B — 6 cores TODAS diferentes, uma por face (caiu em 2025!)
+Aqui vem o atalho mais útil da prova. Se as 6 cores são **todas distintas**, uma rotação de verdade
+**sempre** embaralha faces de cores diferentes → nenhuma pintura fica parada, exceto na identidade:
+```
+Fix(identidade) = 6! = 720   (as 6 cores nas 6 posições)
+Fix(qualquer outra das 23)   = 0
+distintas = (720 + 0) / 24 = 30
+```
+> 🎯 **Decore:** cubo + 6 cores distintas (uma por face) → sempre `6!/24 = 30`.
+
+---
+
+## PARTE 7 — Quando há restrição (ex.: "exatamente 2 faces vermelhas")
+
+Quando a questão **limita** as cores (ex.: 2026/1-Q5: "2 faces vermelhas + 4 cores diferentes"), a
+fórmula `k^c` não serve direto, porque nem toda cor é livre. Dois caminhos:
+
+**Caminho 1 (Burnside restrito):** para cada rotação, conte quantas pinturas **que respeitam a restrição**
+ficam paradas. Some e divida por `|G|`.
+
+**Caminho 2 (separar em casos — costuma ser mais rápido numa prova):** fixe a posição relativa das peças
+repetidas. No caso "2 faces vermelhas", elas só podem estar **opostas** ou **adjacentes**:
+- **Opostas** (topo/base): sobram 4 faces em anel para 4 cores distintas; as rotações que mantêm as
+  vermelhas no lugar são os 4 giros em torno do eixo vertical → `4!/4 = 6` pinturas.
+- **Adjacentes** (compartilham aresta): o grupo que preserva essa configuração é menor; a contagem dá
+  `9` pinturas.
+- Total: `6 + 9 = 15`. (É a resposta da 2026/1-Q5.)
+
+---
+
+## PARTE 8 — Receita de bolso para a prova
 
 Quando ler *"...up to rotations / considering rotations as equal / aligned by a 3D rotation..."*:
 
-1. **Identifique o grupo de rotações** `G` e quantos elementos tem (`|G|`).
-   - Quadrado plano: 4 · Cubo (faces): 24 · Triângulo plano: 3 · Pentágono: 5 ...
-2. **Para cada rotação**, descubra a permutação das posições e **conte os ciclos** `c`.
-3. **Fix(g) = k^c** (sem restrição) — ou conte à mão respeitando a restrição da questão.
-4. **Some todos os Fix(g) e divida por |G|.**
-5. Se há **cor repetida com restrição** (como 2026-Q5), **separe em casos de posição** (opostas/adjacentes)
-   em vez de aplicar a fórmula crua.
-
-### Números que vale decorar
-- **Cubo, 6 faces, 6 cores distintas → 30.**
-- **Quadrado, 4 casas, 2 cores → 6.**
-- **Colar/anel de n contas, k cores, só rotações → (1/n)·Σ_{d|n} φ(d)·k^(n/d)** (fórmula do colar — caso avançado).
+1. **Conte as rotações** do objeto → isso é `|G|`.
+   - triângulo plano: 3 · quadrado: 4 · pentágono: 5 · cubo (faces): 24 · tetraedro: 12.
+2. Para **cada** rotação, descubra os **ciclos** das posições e conte quantos são (`c`).
+3. `Fix = k^c` (sem restrição). Com restrição, conte à mão as pinturas válidas que ficam paradas.
+4. **Some tudo e divida por `|G|`.**
+5. Com cores todas distintas: só a identidade conta → resposta `= (nº posições)! / |G|`.
 
 ---
 
-## 8. Exercícios de treino (Burnside)
+## PARTE 9 — Exercícios (resolvidos ao final)
 
-**B1.** De quantas formas distintas pintar as 4 casas de um quadrado com **3 cores** (a menos de rotação)?
+**B1.** Colar triangular (3 contas) com **3 cores**, só rotações. Quantos colares distintos?
 
-**B2.** De quantas formas colorir os vértices de um triângulo equilátero com **2 cores**, considerando
-rotações iguais? (|G| = 3: 0°, 120°, 240°)
+**B2.** Quadrado (4 casas) com **3 cores**, só rotações. Quantos?
 
-**B3.** Pintar as 6 faces de um cubo com **2 cores** (cada face preta ou branca), a menos de rotação.
-Use a fórmula do Exemplo A.
+**B3.** Cubo, 6 faces, **2 cores** (cada face preta ou branca). Quantos? (use o Exemplo A)
 
-**B4.** Um colar circular com 4 contas e 2 cores de contas, considerando apenas **rotações** (não vira o
-colar). Quantos colares distintos?
+**B4.** Colar de **4 contas** com 2 cores, só rotações. Quantos?
+
+**B5.** Pentágono (5 vértices) com 2 cores, só rotações (|G|=5). Quantos?
 
 ---
 
-## 9. Gabarito e resoluções dos exercícios
+## PARTE 10 — Gabarito dos exercícios (com a conta)
 
-**B1.** Mesma tabela da 2021-Q11, agora com `k=3`:
+**B1.** `|G|=3`, `k=3`.
 ```
-Fix: identidade 3⁴=81; 90° 3¹=3; 180° 3²=9; 270° 3¹=3.
-Soma = 81+3+9+3 = 96 → 96/4 = 24.
+0°:  (1)(2)(3)  → 3 ciclos → 3³ = 27
+120°:(1 2 3)    → 1 ciclo  → 3¹ = 3
+240°:(1 3 2)    → 1 ciclo  → 3¹ = 3
+soma = 27+3+3 = 33 → 33/3 = 11 colares.
 ```
-**24 colorações distintas.**
 
-**B2.** Vértices do triângulo, `k=2`, `|G|=3`:
-- identidade: ciclos (1)(2)(3) → 2³ = 8
-- 120°: ciclo (123) → 2¹ = 2
-- 240°: ciclo (132) → 2¹ = 2
+**B2.** `|G|=4`, `k=3` (mesma estrutura do quadrado da Parte 5):
 ```
-Soma = 8+2+2 = 12 → 12/3 = 4.
+0°: 3⁴=81 · 90°: 3¹=3 · 180°: 3²=9 · 270°: 3¹=3
+soma = 81+3+9+3 = 96 → 96/4 = 24.
 ```
-**4 colorações distintas** (todas brancas; todas pretas; 1 preto+2 brancos; 2 pretos+1 branco).
 
-**B3.** Fórmula do cubo com `k=2`:
-```
-(2⁶ + 3·2⁴ + 12·2³ + 8·2²)/24 = (64 + 48 + 96 + 32)/24 = 240/24 = 10.
-```
-**10 colorações distintas.**
+**B3.** Fórmula do cubo com `k=2`: `(2⁶ + 3·2⁴ + 12·2³ + 8·2²)/24 = (64+48+96+32)/24 = 240/24 = 10`.
 
-**B4.** Colar de 4 contas, `k=2`, só rotações, `|G|=4` (igual ao quadrado):
+**B4.** Colar de 4 contas = mesma estrutura do quadrado, `k=2`: `(16+2+4+2)/4 = 24/4 = 6`.
+
+**B5.** Pentágono, `|G|=5`, `k=2`. A identidade dá `2⁵=32`; cada uma das 4 rotações próprias é um único
+ciclo de 5 posições → `2¹=2` cada:
 ```
-Soma = 2⁴ + 2¹ + 2² + 2¹ = 16+2+4+2 = 24 → 24/4 = 6.
+soma = 32 + 2 + 2 + 2 + 2 = 40 → 40/5 = 8 colares.
 ```
-**6 colares distintos.**
+
+---
+
+### Resumo de uma linha
+> **Burnside = média, sobre todas as rotações, de "quantas pinturas aquela rotação não muda".**
+> E "quantas não muda" = `k^(número de ciclos da rotação)`.

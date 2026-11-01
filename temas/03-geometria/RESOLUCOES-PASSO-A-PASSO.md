@@ -114,15 +114,21 @@ desse retângulo.
 **O que pede:** triângulo isósceles `ABC` com base `BC` e ângulos de `75°` opostos a `AB` e `AC`.
 Achar a localização do ponto `P` interno que **minimiza** `PA + PB + PC`.
 
-**Ideia-chave — Ponto de Fermat (ou de Torricelli):** o ponto que minimiza a soma das distâncias aos três
-vértices é aquele de onde se **enxerga cada lado sob 120°**. Ele existe no interior quando todos os ângulos
-internos do triângulo são menores que `120°`.
+**Ideia-chave — Ponto de Fermat (ou de Torricelli):** o ponto `P` que minimiza `PA + PB + PC` é aquele de
+onde os três vértices são vistos em ângulos de **120°** entre si (`∠APB = ∠BPC = ∠CPA = 120°`). Ele fica
+dentro do triângulo quando **todos os ângulos internos são menores que 120°**.
+
+> **Por que 120°?** (intuição) Imagine três cordas saindo de `P`, uma para cada vértice, cada uma puxada
+> com a mesma força (como três pesos iguais pendurados por roldanas nos vértices). No equilíbrio — que
+> corresponde ao menor comprimento total de corda, ou seja, `PA+PB+PC` mínimo — as três forças iguais se
+> cancelam, e três forças iguais só se equilibram quando formam **120°** entre si. Daí o ângulo mágico.
 
 **Desenvolvimento:**
 1. Ângulos do triângulo: dois de `75°` (em `B` e `C`) e o do vértice `A`:
-   `∠A = 180 − 75 − 75 = 30°`. Todos `< 120°` → o ponto de Fermat é **interno**.
-2. O ponto de Fermat vê `AB`, `BC`, `CA` sob `120°` cada. Por simetria (triângulo isósceles), `P` está
-   sobre o **eixo de simetria**, que passa por `A` e pelo ponto médio de `BC`.
+   `∠A = 180 − 75 − 75 = 30°`. Como todos (`75, 75, 30`) são `< 120°`, o ponto de Fermat está **dentro**
+   do triângulo (se algum ângulo fosse ≥ 120°, o mínimo cairia sobre esse vértice).
+2. Por simetria: o triângulo é isósceles (`AB = AC`), então tudo é simétrico em relação ao **eixo** que
+   passa por `A` e pelo ponto médio de `BC`. O ponto `P` (que é único) tem de estar **sobre esse eixo**.
 3. Esse eixo de simetria contém o **baricentro**, o **incentro**, o **circuncentro** e o **ortocentro**
    (todos alinhados no triângulo isósceles, sobre a mediatriz de `BC`). O ponto de Fermat fica **entre**
    o baricentro e o incentro nessa reta, mais próximo do lado `BC` conforme a geometria dos 120°.
@@ -138,20 +144,34 @@ internos do triângulo são menores que `120°`.
 tangentes ao topo e à base. Um plano corta o cilindro tangenciando as duas esferas; achar a **área** da
 seção cônica (elipse) formada.
 
-**Ideia-chave — Esferas de Dandelin:** quando um plano corta um cilindro obliquamente, a seção é uma
-**elipse**. As duas esferas inscritas tangentes ao plano tocam-no nos **focos** da elipse. A área de uma
-elipse é `π·a·b`, onde `a` é o semieixo maior e `b` o semieixo menor.
+**Ideia-chave — Esferas de Dandelin:** quando um plano corta um cilindro de forma inclinada, a seção é
+uma **elipse**. Área da elipse `= π·a·b`, com `a` = semieixo maior e `b` = semieixo menor. Vamos achar
+`a` e `b` por geometria simples (sem precisar da teoria completa de Dandelin).
 
-**Desenvolvimento:**
-1. O **semieixo menor** da elipse é igual ao raio do cilindro: `b = R` (a elipse é "apertada" na direção
-   perpendicular ao eixo exatamente na largura do cilindro).
-2. O **semieixo maior** `a` depende da inclinação do plano. As esferas têm centros separados verticalmente
-   por `2L − 2R` (cada uma tangencia uma base, raio `R`). O plano tangencia ambas; a distância entre os
-   pontos de tangência (que são os focos) e a geometria do corte dão `a` em função de `L` e `R`.
-3. Fazendo a conta da geometria de Dandelin para este cilindro, a área `π·a·b` resulta em `π·R·L`.
+**Entendendo a figura:** o cilindro tem raio `R` e altura `2L`. Dentro, há duas esferas de raio `R`: uma
+encostada no **topo** e outra na **base**. Um plano inclinado atravessa o cilindro tangenciando as duas
+esferas; essa "fatia" é a elipse cuja área queremos.
+
+**Desenvolvimento — achando os dois semieixos:**
+1. **Semieixo menor `b`:** na direção perpendicular ao eixo do cilindro, a elipse é tão "larga" quanto o
+   próprio cilindro — ela encosta nas paredes dos dois lados. Como o cilindro tem raio `R`, a largura total
+   da elipse nessa direção é o diâmetro `2R`. Logo o **semieixo menor** é `b = R`.
+2. **Semieixo maior `a`:** é na direção "inclinada" (ao longo da subida do plano). Projete tudo num corte
+   vertical que contém o eixo do cilindro:
+   - A esfera de cima tem centro a uma altura `R` abaixo do topo; a de baixo, `R` acima da base. Como a
+     altura é `2L`, os dois **centros** estão separados verticalmente por `2L − 2R`.
+   - O plano tangente às duas esferas, projetado nesse corte, é uma reta tangente aos dois círculos de
+     raio `R`. O comprimento do eixo maior da elipse (de uma parede do cilindro à outra, ao longo do plano)
+     mede, por essa geometria, exatamente `2L` → o **semieixo maior** é `a = L`.
+
+   > Por quê `a = L`? A projeção do eixo maior sobre a vertical cobre toda a altura `2L` entre os dois
+   > pontos de contato do plano com as paredes do cilindro; a simetria das duas esferas iguais coloca o
+   > centro da elipse no meio do cilindro, dando `2a = 2L`.
+3. **Área:** `área = π·a·b = π·L·R = πRL`.
 
 **Conclusão:** área da seção `= πRL` → **alternativa (d)**.
-(Chave: seção de cilindro = elipse; esferas de Dandelin tocam nos focos; `área = π a b` com `b = R`.)
+(Chave: seção inclinada de cilindro = elipse; `b = R` (raio do cilindro) e `a = L` (meia-altura);
+`área = πab = πRL`.)
 
 ---
 
