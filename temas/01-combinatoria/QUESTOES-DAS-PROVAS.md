@@ -2,6 +2,10 @@
 
 Questões de combinatória/contagem extraídas das provas PG-EIA/ITA (2021–2026), no enunciado original (inglês).
 Gabarito ao fim de cada questão quando oficialmente divulgado (2023 e 2026).
+
+> 📝 **Resolução PASSO A PASSO, detalhada, de cada questão em
+> [RESOLUCOES-PASSO-A-PASSO.md](RESOLUCOES-PASSO-A-PASSO.md)** (e o método de simetrias em
+> [BURNSIDE-EXPLICADO.md](BURNSIDE-EXPLICADO.md)).
 As resoluções comentadas estão no `README.md` deste tema.
 
 ---

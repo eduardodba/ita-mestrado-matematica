@@ -1,7 +1,11 @@
 # Questões reais das provas — Números Complexos
 
 Questões extraídas das provas PG-EIA/ITA (2021–2026), enunciado original (inglês).
-Resoluções comentadas no `README.md` deste tema. Várias são compartilhadas com outros temas
+
+> 📝 **Resolução PASSO A PASSO, detalhada, de cada questão em
+> [RESOLUCOES-PASSO-A-PASSO.md](RESOLUCOES-PASSO-A-PASSO.md).** O `README.md` traz as versões resumidas.
+
+Várias são compartilhadas com outros temas
 (séries, trigonometria, matrizes), pois complexos costuma aparecer "dentro" de outro conteúdo.
 
 ---

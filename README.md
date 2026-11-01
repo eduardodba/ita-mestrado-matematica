@@ -92,6 +92,10 @@ com o enunciado original em inglês, identificação (ano/questão) e gabarito q
 **`REVISAO-2oSEMESTRE.md`** — a **revisão completa dos 2ºs semestres** (2021–2025): questões reais daquele
 tema, conceitos novos que os 2ºs semestres cobraram, resoluções detalhadas e exercícios de treino com gabarito.
 
+**`RESOLUCOES-PASSO-A-PASSO.md`** — a **resolução detalhada, linha por linha**, de cada questão real do
+tema (1º e 2º semestres): o que a questão pede, a ideia-chave, o desenvolvimento completo, a conclusão,
+e um mapa rápido ligando cada questão ao teorema central. **Presente em todos os 11 temas.**
+
 > 📘 O tema **01-combinatoria** tem ainda o **`BURNSIDE-EXPLICADO.md`** — guia aprofundado do método de
 > contagem com rotações (o padrão que mais se repete).
 
