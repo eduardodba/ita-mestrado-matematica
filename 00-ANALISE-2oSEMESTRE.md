@@ -73,5 +73,6 @@ Somando as 11 provas que você enviou (6 de 1º + 5 de 2º = **176 questões**),
 ## Gabaritos oficiais disponíveis (2º sem)
 
 - **2025/2º:** 1-d 2-d 3-c 4-b 5-c 6-c 7-b 8-c 9-c 10-d 11-a 12-d 13-a 14-c 15-a 16-e
+  → **resolução comentada completa:** [`provas/resolucoes/RESOLUCAO-2025-2oSem.md`](provas/resolucoes/RESOLUCAO-2025-2oSem.md)
 - **2022/2º:** 1-c 2-e 3-a 4-d 5-c 6-b 7-e 8-a 9-e 10-b 11-d 12-a 13-e 14-a 15-(c&d) 16-e
 - 2021/2, 2023/2, 2024/2 — divulgadas **sem gabarito oficial**.

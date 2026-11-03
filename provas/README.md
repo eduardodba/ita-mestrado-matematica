@@ -3,6 +3,15 @@
 As **11 provas de seleção** usadas como base deste material (6 de 1º semestre + 5 de 2º semestre).
 Cada prova: 16 questões de múltipla escolha, em inglês, 90 min, sem calculadora.
 
+## Resoluções comentadas
+
+Resoluções **completas** (conta passo a passo + por que cada alternativa errada cai + armadilhas), na
+pasta **[`resolucoes/`](resolucoes/README.md)**:
+
+| Prova | Resolução |
+|-------|-----------|
+| **2025 / 2º semestre** | [`resolucoes/RESOLUCAO-2025-2oSem.md`](resolucoes/RESOLUCAO-2025-2oSem.md) — as 16 questões, 16/16 conferido com o gabarito oficial |
+
 ## 1º Semestre
 
 | Ano | PDF | Texto | Gabarito disponível? |
@@ -18,7 +27,7 @@ Cada prova: 16 questões de múltipla escolha, em inglês, 90 min, sem calculado
 
 | Ano | PDF | Texto | Gabarito disponível? |
 |-----|-----|-------|:--------------------:|
-| 2025 | `Prova_PG-EIA_2025-2oSem.pdf` | `.txt` | ✅ (no topo do arquivo) |
+| 2025 | `Prova_PG-EIA_2025-2oSem.pdf` | `.txt` | ✅ (no topo do arquivo) + [resolução completa](resolucoes/RESOLUCAO-2025-2oSem.md) |
 | 2024 | `Prova_PG-EIA_2024-2oSem.pdf` | `.txt` | — |
 | 2023 | `Prova_PG-EIA_2023-2oSem.pdf` | `.txt` | — |
 | 2022 | `Prova_PG-EIA_2022-2oSem.pdf` | `.txt` | ✅ (no fim do arquivo) |

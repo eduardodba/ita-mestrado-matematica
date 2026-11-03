@@ -64,6 +64,7 @@ ITA-mestrado/
 ├── GLOSSARIO-INGLES-MATEMATICA.md ← vocabulário de matemática em inglês
 ├── DICAS-DE-PROVA.md             ← estratégias e erros comuns
 ├── provas/                       ← as 11 provas originais (1º e 2º sem, PDF + texto)
+│   └── resolucoes/               ← resoluções comentadas completas (2025/2º: as 16 questões)
 └── temas/
     ├── 01-combinatoria/
     ├── 02-sistemas-matrizes-determinantes/
@@ -99,6 +100,17 @@ e um mapa rápido ligando cada questão ao teorema central. **Presente em todos 
 > 📘 O tema **01-combinatoria** tem ainda o **`BURNSIDE-EXPLICADO.md`** — guia aprofundado do método de
 > contagem com rotações (o padrão que mais se repete).
 
+### ✅ Resoluções completas, prova a prova
+
+Os módulos de tema organizam o estudo **por assunto**. Quando você quiser a leitura **por prova** — a prova
+inteira, questão 1 a 16, com conta passo a passo, por que cada alternativa errada cai, armadilhas de
+leitura, plano de 90 minutos e o gabarito conferido — use
+**[`provas/resolucoes/`](provas/resolucoes/README.md)**:
+
+| Prova | Resolução |
+|-------|-----------|
+| **2025 / 2º semestre** | [**`RESOLUCAO-2025-2oSem.md`**](provas/resolucoes/RESOLUCAO-2025-2oSem.md) — as 16 questões, conferidas uma a uma com o gabarito oficial (16/16) |
+
 ---
 
 ## 🚀 Por onde começar
@@ -108,5 +120,6 @@ e um mapa rápido ligando cada questão ao teorema central. **Presente em todos 
 3. Comece pelos temas 🔴 ALTA: combinatória, sistemas/matrizes, geometria.
 4. Deixe **[DICAS-DE-PROVA.md](DICAS-DE-PROVA.md)** e o **[GLOSSARIO](GLOSSARIO-INGLES-MATEMATICA.md)** por perto.
 5. Na reta final, refaça as provas inteiras cronometradas (90 min).
+6. Corrija com a **[resolução comentada de 2025/2º](provas/resolucoes/RESOLUCAO-2025-2oSem.md)** e leve cada erro para o tema correspondente.
 
 Bons estudos! 🎯
