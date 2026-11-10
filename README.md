@@ -64,7 +64,7 @@ ITA-mestrado/
 ├── GLOSSARIO-INGLES-MATEMATICA.md ← vocabulário de matemática em inglês
 ├── DICAS-DE-PROVA.md             ← estratégias e erros comuns
 ├── provas/                       ← as 11 provas originais (1º e 2º sem, PDF + texto)
-│   └── resolucoes/               ← resoluções comentadas completas (2025/2º e 2024/2º)
+│   └── resolucoes/               ← resoluções comentadas completas (2022/2º a 2025/2º)
 └── temas/
     ├── 01-combinatoria/
     ├── 02-sistemas-matrizes-determinantes/
@@ -111,6 +111,8 @@ leitura, plano de 90 minutos e o gabarito conferido — use
 |-------|-----------|
 | **2025 / 2º semestre** | [**`RESOLUCAO-2025-2oSem.md`**](provas/resolucoes/RESOLUCAO-2025-2oSem.md) — as 16 questões, conferidas uma a uma com o gabarito oficial (16/16) |
 | **2024 / 2º semestre** | [**`RESOLUCAO-2024-2oSem.md`**](provas/resolucoes/RESOLUCAO-2024-2oSem.md) — as 16 questões, com a cadeia de teoremas de tangência, De Moivre e as pegadinhas de leitura |
+| **2023 / 2º semestre** | [**`RESOLUCAO-2023-2oSem.md`**](provas/resolucoes/RESOLUCAO-2023-2oSem.md) — as 16 questões, com ex-incírculo (área máxima), travessia dos 3 casais e o círculo dos nove pontos |
+| **2022 / 2º semestre** | [**`RESOLUCAO-2022-2oSem.md`**](provas/resolucoes/RESOLUCAO-2022-2oSem.md) — as 16 questões, com suficiência de dados, ângulos notáveis e a Q15 anulada (c & d) |
 
 ---
 

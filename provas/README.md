@@ -12,6 +12,8 @@ pasta **[`resolucoes/`](resolucoes/README.md)**:
 |-------|-----------|
 | **2025 / 2º semestre** | [`resolucoes/RESOLUCAO-2025-2oSem.md`](resolucoes/RESOLUCAO-2025-2oSem.md) — as 16 questões, 16/16 conferido com o gabarito oficial |
 | **2024 / 2º semestre** | [`resolucoes/RESOLUCAO-2024-2oSem.md`](resolucoes/RESOLUCAO-2024-2oSem.md) — as 16 questões resolvidas e conferidas |
+| **2023 / 2º semestre** | [`resolucoes/RESOLUCAO-2023-2oSem.md`](resolucoes/RESOLUCAO-2023-2oSem.md) — as 16 questões (sem chave oficial no PDF; ver nota da Q4) |
+| **2022 / 2º semestre** | [`resolucoes/RESOLUCAO-2022-2oSem.md`](resolucoes/RESOLUCAO-2022-2oSem.md) — as 16 questões, 16/16 com o gabarito oficial (Q15 anulada: c & d) |
 
 ## 1º Semestre
 
@@ -30,8 +32,8 @@ pasta **[`resolucoes/`](resolucoes/README.md)**:
 |-----|-----|-------|:--------------------:|
 | 2025 | `Prova_PG-EIA_2025-2oSem.pdf` | `.txt` | ✅ (no topo do arquivo) + [resolução completa](resolucoes/RESOLUCAO-2025-2oSem.md) |
 | 2024 | `Prova_PG-EIA_2024-2oSem.pdf` | `.txt` | — · [resolução completa](resolucoes/RESOLUCAO-2024-2oSem.md) |
-| 2023 | `Prova_PG-EIA_2023-2oSem.pdf` | `.txt` | — |
-| 2022 | `Prova_PG-EIA_2022-2oSem.pdf` | `.txt` | ✅ (no fim do arquivo) |
+| 2023 | `Prova_PG-EIA_2023-2oSem.pdf` | `.txt` | — · [resolução completa](resolucoes/RESOLUCAO-2023-2oSem.md) |
+| 2022 | `Prova_PG-EIA_2022-2oSem.pdf` | `.txt` | ✅ (no fim do arquivo) + [resolução completa](resolucoes/RESOLUCAO-2022-2oSem.md) |
 | 2021 | `Prova_PG-EIA_2021-2oSem.pdf` | `.txt` | — |
 
 Fonte oficial: https://www.civil.ita.br/posgrad/ (seção "Memória do processo seletivo").

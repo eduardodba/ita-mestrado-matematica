@@ -75,10 +75,19 @@ Somando as 11 provas que você enviou (6 de 1º + 5 de 2º = **176 questões**),
 - **2025/2º:** 1-d 2-d 3-c 4-b 5-c 6-c 7-b 8-c 9-c 10-d 11-a 12-d 13-a 14-c 15-a 16-e
   → **resolução comentada completa:** [`provas/resolucoes/RESOLUCAO-2025-2oSem.md`](provas/resolucoes/RESOLUCAO-2025-2oSem.md)
 - **2022/2º:** 1-c 2-e 3-a 4-d 5-c 6-b 7-e 8-a 9-e 10-b 11-d 12-a 13-e 14-a 15-(c&d) 16-e
-- 2021/2, 2023/2 — divulgadas **sem gabarito oficial**.
+  → **resolução comentada completa:** [`provas/resolucoes/RESOLUCAO-2022-2oSem.md`](provas/resolucoes/RESOLUCAO-2022-2oSem.md)
+- 2021/2 — divulgada **sem gabarito oficial**.
+
+### Gabarito derivado (não oficial) — 2023/2º
+
+`1-d 2-e 3-d 4-a 5-d 6-e 7-e 8-e 9-c 10-b 11-a 12-a 13-d 14-e 15-c 16-c`
+— obtido por resolução independente e conferência numérica (o PDF não traz chave).
+Resolução comentada completa: [`provas/resolucoes/RESOLUCAO-2023-2oSem.md`](provas/resolucoes/RESOLUCAO-2023-2oSem.md).
 
 ### Gabarito derivado (não oficial) — 2024/2º
 
 `1-b 2-c 3-c 4-e 5-c 6-e 7-d 8-c 9-d 10-b 11-e 12-e 13-e 14-a 15-c 16-d`
 — obtido por resolução independente e conferência numérica (o PDF não traz chave).
 Resolução comentada completa: [`provas/resolucoes/RESOLUCAO-2024-2oSem.md`](provas/resolucoes/RESOLUCAO-2024-2oSem.md).
+
+> O padrão se repete: as provas sem chave no PDF (2023/2, 2024/2) têm gabarito derivado; 2022/2 e 2025/2 têm chave oficial.

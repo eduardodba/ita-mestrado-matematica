@@ -9,6 +9,8 @@ Aqui a organização é **por prova** (a prova inteira, na ordem); nos módulos 
 |-------|---------|:--------:|
 | **2025 / 2º semestre** | [`RESOLUCAO-2025-2oSem.md`](RESOLUCAO-2025-2oSem.md) | ✅ 16/16 conferido com o gabarito oficial |
 | **2024 / 2º semestre** | [`RESOLUCAO-2024-2oSem.md`](RESOLUCAO-2024-2oSem.md) | ✅ 16 questões, respostas conferidas por resolução independente + numérica |
+| **2023 / 2º semestre** | [`RESOLUCAO-2023-2oSem.md`](RESOLUCAO-2023-2oSem.md) | ✅ 16 questões (sem chave no PDF — conferidas por resolução + numérica; Q4 tem alternativa duplicada) |
+| **2022 / 2º semestre** | [`RESOLUCAO-2022-2oSem.md`](RESOLUCAO-2022-2oSem.md) | ✅ 16/16 com o gabarito oficial (Q15 anulada: c & d) |
 
 ## O que cada resolução contém
 
@@ -21,7 +23,7 @@ Aqui a organização é **por prova** (a prova inteira, na ordem); nos módulos 
 
 ## Próximas resoluções (roadmap)
 
-- 2023/2º, 2022/2º e 2021/2º semestres.
+- 2021/2º semestre.
 - 2026/1º, 2025/1º, 2024/1º, 2023/1º, 2022/1º e 2021/1º semestres.
 
 > Até lá, as respostas comentadas de **todas** as 11 provas estão nos módulos de tema:
