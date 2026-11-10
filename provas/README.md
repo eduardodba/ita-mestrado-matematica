@@ -11,6 +11,7 @@ pasta **[`resolucoes/`](resolucoes/README.md)**:
 | Prova | Resolução |
 |-------|-----------|
 | **2025 / 2º semestre** | [`resolucoes/RESOLUCAO-2025-2oSem.md`](resolucoes/RESOLUCAO-2025-2oSem.md) — as 16 questões, 16/16 conferido com o gabarito oficial |
+| **2024 / 2º semestre** | [`resolucoes/RESOLUCAO-2024-2oSem.md`](resolucoes/RESOLUCAO-2024-2oSem.md) — as 16 questões resolvidas e conferidas |
 
 ## 1º Semestre
 
@@ -28,7 +29,7 @@ pasta **[`resolucoes/`](resolucoes/README.md)**:
 | Ano | PDF | Texto | Gabarito disponível? |
 |-----|-----|-------|:--------------------:|
 | 2025 | `Prova_PG-EIA_2025-2oSem.pdf` | `.txt` | ✅ (no topo do arquivo) + [resolução completa](resolucoes/RESOLUCAO-2025-2oSem.md) |
-| 2024 | `Prova_PG-EIA_2024-2oSem.pdf` | `.txt` | — |
+| 2024 | `Prova_PG-EIA_2024-2oSem.pdf` | `.txt` | — · [resolução completa](resolucoes/RESOLUCAO-2024-2oSem.md) |
 | 2023 | `Prova_PG-EIA_2023-2oSem.pdf` | `.txt` | — |
 | 2022 | `Prova_PG-EIA_2022-2oSem.pdf` | `.txt` | ✅ (no fim do arquivo) |
 | 2021 | `Prova_PG-EIA_2021-2oSem.pdf` | `.txt` | — |
